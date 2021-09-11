@@ -1,0 +1,7 @@
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Release\sambot.csproj.CoreCompileInputs.cache
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\bin\Release\sambot.exe.config
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\bin\Release\sambot.exe
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\bin\Release\sambot.pdb
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Release\sambot.csproj.CopyComplete
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Release\sambot.exe
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Release\sambot.pdb

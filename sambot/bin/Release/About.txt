@@ -1,0 +1,3 @@
+sambot is a simple interface for the AIMLBot library (Program#).
+(c) 2018 Brandon Levonn McClain (http://tooinnocative.net)
+

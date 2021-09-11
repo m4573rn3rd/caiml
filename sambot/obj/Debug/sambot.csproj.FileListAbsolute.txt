@@ -1,0 +1,31 @@
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\bin\Debug\sambot.exe.config
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\bin\Debug\sambot.exe
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\bin\Debug\sambot.pdb
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Debug\sambot.csproj.CoreCompileInputs.cache
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Debug\sambot.csproj.CopyComplete
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Debug\sambot.exe
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Debug\sambot.pdb
+C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Debug\sambot.csprojAssemblyReference.cache
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\bin\Debug\sambot.exe.config
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\bin\Debug\sambot.exe
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\bin\Debug\sambot.pdb
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\obj\Debug\sambot.csprojAssemblyReference.cache
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\obj\Debug\sambot.csproj.CoreCompileInputs.cache
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\obj\Debug\sambot.csproj.CopyComplete
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\obj\Debug\sambot.exe
+C:\Users\Brandon McClain\Desktop\robot_v_1_7\windows\sambot_c\sambot\obj\Debug\sambot.pdb
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\bin\Debug\sambot.exe.config
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\bin\Debug\sambot.exe
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\bin\Debug\sambot.pdb
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\obj\Debug\sambot.csprojAssemblyReference.cache
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\obj\Debug\sambot.csproj.CoreCompileInputs.cache
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\obj\Debug\sambot.csproj.CopyComplete
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\obj\Debug\sambot.exe
+C:\Users\brand\Desktop\robot_v_2020_bak\robot_v_2020\robot_v_2_0\windows\backup\sambot_c\sambot\obj\Debug\sambot.pdb
+C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\bin\Debug\sambot.exe.config
+C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\bin\Debug\sambot.exe
+C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\bin\Debug\sambot.pdb
+C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.csproj.CoreCompileInputs.cache
+C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.csproj.CopyComplete
+C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.exe
+C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.pdb

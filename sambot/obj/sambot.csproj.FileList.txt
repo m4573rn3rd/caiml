@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\sambot.exe
+bin\Debug\sambot.pdb
+bin\Debug\AIMLbot.dll
+bin\Debug\AIMLbot.pdb
+obj\Debug\sambot.exe
+obj\Debug\sambot.pdb
+bin\Release\sambot.exe
+bin\Release\sambot.pdb
+bin\Release\AIMLbot.dll
+bin\Release\AIMLbot.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\sambot.exe
+obj\Release\sambot.pdb

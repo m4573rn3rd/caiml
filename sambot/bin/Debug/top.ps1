@@ -1,0 +1,2 @@
+while (1) { ps | sort -desc cpu | select -first 30; sleep -seconds 2; cls }
+While(1) {  $p = get-counter '\Process(*)\% Processor Time'; cls; $p.CounterSamples | sort -des CookedValue | select -f 15 | ft -a}

@@ -29,3 +29,14 @@ C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.csproj.Core
 C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.csproj.CopyComplete
 C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.exe
 C:\Users\brand\Source\Repos\m4573rn3rd\caiml\sambot\obj\Debug\sambot.pdb
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\obj\Debug\sambot.exe
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\obj\Debug\sambot.pdb
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\bin\Debug\sambot.exe.config
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\bin\Debug\sambot.exe
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\bin\Debug\sambot.pdb
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\obj\Debug\sambot.csproj.AssemblyReference.cache
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\obj\Debug\sambot.csproj.CoreCompileInputs.cache
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\obj\Debug\sambot.csproj.Up2Date
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\bin\Debug\create_aiml_gguf.py
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\bin\Debug\extract_aiml_gguf.py
+X:\GitHub\unitedwild.com\BitNet\windows_build\sambot\bin\Debug\create_news_gguf.py

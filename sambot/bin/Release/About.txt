@@ -1,3 +1,5 @@
-sambot is a simple interface for the AIMLBot library (Program#).
-(c) 2018 Brandon Levonn McClain (http://tooinnocative.net)
+sambot is a multi-backend AI chatbot application for Windows.
+(c) 2026 Brandon McClain (https://unitedwild.com)
+Email: brandonmcclain@live.com
+Phone: (936) 674-9109
 

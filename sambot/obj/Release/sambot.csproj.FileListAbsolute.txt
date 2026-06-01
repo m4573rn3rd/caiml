@@ -5,3 +5,15 @@ C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\bin\Release\
 C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Release\sambot.csproj.CopyComplete
 C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Release\sambot.exe
 C:\Users\Brandon McClain\Desktop\robot_v_1_6\chatbot_windows\sambot\obj\Release\sambot.pdb
+x:\GitHub\caiml\sambot\bin\Release\create_aiml_gguf.py
+x:\GitHub\caiml\sambot\bin\Release\create_news_gguf.py
+x:\GitHub\caiml\sambot\bin\Release\extract_aiml_gguf.py
+x:\GitHub\caiml\sambot\bin\Release\extract_news_gguf.py
+x:\GitHub\caiml\sambot\bin\Release\sambot.exe.config
+x:\GitHub\caiml\sambot\bin\Release\sambot.exe
+x:\GitHub\caiml\sambot\bin\Release\sambot.pdb
+x:\GitHub\caiml\sambot\obj\Release\sambot.csproj.AssemblyReference.cache
+x:\GitHub\caiml\sambot\obj\Release\sambot.csproj.CoreCompileInputs.cache
+x:\GitHub\caiml\sambot\obj\Release\sambot.csproj.Up2Date
+x:\GitHub\caiml\sambot\obj\Release\sambot.exe
+x:\GitHub\caiml\sambot\obj\Release\sambot.pdb

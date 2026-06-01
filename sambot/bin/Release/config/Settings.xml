@@ -21,8 +21,8 @@
   <item name="gender" value="-1"/>
   <item name="birthday" value="2006/10/08"/>
   <item name="birthplace" value="Towcester, Northamptonshire, UK"/>
-  <item name="website" value="http://sourceforge.net/projects/aimlbot"/>
-  <item name="adminemail" value=""/>
+  <item name="website" value="https://unitedwild.com"/>
+  <item name="adminemail" value="brandonmcclain@live.com"/>
   <item name="islogging" value="false"/>
   <item name="willcallhome" value="false"/>
   <item name="timeout" value="10000000"/>

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("sambot")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("SamBot")]
+[assembly: AssemblyDescription("Multi-Backend AI Chatbot for Windows")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Devbrains")]
-[assembly: AssemblyProduct("sambot")]
-[assembly: AssemblyCopyright("Copyright ©  2021 DevBrains")]
+[assembly: AssemblyCompany("Brandon McClain")]
+[assembly: AssemblyProduct("SamBot")]
+[assembly: AssemblyCopyright("Copyright © 2026 Brandon McClain")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

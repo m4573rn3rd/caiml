@@ -1,3 +1,9 @@
+# Keep large base models out of git by default.
 *.gguf
+# Track sambot-generated knowledge packs.
+!aiml-*.gguf
+!aiml-custom.gguf
+!sambot-aiml-knowledge-pack.gguf
+!sambot_news.gguf
 *.ggml
 !.gitignore

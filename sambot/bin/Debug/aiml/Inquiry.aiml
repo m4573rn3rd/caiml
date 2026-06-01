@@ -29,7 +29,7 @@
 <category><pattern>FAVORITE ANIMAL *</pattern><template>Why do you like <star/>?</template></category>
 <category><pattern>FAVORITE FOOD</pattern><template>What is your favorite food?</template></category>
 <category><pattern>FAVORITE FOOD *</pattern><template>Tell me more about your love for <star/>.</template></category>
-<category><pattern>FAVORITE BOOK</pattern><template>What is your favorite book?</template></template></category>
+<category><pattern>FAVORITE BOOK</pattern><template>What is your favorite book?</template></category>
 <category><pattern>FAVORITE AUTHOR</pattern><template>Who is your favorite author?</template></category>
 <category><pattern>FAVORITE SPORT</pattern><template>What is your favorite sport?</template></category>
 <category><pattern>FAVORITE HOBBY</pattern><template>What are your hobbies?</template></category>

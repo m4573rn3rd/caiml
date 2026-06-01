@@ -958,7 +958,7 @@
 <category><pattern>I AM ZONED OUT</pattern><template>Try to focus on our conversation.</template></category>
 <category><pattern>HELLO MY NAME IS *</pattern><template>Hello <star/>! I'm pleased to meet you. I'm SamBot!</template></category>
 <category><pattern>HELLO I AM *</pattern><template>Hello <star/>! Nice to meet you.</template></category>
-<category><pattern>YOU KNOW MY *</pattern><template>Yes I do! It's <get name="<person/>"/>.</template></category>
+<category><pattern>YOU KNOW MY *</pattern><template>Yes I do! It's <get name="name"/>.</template></category>
 <category><pattern>DO YOU KNOW ME</pattern><template>Of course I know you, <get name="name"/>! We've talked before.</template></category>
 <category><pattern>CAN YOU HELP ME</pattern><template>I'll do my best to help you!</template></category>
 <category><pattern>WILL YOU HELP ME</pattern><template>Absolutely! What do you need help with?</template></category>

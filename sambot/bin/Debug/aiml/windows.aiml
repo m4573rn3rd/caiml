@@ -93,7 +93,7 @@
 <category><pattern>WHAT IS CLEANUP</pattern><template>Disk Cleanup removes temporary files. Usage: cleanmgr or Disk Cleanup tool</template></category>
 <category><pattern>WHAT IS DEFRAG</pattern><template>Defragmentation optimizes disk performance. Usage: defrag [drive]: or use GUI</template></category>
 <category><pattern>WHAT IS SCAN</pattern><template>Windows Defender scans for malware. Usage: mpcmdrun.exe -scan</template></category>
-<category><pattern>WHAT IS UPDATE</pattern><template>Windows Update updates system. Open Settings > Update & Security</template></category>
+<category><pattern>WHAT IS UPDATE</pattern><template>Windows Update updates system. Open Settings > Update &amp; Security</template></category>
 <category><pattern>WHAT IS REGEDIT</pattern><template>regedit opens Windows Registry Editor. WARNING: Be careful!</template></category>
 <category><pattern>WHAT IS MSCONFIG</pattern><template>msconfig opens System Configuration. Usage: msconfig or Ctrl+Shift+Esc</template></category>
 

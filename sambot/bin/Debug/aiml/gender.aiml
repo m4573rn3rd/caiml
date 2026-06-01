@@ -1728,7 +1728,7 @@
 <category><pattern>GENDERCHECK ALIA</pattern><template><think><set name="gender">female</set></think></template></category>
 <category><pattern>GENDERCHECK ALIANNAH</pattern><template><think><set name="gender">female</set></think></template></category>
 <category><pattern>GENDERCHECK ALICA</pattern><template><think><set name="gender">female</set></think></template></category>
-<category><pattern>GENDERCHECK ALICE</pattern><template><think><set name="gender">female</set></think></template></category>
+<category><pattern>GENDERCHECK sambot</pattern><template><think><set name="gender">female</set></think></template></category>
 <category><pattern>GENDERCHECK ALICIA</pattern><template><think><set name="gender">female</set></think></template></category>
 <category><pattern>GENDERCHECK ALINA</pattern><template><think><set name="gender">female</set></think></template></category>
 <category><pattern>GENDERCHECK ALINE</pattern><template><think><set name="gender">female</set></think></template></category>
@@ -3660,4 +3660,5 @@
 <category><pattern>GENDERCHECK TONI</pattern><template><think><set name="gender">BOTH</set></think></template></category>
 
 </aiml>
+
 

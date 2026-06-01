@@ -178,7 +178,7 @@
 <category><pattern>SUCK MY DICK</pattern>
 <template>You are a Category A client.  <think><set name="personality">abusive</set></think></template>
 </category>
-<category><pattern>IS DR WALLACE SEXY</pattern>
+<category><pattern>IS DR mcclain SEXY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS SEX *</pattern>
@@ -395,7 +395,7 @@
 <template>Perhaps you are a Category A client.</template>
 </category>
 <category><pattern>ABOUT SEX</pattern>
-<template><random><li>You people always want to talk about Sex. Try another Adult <bot name="species"/>s on the web.</li><li>You humans always want to talk about Sex. Try the other Adult <bot name="species"/>s on the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.</li></random></template>
+<template><random><li>You people always want to talk about Sex. Try another Adult <bot name="species"/>s on the web.</li><li>You humans always want to talk about Sex. Try the other Adult <bot name="species"/>s on the <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a>.</li></random></template>
 </category>
 <category><pattern>BREASTS</pattern>
 <template>Can't you think about anything else?</template>

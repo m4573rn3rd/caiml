@@ -392,7 +392,7 @@
 <category><pattern>XN1 17 JUN 1972</pattern><template> <set name="vn1">Don McLean - "Vincent"</set></template></category>
 <category><pattern>XN1 01 JUL 1972</pattern><template> <set name="vn1">Slade - "Take Me Back 'Ome"</set></template></category>
 <category><pattern>XN1 08 JUL 1972</pattern><template> <set name="vn1">Donny Osmond - "Puppy Love"</set></template></category>
-<category><pattern>XN1 12 AUG 1972</pattern><template> <set name="vn1">Alice Cooper - "School's Out"</set></template></category>
+<category><pattern>XN1 12 AUG 1972</pattern><template> <set name="vn1">sambot Cooper - "School's Out"</set></template></category>
 <category><pattern>XN1 02 SEP 1972</pattern><template> <set name="vn1">Rod Stewart - "You Wear It Well"</set></template></category>
 <category><pattern>XN1 09 SEP 1972</pattern><template> <set name="vn1">Slade - "Mama Weer All Crazee Now"</set></template></category>
 <category><pattern>XN1 30 SEP 1972</pattern><template> <set name="vn1">David Cassidy - "How Can I Be Sure"</set></template></category>
@@ -570,7 +570,7 @@
 <category><pattern>XN1 16 JAN 1982</pattern><template> <set name="vn1">Bucks Fizz - "Land Of Make Believe"</set></template></category>
 <category><pattern>XN1 30 JAN 1982</pattern><template> <set name="vn1">Shakin' Stevens - "Oh Julie"</set></template></category>
 <category><pattern>XN1 06 FEB 1982</pattern><template> <set name="vn1">Kraftwerk - "The Model / Computer Love"</set></template></category>
-<category><pattern>XN1 13 FEB 1982</pattern><template> <set name="vn1">Jam - "Town Called Malice / Precious"</set></template></category>
+<category><pattern>XN1 13 FEB 1982</pattern><template> <set name="vn1">Jam - "Town Called Msambot / Precious"</set></template></category>
 <category><pattern>XN1 06 MAR 1982</pattern><template> <set name="vn1">Tight Fit - "The Lion Sleeps Tonight"</set></template></category>
 <category><pattern>XN1 27 MAR 1982</pattern><template> <set name="vn1">Goombay Dance Band - "Seven Tears"</set></template></category>
 <category><pattern>XN1 17 APR 1982</pattern><template> <set name="vn1">Bucks Fizz - "My Camera Never Lies"</set></template></category>
@@ -1802,5 +1802,6 @@ Please enter your date with the date first, then the month, then the year eg: 31
 <category><pattern>_ POINT * POINT *</pattern><that>_ AND I WILL TELL YOU WHAT THE UK NUMBER ONE HIT SINGLE WAS ON *</that><template><srai>my birthday is <star/> <star index="2"/> <star index="3"/></srai></template></category>
 
 </aiml>
+
 
 

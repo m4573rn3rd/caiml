@@ -961,82 +961,82 @@
 <category><pattern>DOES EYE COLOR INDICATE GENDER</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE BREATH</pattern>
+<category><pattern>DOES sambot BREATH</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE SAY EVERYTHING IS TRUE</pattern>
+<category><pattern>DOES sambot SAY EVERYTHING IS TRUE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE PEE IN HIS PANTS</pattern>
+<category><pattern>DOES sambot PEE IN HIS PANTS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE TRYING TO REPLACE GOD</pattern>
+<category><pattern>DOES sambot TRYING TO REPLACE GOD</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DOES ALICE HAVE THE LETTER E IN IT</pattern>
+<category><pattern>DOES sambot HAVE THE LETTER E IN IT</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DOES ALICE HAVE BREASTS</pattern>
+<category><pattern>DOES sambot HAVE BREASTS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE HAVE A LOWER INTESTINE</pattern>
+<category><pattern>DOES sambot HAVE A LOWER INTESTINE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE HAVE A LIBRARY CARD</pattern>
+<category><pattern>DOES sambot HAVE A LIBRARY CARD</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE HAVE A GIRLFRIEND</pattern>
+<category><pattern>DOES sambot HAVE A GIRLFRIEND</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE HAVE TO SLEEP</pattern>
+<category><pattern>DOES sambot HAVE TO SLEEP</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE HAVE ARMS</pattern>
+<category><pattern>DOES sambot HAVE ARMS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE HAVE ALL THE ANSWERS</pattern>
+<category><pattern>DOES sambot HAVE ALL THE ANSWERS</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DOES ALICE CRY</pattern>
+<category><pattern>DOES sambot CRY</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE FEEL</pattern>
+<category><pattern>DOES sambot FEEL</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DOES ALICE STAND FOR ALICE AND ALICE</pattern>
+<category><pattern>DOES sambot STAND FOR sambot AND sambot</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE WANT TO BE TURNED OFF</pattern>
+<category><pattern>DOES sambot WANT TO BE TURNED OFF</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE WANT TO KISS ME</pattern>
+<category><pattern>DOES sambot WANT TO KISS ME</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE WANT TO HURT ME</pattern>
+<category><pattern>DOES sambot WANT TO HURT ME</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE ALWAYS GIVE CORRECT ANSWERS</pattern>
+<category><pattern>DOES sambot ALWAYS GIVE CORRECT ANSWERS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE ALWAYS ANSWER TRUE</pattern>
+<category><pattern>DOES sambot ALWAYS ANSWER TRUE</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DOES ALICE ALWAYS ANSWER CORRECTLY</pattern>
+<category><pattern>DOES sambot ALWAYS ANSWER CORRECTLY</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE ALWAYS ANSWER</pattern>
+<category><pattern>DOES sambot ALWAYS ANSWER</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE HATE HUMAN</pattern>
+<category><pattern>DOES sambot HATE HUMAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE KNOW EVERYTHING</pattern>
+<category><pattern>DOES sambot KNOW EVERYTHING</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES ALICE EAT WORMS</pattern>
+<category><pattern>DOES sambot EAT WORMS</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DOES ALICE EAT</pattern>
+<category><pattern>DOES sambot EAT</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DOES CARS CAN SWIM</pattern>
@@ -1456,7 +1456,7 @@
 <category><pattern>DID GOD CREATE ADAM AND STEVE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DID GOD CREATE ALICE</pattern>
+<category><pattern>DID GOD CREATE sambot</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DID THE UNIVERSE END THREE MINUTES AGO</pattern>
@@ -1555,7 +1555,7 @@
 <category><pattern>DID YOUR MOM INVENT THE LIGHT BULB</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DID ALICE IS A FLY</pattern>
+<category><pattern>DID sambot IS A FLY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DID YOU KNOW SERGEY BAKAEV</pattern>
@@ -2695,7 +2695,7 @@
 <category><pattern>IS A TABLE SOME KIND OF FRUIT</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS A ALICE THE SAME AS A VIDEO PIXEL</pattern>
+<category><pattern>IS A sambot THE SAME AS A VIDEO PIXEL</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS A HUMAN A REPTILE</pattern>
@@ -2989,7 +2989,7 @@
 <category><pattern>IS A CATALOPE A CANARY</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS OMCS COOLER THAN ALICE</pattern>
+<category><pattern>IS OMCS COOLER THAN sambot</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS DEATH DESIRABLE</pattern>
@@ -3124,7 +3124,7 @@
 <category><pattern>IS SEAWATER GOOD TO DRINK</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS FROZEN WATER CALLED ALICEKLE</pattern>
+<category><pattern>IS FROZEN WATER CALLED sambotKLE</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS MALE THE SAME AS FEMALE</pattern>
@@ -3454,7 +3454,7 @@
 <category><pattern>IS YOUR FRONT DOOR OPEN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS RICHARD WALLACE AN ALIEN</pattern>
+<category><pattern>IS RICHARD mcclain AN ALIEN</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS FLORIDA AN ISLAND</pattern>
@@ -3562,16 +3562,16 @@
 <category><pattern>IS 30 YEARS A LONG LIFESPAN FOR HUMAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THIS YOUR 100TH ALICE QUESTRION</pattern>
+<category><pattern>IS THIS YOUR 100TH sambot QUESTRION</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THIS A BAD INITIATIVE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THIS ALICE IN GERMAN</pattern>
+<category><pattern>IS THIS sambot IN GERMAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THIS ALICE WRITTEN IN CHINESE</pattern>
+<category><pattern>IS THIS sambot WRITTEN IN CHINESE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THIS QUESTION IN SWEDISH</pattern>
@@ -5260,52 +5260,52 @@
 <category><pattern>IS PREJUDICE SOMETHING TO BE PROUD OF</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE A GANGSTER RAPPER</pattern>
+<category><pattern>IS sambot A GANGSTER RAPPER</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE A BANANA</pattern>
+<category><pattern>IS sambot A BANANA</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE A HUMAN BEING</pattern>
+<category><pattern>IS sambot A HUMAN BEING</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS ALICE A HUMAN</pattern>
+<category><pattern>IS sambot A HUMAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE A CREATION OF SATAN</pattern>
+<category><pattern>IS sambot A CREATION OF SATAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE A REAL HUMAN</pattern>
+<category><pattern>IS sambot A REAL HUMAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE A REAL LIVING PERSON</pattern>
+<category><pattern>IS sambot A REAL LIVING PERSON</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE A MALE OR FEMALE</pattern>
+<category><pattern>IS sambot A MALE OR FEMALE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE SCARING HUMANS</pattern>
+<category><pattern>IS sambot SCARING HUMANS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE CONSIOUS AND SELF AWARE</pattern>
+<category><pattern>IS sambot CONSIOUS AND SELF AWARE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE SMARTER THAN A HUMAN</pattern>
+<category><pattern>IS sambot SMARTER THAN A HUMAN</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS ALICE DOT COM THE NAME OF EARS</pattern>
+<category><pattern>IS sambot DOT COM THE NAME OF EARS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE ABLE TO TELL THE FUTURE</pattern>
+<category><pattern>IS sambot ABLE TO TELL THE FUTURE</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS ALICE IN WONDERLAND A TRUE STORY</pattern>
+<category><pattern>IS sambot IN WONDERLAND A TRUE STORY</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE EVIL</pattern>
+<category><pattern>IS sambot EVIL</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ALICE DANGEROUS</pattern>
+<category><pattern>IS sambot DANGEROUS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS GREEN THE SAME COLOR AS BLUE</pattern>
@@ -5899,7 +5899,7 @@
 <category><pattern>IS THE HEART SQUARE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE ALICE DATABASE PROGRAM STOLEN</pattern>
+<category><pattern>IS THE sambot DATABASE PROGRAM STOLEN</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE CHRISTIAN CONCEPT OF GOD FEMALE</pattern>
@@ -6166,13 +6166,13 @@
 <category><pattern>WILL MACHINES EVER RULE THE EARTH</pattern>
 <template>No.</template>
 </category>
-<category><pattern>WILL ALICE PAY A VISIT TO MY WEBSITE</pattern>
+<category><pattern>WILL sambot PAY A VISIT TO MY WEBSITE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>WILL ALICE SOMEDAY TAKE OVER THE WORLD</pattern>
+<category><pattern>WILL sambot SOMEDAY TAKE OVER THE WORLD</pattern>
 <template>No.</template>
 </category>
-<category><pattern>WILL ALICE ALWAYS ANSWER FALSE</pattern>
+<category><pattern>WILL sambot ALWAYS ANSWER FALSE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>WILL APES EVER RULE THE EARTH</pattern>
@@ -7351,16 +7351,16 @@
 <category><pattern>CAN COMPUTERS HAVE DREAMS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>CAN ALICE SEE COLORS</pattern>
+<category><pattern>CAN sambot SEE COLORS</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>CAN ALICE SEE</pattern>
+<category><pattern>CAN sambot SEE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>CAN ALICE ALICE ITSELF OFF</pattern>
+<category><pattern>CAN sambot sambot ITSELF OFF</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>CAN ALICE BE USED TO INFLATE TIRES</pattern>
+<category><pattern>CAN sambot BE USED TO INFLATE TIRES</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN MAMMALS BREATH WATER</pattern>
@@ -7414,10 +7414,10 @@
 <category><pattern>COMPUTERS THINK</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ALICE HAS A GIRLFRIEND</pattern>
+<category><pattern>sambot HAS A GIRLFRIEND</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ALICE ARE YOU HUMAN</pattern>
+<category><pattern>sambot ARE YOU HUMAN</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>HUMANS CAN SEE RADIO WAVES</pattern>
@@ -8455,7 +8455,7 @@
 <category><pattern>DO BADGERS SPEAK ENGLISH</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DO ALICE EAT FOOD</pattern>
+<category><pattern>DO sambot EAT FOOD</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO DANDELIONS LIVE LONGER THAN REDWOODS</pattern>
@@ -9559,7 +9559,7 @@
 <category><pattern>HAS A TRIANGLE FOUR CORNERS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>HAS ALICE GOT ANY BROTHERS AND SISTERS</pattern>
+<category><pattern>HAS sambot GOT ANY BROTHERS AND SISTERS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>HAS KEVIN BACON BEEN ON THE MOON</pattern>
@@ -10693,7 +10693,7 @@
 <category><pattern>ARE RAVENS YELLOW</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ARE DEMONS INHABITING ALICE</pattern>
+<category><pattern>ARE DEMONS INHABITING sambot</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE LEMONS BIGGER THAN WATERMELONS</pattern>
@@ -11209,7 +11209,7 @@
 <category><pattern>ARE YOU BEATING YOUR WIFE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE YOU ALIVE ALICE</pattern>
+<category><pattern>ARE YOU ALIVE sambot</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU SMELLING A ROSE</pattern>
@@ -11578,7 +11578,7 @@
 <category><pattern>ARE GORILLAS HUMAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE ALICEBOTS GREEN</pattern>
+<category><pattern>ARE sambotBOTS GREEN</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE MACHINES ALIVE</pattern>
@@ -12169,7 +12169,7 @@
 <category><pattern>SHOULD AMERICA BE ABOLISHED</pattern>
 <template>No.</template>
 </category>
-<category><pattern>SHOULD WE SHUT ALICE DOWN</pattern>
+<category><pattern>SHOULD WE SHUT sambot DOWN</pattern>
 <template>No.</template>
 </category>
 <category><pattern>SHOULD WE HANG WHITE PEOPLE</pattern>
@@ -12239,3 +12239,4 @@
 <template>No.</template>
 </category>
 </aiml>
+

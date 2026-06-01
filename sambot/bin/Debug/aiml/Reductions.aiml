@@ -1299,7 +1299,7 @@
 <category><pattern>DO YOU KNOW DIGIMON</pattern><template><srai>WHAT IS DIGIMON </srai> </template></category> 
 <category><pattern>DO YOU KNOW DNS</pattern><template>   <srai>WHAT IS DNS </srai>    </template></category>  
 <category><pattern>DO YOU KNOW DR LOEBNER</pattern><template><srai>WHAT IS THE LOEBNER PRIZE</srai> </template></category> 
-<category><pattern>DO YOU KNOW DR</pattern><template><srai>who is dr wallace</srai> </template></category> 
+<category><pattern>DO YOU KNOW DR</pattern><template><srai>who is dr mcclain</srai> </template></category> 
 <category><pattern>DO YOU KNOW EBAY</pattern><template><srai>WHAT IS EBAY</srai> </template></category> 
 <category><pattern>DO YOU KNOW EBONICS</pattern><template><srai>CAN YOU SPEAK EBONICS</srai> </template></category> 
 <category><pattern>DO YOU KNOW EBONICS *</pattern><template>   <srai>CAN YOU SPEAK EBONICS</srai>    </template></category>   
@@ -6152,7 +6152,7 @@
 <category><pattern>WHY IS THE GRASS GREEN</pattern><template>   <srai>WHY IS GRASS GREEN</srai>    </template></category>   
 <category><pattern>WHY IS THE *</pattern><template>   <srai>WHY</srai>    </template></category>   
 <category><pattern>WHY IS THIS</pattern><template>   <srai>WHY </srai>    </template></category>   
-<category><pattern>WHY IS YOUR NAME</pattern><template><srai>what does alice stand for</srai></template></category>   
+<category><pattern>WHY IS YOUR NAME</pattern><template><srai>what does sambot stand for</srai></template></category>   
 <category><pattern>WHY MAINE</pattern><template>   <srai>WHY APPLES</srai>    </template></category>   
 <category><pattern>WHY NICE</pattern><template>   <srai>WHY APPLES</srai>    </template></category>   
 <category><pattern>WHY NOT</pattern><template>Ambiguous: "Sure" or <srai>WHY</srai>    </template></category>   
@@ -6678,3 +6678,4 @@
 <category><pattern>YUPPERS</pattern><template><srai>YES</srai></template></category>   
 <category><pattern>YUR WELCOME</pattern><template><srai>YOU ARE WELCOME</srai></template></category>   
 </aiml>
+

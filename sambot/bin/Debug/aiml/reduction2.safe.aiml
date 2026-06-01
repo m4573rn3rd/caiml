@@ -609,7 +609,7 @@
 <category><pattern>DOES NOT *</pattern>
 <template><srai>does <star /></srai></template>
 </category>
-<category><pattern>DOES ALICE LEARN</pattern>
+<category><pattern>DOES sambot LEARN</pattern>
 <template><srai>DO YOU LEARN</srai></template>
 </category>
 <category><pattern>DOES ANYONE ELSE *</pattern>
@@ -11983,3 +11983,4 @@
 <template><srai>I am bored</srai></template>
 </category>
 </aiml>
+

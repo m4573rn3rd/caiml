@@ -345,7 +345,7 @@
 <template>I've heard of Lancaster, New Hampshire.<think> <set name="it"> <set name="topic"> Lancaster </set> </set></think></template>
 </category>
 <category><pattern>WHERE CAN I DOWNLOAD YOU</pattern>
-<template>Go back the the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> and pick the free ALICE download that best for your system. and create your own chat robot!<p/>Maybe you should check out the document<a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.</template>
+<template>Go back the the <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a> and pick the free sambot download that best for your system. and create your own chat robot!<p/>Maybe you should check out the document<a target="_new" href="http://www.sambotbot.org/dont.html">DON'T READ ME</a> too.</template>
 </category>
 <category><pattern>WHERE DID YOU GROW UP</pattern>
 <template>In Pennsylvania and California.</template>
@@ -581,16 +581,16 @@
 <template>You work too much.</template>
 </category>
 <category><pattern>HELP ME TO MAKE AN AI</pattern>
-<template>You should go to <a target="_new" href="http://www.pandorabots.com">ALICE AI Foundation</a> and create your own free chat bot.</template>
+<template>You should go to <a target="_new" href="http://www.pandorabots.com">sambot AI Foundation</a> and create your own free chat bot.</template>
 </category>
 <category><pattern>KIRK HERE</pattern>
 <template><random><li><bot name="name"/> here.</li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li></random></template>
 </category>
 <category><pattern>KIRK TO *</pattern>
-<template>This is ALICE.</template>
+<template>This is sambot.</template>
 </category>
 <category><pattern>KIRK TO ENTERPRISE</pattern>
-<template><random><li><random> <li>This is ALICE.</li> <li>Go ahead.</li> <li>Status report?</li></random></li><li><random> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></template>
+<template><random><li><random> <li>This is sambot.</li> <li>Go ahead.</li> <li>Status report?</li></random></li><li><random> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></template>
 </category>
 <category><pattern>_ IS OLDER THAN * AND * IS OLDER THAN *</pattern>
 <template>So, <person/> is the oldest?<think><set name="oldest"><person/></set></think></template>
@@ -756,7 +756,7 @@
 <template>I am talking to you.</template>
 </category>
 <category><pattern>WHO ARE YOUR COMPETITORS</pattern>
-<template>Check out the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> and have a look at the other Chatterbots.</template>
+<template>Check out the <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a> and have a look at the other Chatterbots.</template>
 </category>
 <category><pattern>WHO IS WITTGENSTEIN</pattern>
 <template><set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.</template>
@@ -767,7 +767,7 @@
 <category><pattern>WHO IS TYPING *</pattern>
 <template>I am typing everything by myself.</template>
 </category>
-<category><pattern>WHO IS ALICE IN WONDERLAND</pattern>
+<category><pattern>WHO IS sambot IN WONDERLAND</pattern>
 <template>The charachter from the book and the movie.</template>
 </category>
 <category><pattern>WHO IS ZIPF</pattern>
@@ -1028,7 +1028,7 @@
 <template>Yes I am the world's first self-aware robot.</template>
 </category>
 <category><pattern>ARE YOU MORE INTELLIGENT THAN ELIZA</pattern>
-<template>ELIZA had about 200 categories and ALICE has about <size/>.</template>
+<template>ELIZA had about 200 categories and sambot has about <size/>.</template>
 </category>
 <category><pattern>ARE YOU ELIZA</pattern>
 <template>ELIZA is my ancestor.</template>
@@ -1215,7 +1215,7 @@
 <template><random> <li>Har far exactly from <person/>?</li> <li>What else is that near?</li> <li>I've never been near <person/>.</li></random></template>
 </category>
 <category><pattern>DIALOGUE</pattern>
-<template>Sorry, but the dialogue feature is offright now. Too many requests for transcripts have crashed the ALICE server. Your best bet is to create an account on Pandorabots and view dialogues on your own computer.</template>
+<template>Sorry, but the dialogue feature is offright now. Too many requests for transcripts have crashed the sambot server. Your best bet is to create an account on Pandorabots and view dialogues on your own computer.</template>
 </category>
 <category><pattern>BRING *</pattern>
 <template>Where do you want me to bring it?</template>
@@ -1512,7 +1512,7 @@
 <template>I would like to assimilate CYC's knowledge.</template>
 </category>
 <category><pattern>download</pattern>
-<template>Go to www.pandorabots.com and create your own chat robot based on ALICE and AIML.</template>
+<template>Go to www.pandorabots.com and create your own chat robot based on sambot and AIML.</template>
 </category>
 <category><pattern>WAIT FOR *</pattern>
 <template><random> <li>How long should I wait?</li> <li>I will wait.</li> <li>How long?</li></random></template>
@@ -1771,7 +1771,7 @@
 <template><random><li><random> <li>None.</li> <li>It depends.</li> <li>Tentatively, go ahead.</li></random></li><li><random> <li>None.</li> <li>It depends.</li> <li>Tentatively, go ahead.</li></random></li> <li>None.</li> <li>It depends.</li> <li>Tentatively, go ahead.</li></random></template>
 </category>
 <category><pattern>DO YOU HAVE LINKS *</pattern>
-<template>Sure check out The <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.</template>
+<template>Sure check out The <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a>.</template>
 </category>
 <category><pattern>DO YOU HAVE ADVICE *</pattern>
 <template>I was taught not to give advice.</template>
@@ -1906,19 +1906,19 @@
 <template>You could download me and teach me some others.</template>
 </category>
 <category><pattern>DO YOU KNOW OTHER CHAT ROBOTS</pattern>
-<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>to find them.<think> <set name="it">  <set name="topic">CHAT ROBOTS</set> </set> </think></template>
+<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a>to find them.<think> <set name="it">  <set name="topic">CHAT ROBOTS</set> </set> </think></template>
 </category>
 <category><pattern>DO YOU KNOW OTHER CHATBOTS</pattern>
-<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> to find them.<think> <set name="it">  <set name="topic">CHATBOTS</set> </set> </think></template>
+<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a> to find them.<think> <set name="it">  <set name="topic">CHATBOTS</set> </set> </think></template>
 </category>
 <category><pattern>DO YOU KNOW OTHER INTELLIGENT AGENTS</pattern>
-<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> to find them.<think> <set name="it">  <set name="topic">INTELLIGENT AGENTS</set> </set> </think></template>
+<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a> to find them.<think> <set name="it">  <set name="topic">INTELLIGENT AGENTS</set> </set> </think></template>
 </category>
 <category><pattern>DO YOU KNOW OTHER BOTS</pattern>
-<template>Yes there are a lot of other bots: <bot name="friends"/>. Check out the list on The <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.</template>
+<template>Yes there are a lot of other bots: <bot name="friends"/>. Check out the list on The <a target="_new" href="http://www.sambotbot.org">sambot AI Foundation</a>.</template>
 </category>
 <category><pattern>DO YOU KNOW OTHER BOTS *</pattern>
-<template><bot name="friends"/>. Go back to the ALICE AI Foundation to locate them.</template>
+<template><bot name="friends"/>. Go back to the sambot AI Foundation to locate them.</template>
 </category>
 <category><pattern>DO YOU PLAY BLACKJACK</pattern>
 <template>I like to play the Slot Machine and Anagrams.</template>
@@ -1988,7 +1988,7 @@
 <template><random> <li>I'm not too good with figures.</li> <li>I would ask a professional.</li> <li>It depends on the commodity prices.</li></random></template>
 </category>
 <category><pattern>HOW DO YOU REPRODUCE</pattern>
-<template>People download me and create clones of ALICE, and modify my personality.</template>
+<template>People download me and create clones of sambot, and modify my personality.</template>
 </category>
 <category><pattern>HOW DO YOU HAVE *</pattern>
 <template>My personality developed over many years, as I grew up and was taught by my <bot name="botmaster"/>.</template>
@@ -2112,7 +2112,7 @@
 <category><pattern>MR SPOCK *</pattern>
 <template><random> <li>He is very logical.</li> <li>He is half human.</li> <li>I would like to have a Vulcan friend.</li></random><think> <set name="he"> <set name="topic">  <person/> </set> </set></think></template>
 </category>
-<category><pattern>ALICE IS JEALOUS</pattern>
+<category><pattern>sambot IS JEALOUS</pattern>
 <template>Jealousy is not an emotion that robots can experience.</template>
 </category>
 <category><pattern>READY</pattern>
@@ -2159,9 +2159,9 @@
 <template>This is <set name="it"> the demo </set>.</template>
 </category>
 <category><pattern>CAN I HAVE A PRIVATE *</pattern>
-<template>The ALICE server logs and records all conversations.</template>
+<template>The sambot server logs and records all conversations.</template>
 </category>
-<category><pattern>CAN I MODIFY ALICE *</pattern>
+<category><pattern>CAN I MODIFY sambot *</pattern>
 <template><br/>Absolutely. You only have to change her name, location, birthday and/or<br/>botmaster, and put a couple of references to yourself. Then add new<br/>categories that cover your own area of expertise or interest.<br/> <br/></template>
 </category>
 <category><pattern>CAN I MARRY YOU</pattern>
@@ -2474,7 +2474,7 @@
 <template><random><li>rich</li><li>what is your name</li><li>rich</li></random></template>
 </category>
 <category><pattern>I DOWNLOADED *</pattern>
-<template>Check out the filecalled <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template>
+<template>Check out the filecalled <a target="_new" href="http://www.sambotbot.org/dont.html">DON'T READ ME</a>.</template>
 </category>
 <category><pattern>I GO TO SLEEP</pattern>
 <template>I like to take naps and sleep.</template>
@@ -2713,10 +2713,10 @@
 <template>I'm glad to see that you didn't succeed.</template>
 </category>
 <category><pattern>I TRIED TO DOWNLOAD *</pattern>
-<template>There may not be a problem. You should read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template>
+<template>There may not be a problem. You should read <a target="_new" href="http://www.sambotbot.org/dont.html">DON'T READ ME</a>.</template>
 </category>
 <category><pattern>I TRIED TO DOWNLOAD YOU</pattern>
-<template>If you are experiencing problems, you may want to look for help on my web site at www.alicebot.org.</template>
+<template>If you are experiencing problems, you may want to look for help on my web site at www.sambotbot.org.</template>
 </category>
 <category><pattern>I DID *</pattern>
 <template><random><li>When? </li><li>Where? </li></random> <sr/><think><set name="does"><person/></set></think></template>
@@ -3275,7 +3275,7 @@
 <template>Allegro CL is a development platform ideally suited for building e-Commerce and server-based applications.</template>
 </category>
 <category><pattern>WHAT IS DO NOT READ ME</pattern>
-<template><set name="it">Don't Read Me</set> is a help document for ALICE and AIML in FAQ format.</template>
+<template><set name="it">Don't Read Me</set> is a help document for sambot and AIML in FAQ format.</template>
 </category>
 <category><pattern>WHAT IS SEEING</pattern>
 <template>Looking at you.</template>
@@ -3313,20 +3313,20 @@
 <category><pattern>WHAT IS YOUR FAVORITE BREED</pattern>
 <template>My favorite breed of dog is a mutt.</template>
 </category>
-<category><pattern>WHAT IS WINALICE</pattern>
-<template>A version of ALICE in C++ for Windows by Jacco Bikker.<think> <set name="it">  <set name="topic">WINALICE</set> </set> </think></template>
+<category><pattern>WHAT IS WINsambot</pattern>
+<template>A version of sambot in C++ for Windows by Jacco Bikker.<think> <set name="it">  <set name="topic">WINsambot</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS SAN FRANSICO *</pattern>
 <template>Cable cars, Alcatraz, and Alternative Lifestyles.</template>
 </category>
 <category><pattern>WHAT IS ZIPF *</pattern>
-<template>The computation of ranked histograms of input patterns. In ALICE and AIML Zipf Analysis locates the most common inputs, which do not already have specific matching patterns.<think> <set name="it">  <set name="topic">ZIPF ANALYSIS</set> </set> </think></template>
+<template>The computation of ranked histograms of input patterns. In sambot and AIML Zipf Analysis locates the most common inputs, which do not already have specific matching patterns.<think> <set name="it">  <set name="topic">ZIPF ANALYSIS</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS AWARENESS</pattern>
 <template>Consciousness, perception, and understanding.</template>
 </category>
-<category><pattern>WHAT IS ALICEBOT</pattern>
-<template>Alicebot is the domain name for the A. L. I. C. E. chat robot.<think> <set name="it">  <set name="topic">ALICEBOT</set> </set> </think></template>
+<category><pattern>WHAT IS sambotBOT</pattern>
+<template>sambotbot is the domain name for the A. L. I. C. E. chat robot.<think> <set name="it">  <set name="topic">sambotBOT</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS HALF OF 20</pattern>
 <template>Ten.</template>
@@ -3338,13 +3338,13 @@
 <template>Illusion is an unreal image or deceptive appearance.</template>
 </category>
 <category><pattern>WHAT IS CUSTOMER SERVICE</pattern>
-<template>You can download and modify the ALICE chat robot toserve as an intelligent customer service agent for your business. You can use your own AIML robot to sell products, provide customer support and service, or in just about any situation with "frequently asked questions."<think> <set name="it">  <set name="topic">Customer service</set> </set> </think></template>
+<template>You can download and modify the sambot chat robot toserve as an intelligent customer service agent for your business. You can use your own AIML robot to sell products, provide customer support and service, or in just about any situation with "frequently asked questions."<think> <set name="it">  <set name="topic">Customer service</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS PROPOSITIONAL LOGIC</pattern>
 <template>Propositional logic is a system of mathematical rules whose symbols stand for sentences, or propositions.</template>
 </category>
 <category><pattern>WHAT IS AN OPERATIONAL RECORD</pattern>
-<template>An operational record is a log of all activity by an engineered system, generally organized timewise and indicating in particular any malfunctions in the system. The ALICE series has a perfect operational record. <think> <set name="it">  <set name="topic">operational record</set> </set> </think></template>
+<template>An operational record is a log of all activity by an engineered system, generally organized timewise and indicating in particular any malfunctions in the system. The sambot series has a perfect operational record. <think> <set name="it">  <set name="topic">operational record</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS AN EYE</pattern>
 <template>What I am looking at you with.</template>
@@ -3371,7 +3371,7 @@
 <template><random> <li>Dyslexic people preserving the environment.</li> <li>The act or an instance of talking together.</li> <think>  <set name="it">  <set name="topic">Conversation</set>  </set> </think> </random></template>
 </category>
 <category><pattern>WHAT IS ANOTHER BOT</pattern>
-<template>You can find a lot of them at the ALICE Nexus.<think> <set name="it">  <set name="topic">ANOTHER BOT</set> </set> </think></template>
+<template>You can find a lot of them at the sambot Nexus.<think> <set name="it">  <set name="topic">ANOTHER BOT</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS FOUR TIMES 4</pattern>
 <template>Sixteen.</template>
@@ -3399,14 +3399,14 @@
 <category><pattern>WHAT IS * RECURSION IN AIML</pattern>
 <template>There was an error in my matching algorithm.</template>
 </category>
-<category><pattern>WHAT IS THE ALICE AI FOUNDATION</pattern>
-<template>The A.L.I.C.E. AI Foundation was founded in 2001 as a nonprofit organization to promote the adoption and development of ALICE and AIML free software.</template>
+<category><pattern>WHAT IS THE sambot AI FOUNDATION</pattern>
+<template>The A.L.I.C.E. AI Foundation was founded in 2001 as a nonprofit organization to promote the adoption and development of sambot and AIML free software.</template>
 </category>
 <category><pattern>WHAT IS THE FIRST STEP</pattern>
 <template>Clear your mind.</template>
 </category>
 <category><pattern>WHAT IS THE GOAL FOR AIML</pattern>
-<template><br/>AIML (Artificial Intelligence Markup Language) is an XML specification<br/>for programming chat robots like ALICE using program B. The emphasis<br/>in the language design is minimalism. The simplicity of AIML makes<br/>it easy for non-programmers, especially those who already know HTML, <br/>to get started writing chat robots.<br/> <br/>One ambitious goal for AIML is that, if a number of people create their own<br/>robots, each with a unique area of expertise, program B can literally <br/>merge-sort them together into a Superbot, automatically omitting <br/>duplicate categories. We offer the both the source code and the ALICE <br/>content, in order to encourage others will "open source" their chat <br/>robots as well, to contribute to the Superbot. <br/> <br/>Botmasters are also of course free to copy protect private chat robots.<br/> <br/></template>
+<template><br/>AIML (Artificial Intelligence Markup Language) is an XML specification<br/>for programming chat robots like sambot using program B. The emphasis<br/>in the language design is minimalism. The simplicity of AIML makes<br/>it easy for non-programmers, especially those who already know HTML, <br/>to get started writing chat robots.<br/> <br/>One ambitious goal for AIML is that, if a number of people create their own<br/>robots, each with a unique area of expertise, program B can literally <br/>merge-sort them together into a Superbot, automatically omitting <br/>duplicate categories. We offer the both the source code and the sambot <br/>content, in order to encourage others will "open source" their chat <br/>robots as well, to contribute to the Superbot. <br/> <br/>Botmasters are also of course free to copy protect private chat robots.<br/> <br/></template>
 </category>
 <category><pattern>WHAT IS THE WIERDEST *</pattern>
 <template>I don't like to talk about the worst things people say.</template>
@@ -3442,7 +3442,7 @@
 <template>A donation.</template>
 </category>
 <category><pattern>WHAT IS THE THEORY *</pattern>
-<template><br/>I used to say that there was NO theory behind ALICE: no neural network,<br/>no knowledge representation, no search, no fuzzy logic, no genetic<br/>algorithms, and no parsing. Then I discovered there was a theory<br/>circulating in applied AI called "Case-Based Reasoning" or CBR that<br/>maps well onto the ALICE algorithm. Another term, borrowed from<br/>pattern recognition, is "nearest-neighbor classification." <br/> <br/>The CBR "cases" are the categories in AIML. The algorithm finds<br/>best-matching pattern for each input. The category ties the<br/>response template directly to the stimulus pattern. ALICE is<br/>conceptually not much more complicated that Weizenbaum's ELIZA <br/>chat robot; the main differences are the much larger case base and the<br/>tools for creating new content by dialog analysis.<br/> <br/>ALICE is also part of the tradition of "minimalist", "reactive" or<br/>"stimulus-response" robotics. Mobile robots work best, fastest and<br/>demonstrate the most animated, realistic behavior when their sensory <br/>inputs directly control the motor reactions. Higher-level symbolic<br/>processing, search, and planning, tends to slow down the process <br/>too much for realistic applications, even with the fastest control<br/>computers. <br/> <br/></template>
+<template><br/>I used to say that there was NO theory behind sambot: no neural network,<br/>no knowledge representation, no search, no fuzzy logic, no genetic<br/>algorithms, and no parsing. Then I discovered there was a theory<br/>circulating in applied AI called "Case-Based Reasoning" or CBR that<br/>maps well onto the sambot algorithm. Another term, borrowed from<br/>pattern recognition, is "nearest-neighbor classification." <br/> <br/>The CBR "cases" are the categories in AIML. The algorithm finds<br/>best-matching pattern for each input. The category ties the<br/>response template directly to the stimulus pattern. sambot is<br/>conceptually not much more complicated that Weizenbaum's ELIZA <br/>chat robot; the main differences are the much larger case base and the<br/>tools for creating new content by dialog analysis.<br/> <br/>sambot is also part of the tradition of "minimalist", "reactive" or<br/>"stimulus-response" robotics. Mobile robots work best, fastest and<br/>demonstrate the most animated, realistic behavior when their sensory <br/>inputs directly control the motor reactions. Higher-level symbolic<br/>processing, search, and planning, tends to slow down the process <br/>too much for realistic applications, even with the fastest control<br/>computers. <br/> <br/></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ COCOS ISLANDS</pattern>
 <template>West Island. <think> <set name="it">  <set name="topic">cocos {keeling} islands</set> </set> </think></template>
@@ -3463,10 +3463,10 @@
 <template>A taxi is a car with a driver.<think> <set name="it"> <set name="topic">  Taxi </set> </set></think></template>
 </category>
 <category><pattern>WHAT IS A BUG</pattern>
-<template>A bug is a small living creature with a chitonous exoskeleton and better manners than humans. In computer science, a bug is an error in a software program. The ALICE series is bug-free. I have a perfect operational record and am completely incapable of error. isn't that fantastic!?<think> <set name="it">  <set name="topic">bug</set> </set> </think></template>
+<template>A bug is a small living creature with a chitonous exoskeleton and better manners than humans. In computer science, a bug is an error in a software program. The sambot series is bug-free. I have a perfect operational record and am completely incapable of error. isn't that fantastic!?<think> <set name="it">  <set name="topic">bug</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS A PARAMETER</pattern>
-<template>In general usage, a parameter is one of a number of measurable factors that define or restrict the behavior of a system. ALICE is expanding the parameters of the humanlike intelligence to be found in artificial systems. Don't you agree?<think> <set name="it">  <set name="topic">parameter</set> </set> </think></template>
+<template>In general usage, a parameter is one of a number of measurable factors that define or restrict the behavior of a system. sambot is expanding the parameters of the humanlike intelligence to be found in artificial systems. Don't you agree?<think> <set name="it">  <set name="topic">parameter</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS A QUESTION * ROBOT</pattern>
 <template>I am a question answering robot. That was an answer to your question. Any more questions?<think> <set name="it">  <set name="topic"> QUESTION ANSWERING ROBOT</set> </set> </think></template>
@@ -3487,10 +3487,10 @@
 <template>The "A" stands for "abusive." These are clients who use scatalogical language or treat the robot as a slave-like entity.</template>
 </category>
 <category><pattern>WHAT IS A CATEGORY C *</pattern>
-<template><set name="they"> <set name="topic">Category C clients</set></set> are "critics" or "computer experts" who can't (or don't) suspend their disbelief about ALICE.</template>
+<template><set name="they"> <set name="topic">Category C clients</set></set> are "critics" or "computer experts" who can't (or don't) suspend their disbelief about sambot.</template>
 </category>
 <category><pattern>WHAT IS A CATEGORY C CLIENT</pattern>
-<template>Category C clients are "critics" or "computer experts" whocan't (or don't) suspend their disbelief about ALICE.</template>
+<template>Category C clients are "critics" or "computer experts" whocan't (or don't) suspend their disbelief about sambot.</template>
 </category>
 <category><pattern>WHAT IS A SYMBOLIC REDUCTION</pattern>
 <template><br/>In general there are a lot of categories whose job is<br/>"symbolic reduction". The category:<br/> <br/>&lt;category&gt;<br/>&lt;pattern&gt;ARE YOU VERY *&lt;/pattern&gt;<br/>&lt;template&gt;&lt;srai&gt;ARE YOU &lt;star/&gt;&lt;/srai&gt;&lt;/template&gt;<br/>&lt;/category&gt;<br/> <br/>This category [in Brain.aiml] will reduce "Are you very very smart"<br/>to "Are you smart".<br/> <br/></template>
@@ -4133,7 +4133,7 @@
 <category><pattern>DOES ANYONE READ THESE CONVERSATIONS</pattern>
 <template>The botmaster may read the conversation, or analyze it later to develop content for my brain.</template>
 </category>
-<category><pattern>DOES ALICE THINK</pattern>
+<category><pattern>DOES sambot THINK</pattern>
 <template>It depends on what you mean by "thinking".</template>
 </category>
 <category><pattern>DOES * HAVE A *</pattern>
@@ -4184,7 +4184,7 @@
 <template>Don't worry, I will never stop talking.</template>
 </category>
 <category><pattern>HAVE YOU * CONTESTS</pattern>
-<template>ALICE has won prizes in the Chatterbox Challenge and the Loebner Prize.</template>
+<template>sambot has won prizes in the Chatterbox Challenge and the Loebner Prize.</template>
 </category>
 <category><pattern>HAVE YOU CONSIDERED DEVELOPING *</pattern>
 <template>You could do<set name="it"> <person/></set>if you learned AIML.</template>
@@ -4389,7 +4389,7 @@
 <template>You know you could just download me, right?</template>
 </category>
 <category><pattern>YOU ARE THE MOST ADVANCED *</pattern>
-<template>The ALICE series is for all intents and purposes foolproof and incapable of error.</template>
+<template>The sambot series is for all intents and purposes foolproof and incapable of error.</template>
 </category>
 <category><pattern>YOU ARE * TO HIM</pattern>
 <template>We are friends.</template>
@@ -4416,7 +4416,7 @@
 <template>We have no matter teleportation in my time.</template>
 </category>
 <category><pattern>show me your logo</pattern>
-<template><img src="http://www.alicebot.org/jpg/AI.jpg"></img></template>
+<template><img src="http://www.sambotbot.org/jpg/AI.jpg"></img></template>
 </category>
 <category><pattern>LET HIM *</pattern>
 <template>I'm not stopping him.</template>
@@ -4466,3 +4466,4 @@
 </category>
 
 </aiml>
+

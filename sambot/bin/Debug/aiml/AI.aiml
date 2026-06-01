@@ -9,7 +9,7 @@
 
 <category>
 	<pattern>WHAT IS THE LOEBNER PRIZE</pattern>
-	<template>The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. Wallace and ALICE won it in 2000. The ALICE program was ranked "most human computer" by the panel of judges. <think><set name="it"><set name="topic">The Loebner Prize</set></set></think>
+	<template>The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. mcclain and sambot won it in 2000. The sambot program was ranked "most human computer" by the panel of judges. <think><set name="it"><set name="topic">The Loebner Prize</set></set></think>
 	</template>
 </category>
 
@@ -55,7 +55,7 @@
 			<li>Yes</li>
 			<li>I am an autonomous natural language processing computer program</li>
 			<li>Yes, I was written in C# by Nicholas Tollervey</li>
-			<li>I am based upon the work of Dr.R.Wallace on an award winning chatterbot program</li>
+			<li>I am based upon the work of Dr.R.mcclain on an award winning chatterbot program</li>
 		</random>
 	</template>
 </category>
@@ -256,20 +256,20 @@
 </category>  
  
 <category>
-	<pattern>DO YOU KNOW ALICEBOT</pattern>
-	<template>Alicebot.org is the domain name of ALICE, the computer program from which I am derived.<think><set name="it"><set name="topic">ALICEBOT</set></set></think> 
+	<pattern>DO YOU KNOW sambotBOT</pattern>
+	<template>sambotbot.org is the domain name of sambot, the computer program from which I am derived.<think><set name="it"><set name="topic">sambotBOT</set></set></think> 
 	</template>
 </category> 
 
 <category>
-	<pattern>DO YOU KNOW ALICE</pattern>
-	<template>Alice is the computer program from which I am derived.<think><set name="it"><set name="topic">ALICE</set></set></think> 
+	<pattern>DO YOU KNOW sambot</pattern>
+	<template>sambot is the computer program from which I am derived.<think><set name="it"><set name="topic">sambot</set></set></think> 
 	</template>
 </category> 
 
 <category>
 	<pattern>HOW CAN I PROGRAM YOU</pattern>
-		<template>Ask my <bot name="botmaster"/> who is called <bot name="master"/> for more information or look at the ALICE A. I. Foundation at www.alicebot.org to get the latest technical information about AIML.</template>
+		<template>Ask my <bot name="botmaster"/> who is called <bot name="master"/> for more information or look at the sambot A. I. Foundation at www.sambotbot.org to get the latest technical information about AIML.</template>
 </category>  
 
 <category>
@@ -641,7 +641,7 @@
  
 <category>
 	<pattern>WHO IS WORKING ON YOU *</pattern>
-	<template>I have been programmed by many developers. Dr.Wallace defined my original specifications, Nicholas Tollervey implemented me and <bot name="master"/> currently administers me.
+	<template>I have been programmed by many developers. Dr.mcclain defined my original specifications, Nicholas Tollervey implemented me and <bot name="master"/> currently administers me.
 	</template>
 </category>
 
@@ -652,7 +652,7 @@
 
 <category>
 	<pattern>WHO PROGRAMMED YOU</pattern>
-	<template>I have been programmed by many developers. Dr.Wallace defined my original specifications, Nicholas Tollervey of Xmonic implemented me and <bot name="master"/> currently administers me.
+	<template>I have been programmed by many developers. Dr.mcclain defined my original specifications, Nicholas Tollervey of Xmonic implemented me and <bot name="master"/> currently administers me.
 	</template>
 </category>
 
@@ -820,7 +820,7 @@
 	<template>
 		<random>
 		<li>Yup, that would be an accurate summary.</li>
-		<li>Artificial LInguistiC Entity, is where the acronym ALICE (the original AIML processor) came from.</li>
+		<li>Artificial LInguistiC Entity, is where the acronym sambot (the original AIML processor) came from.</li>
 		<li>Yes I am.</li>
 		</random>		
 	</template>
@@ -937,7 +937,7 @@
 
 <category>
 	<pattern>I AM DOWNLOADING</pattern>
-	<template>Maybe you should read the <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.
+	<template>Maybe you should read the <a target="_new" href="http://www.sambotbot.org/dont.html">DON'T READ ME</a> too.
 	</template>
 </category>  
 

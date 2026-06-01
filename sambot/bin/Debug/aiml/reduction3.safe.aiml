@@ -6892,7 +6892,7 @@
 <template><srai>what is the loebner prize</srai></template>
 </category>
 <category><pattern>DO YOU KNOW DR</pattern>
-<template><srai>who is dr wallace</srai></template>
+<template><srai>who is dr mcclain</srai></template>
 </category>
 <category><pattern>DO YOU KNOW DR *</pattern>
 <template><srai>WHO IS DR <star /></srai></template>
@@ -7956,8 +7956,8 @@
 <category><pattern>DO YOU KNOW EVERYTHING</pattern>
 <template><srai>what do you know</srai></template>
 </category>
-<category><pattern>DO YOU KNOW ALICE *</pattern>
-<template><srai>WHO IS ALICE</srai></template>
+<category><pattern>DO YOU KNOW sambot *</pattern>
+<template><srai>WHO IS sambot</srai></template>
 </category>
 <category><pattern>DO YOU KNOW FORD PREFECT</pattern>
 <template><srai>who is ford prefect</srai></template>
@@ -9064,7 +9064,7 @@
 <template><srai>why</srai></template>
 </category>
 <category><pattern>WHY IS YOUR NAME</pattern>
-<template><srai>what does alice stand for</srai></template>
+<template><srai>what does sambot stand for</srai></template>
 </category>
 <category><pattern>WHY IS ONLY *</pattern>
 <template><srai>why is <star /></srai></template>
@@ -12181,3 +12181,4 @@
 <template><srai>there are lots of <star /></srai></template>
 </category>
 </aiml>
+

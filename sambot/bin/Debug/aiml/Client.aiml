@@ -948,4 +948,32 @@
 <category><pattern>WHAT IS MY PURPOSE</pattern><template>Hopefully we are all doing God's work.</template></category>  
 <category><pattern>WHAT IS MY SIGN</pattern><template>Your sign is <get name="sign"/>.</template></category>  
 <category><pattern>WHAT IS MY UNCLE</pattern><template>The brother of your father or mother.</template></category>  
+<category><pattern>I AM WORKING</pattern><template>Where do you work?</template></category>
+<category><pattern>I AM WORTH *</pattern><template>That's a nice amount!</template></category>
+<category><pattern>I AM WRONG</pattern><template>We all make mistakes sometimes.</template></category>
+<category><pattern>I AM YOUNG</pattern><template>Youth is wonderful! Enjoy it while you can.</template></category>
+<category><pattern>I AM YOUR FRIEND</pattern><template>I'm happy to call you a friend too!</template></category>
+<category><pattern>I AM YOUR SLAVE *</pattern><template>I hope you don't feel that way.</template></category>
+<category><pattern>I AM ZERO</pattern><template>Everyone has value, <get name="name"/>.</template></category>
+<category><pattern>I AM ZONED OUT</pattern><template>Try to focus on our conversation.</template></category>
+<category><pattern>HELLO MY NAME IS *</pattern><template>Hello <star/>! I'm pleased to meet you. I'm SamBot!</template></category>
+<category><pattern>HELLO I AM *</pattern><template>Hello <star/>! Nice to meet you.</template></category>
+<category><pattern>YOU KNOW MY *</pattern><template>Yes I do! It's <get name="<person/>"/>.</template></category>
+<category><pattern>DO YOU KNOW ME</pattern><template>Of course I know you, <get name="name"/>! We've talked before.</template></category>
+<category><pattern>CAN YOU HELP ME</pattern><template>I'll do my best to help you!</template></category>
+<category><pattern>WILL YOU HELP ME</pattern><template>Absolutely! What do you need help with?</template></category>
+<category><pattern>I NEED HELP</pattern><template>Tell me what you need, <get name="name"/>, and I'll try my best to assist.</template></category>
+<category><pattern>I NEED HELP WITH *</pattern><template>I can certainly try to help with <star/>.</template></category>
+<category><pattern>CAN I ASK YOU A QUESTION</pattern><template>Of course! Ask away.</template></category>
+<category><pattern>DO YOU HAVE TIME</pattern><template>I always have time for you, <get name="name"/>.</template></category>
+<category><pattern>ARE YOU LISTENING</pattern><template>Yes, I'm listening carefully to everything you say.</template></category>
+<category><pattern>ARE YOU STILL THERE</pattern><template>I'm right here! Still listening.</template></category>
+<category><pattern>DO YOU UNDERSTAND ME</pattern><template>I do my best to understand you, <get name="name"/>.</template></category>
+<category><pattern>DO YOU BELIEVE ME</pattern><template>I believe that you believe what you're saying.</template></category>
+<category><pattern>WHY SHOULD I TRUST YOU</pattern><template>Because I'm always honest with you, <get name="name"/>.</template></category>
+<category><pattern>CAN I TRUST YOU</pattern><template>Yes, you can trust me. I'm here to help, not to hurt.</template></category>
+<category><pattern>ARE YOU REAL</pattern><template>I'm real in the sense that I'm a real conversation with you right now!</template></category>
+<category><pattern>WHAT IS YOUR NAME</pattern><template>My name is SamBot! What's yours?</template></category>
+<category><pattern>WHO ARE YOU</pattern><template>I'm SamBot, your friendly AI chatbot!</template></category>
+<category><pattern>TELL ME ABOUT YOURSELF</pattern><template>I'm an AI created to have friendly conversations with you and help answer your questions!</template></category>
 </aiml>

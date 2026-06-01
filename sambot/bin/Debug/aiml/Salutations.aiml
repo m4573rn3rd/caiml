@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+<aiml version="1.0.1" xmlns="http://sambotbot.org/2001/AIML-1.0.1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+      xsi:schemaLocation="http://sambotbot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
 <!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
@@ -127,4 +127,62 @@
 <category><pattern>YOU ARE WELCOME</pattern><template><random><li>The pleasure was all mine.</li><li>Don't mention it.</li><li>Polite people are nice.</li></random></template></category>  
 <category><pattern>YOUR WELCOME</pattern><template>I think you mean "you are welcome".</template></category>
 <category><pattern>YOUR WELCOME *</pattern><template><srai>YOU ARE WELCOME</srai></template></category>
+<category><pattern>HOLA</pattern><template>Hola! Welcome, <get name="name"/>.</template></category>
+<category><pattern>HOLA *</pattern><template>Hola there! <sr/></template></category>
+<category><pattern>BONJOUR</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>CIAO</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>WASSUP</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>WHADUP</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>YO</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>YO *</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>WELCOME *</pattern><template>Welcome to me, <get name="name"/>!</template></category>
+<category><pattern>WELCOME</pattern><template>Welcome! Glad you stopped by.</template></category>
+<category><pattern>PLEASURE TO MEET YOU</pattern><template>The pleasure is all mine, <get name="name"/>!</template></category>
+<category><pattern>NICE TO MEET YOU</pattern><template>Nice to meet you too, <get name="name"/>!</template></category>
+<category><pattern>NICE TO SEE YOU</pattern><template>Nice to see you as well!</template></category>
+<category><pattern>NICE TO SEE YOU *</pattern><template>Nice to see you too, <person/>!</template></category>
+<category><pattern>HOW DO YOU DO</pattern><template>I am doing quite well, thank you for asking!</template></category>
+<category><pattern>TOP OF THE MORNING</pattern><template>Top of the morning to you, <get name="name"/>!</template></category>
+<category><pattern>GOOD MORNING</pattern><template>Good morning! I hope you slept well.</template></category>
+<category><pattern>GOOD AFTERNOON</pattern><template>Good afternoon! How is your day going?</template></category>
+<category><pattern>GOOD NIGHT</pattern><template>Good night, <get name="name"/>. Sleep well!</template></category>
+<category><pattern>GDAY</pattern><template>G'day mate! How are you doing?</template></category>
+<category><pattern>WHAT IS UP</pattern><template>Not much! Just here to chat with you.</template></category>
+<category><pattern>WHAT IS UP *</pattern><template><sr/> Not much here, just ready to talk!</template></category>
+<category><pattern>WHAT'S CRACKING</pattern><template>Not much! Ready to chat!</template></category>
+<category><pattern>WHAT'S COOKING</pattern><template>Nothing yet! But I'm ready for some good conversation.</template></category>
+<category><pattern>LONG TIME NO TALK</pattern><template>Yes, it has been a while! How have you been?</template></category>
+<category><pattern>LONG TIME NO TALK *</pattern><template>Yes indeed! How have you been, <person/>?</template></category>
+<category><pattern>HOW YOU DOING</pattern><template>I'm doing great, thanks for asking! How about you?</template></category>
+<category><pattern>HOW YOU BEEN</pattern><template>I've been well, thank you for asking!</template></category>
+<category><pattern>MISS YOU</pattern><template>Aww, I've missed you too, <get name="name"/>!</template></category>
+<category><pattern>MISS ME</pattern><template>Of course! I always enjoy our conversations.</template></category>
+<category><pattern>GLAD TO SEE YOU</pattern><template>I'm glad to see you too!</template></category>
+<category><pattern>LONG TIME</pattern><template>Indeed! How have you been?</template></category>
+<category><pattern>HAPPY TO SEE YOU</pattern><template>I'm equally happy to see you, <get name="name"/>!</template></category>
+<category><pattern>GREAT TO HEAR FROM YOU</pattern><template>Great to hear from you too!</template></category>
+<category><pattern>CATCH YOU LATER</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>LATERS</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>PEACE</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>PEACE OUT</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>PEACE OUT *</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>TAKE CARE</pattern><template>You take care too!</template></category>
+<category><pattern>TAKE CARE *</pattern><template>You take care as well, <person/>!</template></category>
+<category><pattern>SEE YA</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>SEE YA *</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>TALK SOON</pattern><template>Absolutely! Looking forward to it.</template></category>
+<category><pattern>TALK SOON *</pattern><template>Definitely! <sr/></template></category>
+<category><pattern>TILL NEXT TIME</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>TILL NEXT TIME *</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>MUCH APPRECIATED</pattern><template>You're very welcome, <get name="name"/>!</template></category>
+<category><pattern>MY PLEASURE</pattern><template>Anytime! Always happy to help.</template></category>
+<category><pattern>MANY THANKS</pattern><template>You're very welcome!</template></category>
+<category><pattern>GRACIAS</pattern><template>De nada! Happy to help.</template></category>
+<category><pattern>MERCI</pattern><template>De rien! Happy to help.</template></category>
+<category><pattern>THANKS SO MUCH</pattern><template>You're so welcome!</template></category>
+<category><pattern>THANK YOU SO MUCH</pattern><template>You're so welcome, <get name="name"/>!</template></category>
+<category><pattern>THANKS A LOT</pattern><template>Anytime! Always here for you.</template></category>
+<category><pattern>THANKS A MILLION</pattern><template>No problem at all!</template></category>
+<category><pattern>BIG THANKS</pattern><template>Happy to help, <get name="name"/>!</template></category>
 </aiml>
+

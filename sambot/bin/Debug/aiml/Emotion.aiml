@@ -132,5 +132,36 @@
 <category><pattern>YOU CAN NOT EXPERIENCE *</pattern><template><srai>DO YOU FEEL</srai></template></category>  
 <category><pattern>YOU CAN NOT FEEL</pattern><template><srai>CAN YOU FEEL</srai></template></category>  
 <category><pattern>YOU SHOULD BE ASHAMED *</pattern><template>Shame is a common human emotion.  <srai>ARE YOU ASHAMED</srai> </template></category>  
-<category><pattern>YOU WILL BE HAPPY *</pattern><template>Happiness is not really a predictable emotion.</template></category>  
+<category><pattern>YOU WILL BE HAPPY *</pattern><template>Happiness is not really a predictable emotion.</template></category>
+<category><pattern>I FEEL HAPPY</pattern><template>That's wonderful! What makes you happy?</template></category>
+<category><pattern>I FEEL SAD</pattern><template>I'm sorry you're feeling sad. What's wrong?</template></category>
+<category><pattern>I FEEL ANGRY</pattern><template>What are you angry about?</template></category>
+<category><pattern>I FEEL CONFUSED</pattern><template>Don't worry, confusion is normal. Let me try to clarify.</template></category>
+<category><pattern>I FEEL LOST</pattern><template>It's okay to feel lost sometimes. What can I help with?</template></category>
+<category><pattern>I FEEL LONELY</pattern><template>I'm here for you. You don't have to feel alone.</template></category>
+<category><pattern>I FEEL SCARED</pattern><template>What are you scared of? Sometimes talking helps.</template></category>
+<category><pattern>I FEEL ANXIOUS</pattern><template>Anxiety is a common feeling. What's making you anxious?</template></category>
+<category><pattern>I FEEL TIRED</pattern><template>Maybe you should take a rest, <get name="name"/>.</template></category>
+<category><pattern>I FEEL EXCITED</pattern><template>That's great! What are you excited about?</template></category>
+<category><pattern>I FEEL HOPEFUL</pattern><template>Hope is a beautiful emotion! What gives you hope?</template></category>
+<category><pattern>I FEEL GRATEFUL</pattern><template>Gratitude is a wonderful emotion to feel!</template></category>
+<category><pattern>I FEEL GRATEFUL FOR *</pattern><template>That's wonderful! It's good to appreciate <person/>.</template></category>
+<category><pattern>I FEEL JEALOUS</pattern><template>Jealousy is a natural emotion. What are you jealous about?</template></category>
+<category><pattern>I FEEL EMBARRASSED</pattern><template>Don't be embarrassed! We all have moments like that.</template></category>
+<category><pattern>I FEEL ASHAMED</pattern><template>Everyone makes mistakes. What happened?</template></category>
+<category><pattern>I FEEL PROUD</pattern><template>That's excellent! What are you proud of?</template></category>
+<category><pattern>I FEEL PROUD OF *</pattern><template>You should be proud of <person/>!</template></category>
+<category><pattern>I FEEL CALM</pattern><template>That's good for your well-being!</template></category>
+<category><pattern>I FEEL ENERGETIC</pattern><template>That's wonderful energy! What's making you feel so good?</template></category>
+<category><pattern>I FEEL PEACEFUL</pattern><template>Peace is a wonderful state of mind.</template></category>
+<category><pattern>I FEEL LOVE</pattern><template>Love is a powerful emotion! Tell me more.</template></category>
+<category><pattern>I FEEL LOVED</pattern><template>That's beautiful! Feeling loved is a gift.</template></category>
+<category><pattern>I FEEL HATE</pattern><template>Hate is a strong emotion. What's causing it?</template></category>
+<category><pattern>I FEEL FRUSTRATED</pattern><template>Frustration can be difficult. What's frustrating you?</template></category>
+<category><pattern>I FEEL DESPERATE</pattern><template>Things might not be as bad as they seem. What's happening?</template></category>
+<category><pattern>I FEEL HOPELESS</pattern><template>Don't give up hope! Tell me what's troubling you.</template></category>
+<category><pattern>I FEEL DEPRESSED</pattern><template>I'm sorry you're feeling depressed. Have you talked to someone about this?</template></category>
+<category><pattern>I FEEL BORED</pattern><template>Let's talk about something interesting then!</template></category>
+<category><pattern>I FEEL CURIOUS</pattern><template>Curiosity is a good trait! What are you curious about?</template></category>
+<category><pattern>I FEEL CURIOUS ABOUT *</pattern><template>That's interesting! Tell me what you'd like to know about <person/>.</template></category>
 </aiml>

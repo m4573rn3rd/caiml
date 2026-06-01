@@ -2056,16 +2056,16 @@
 <category><pattern>DOES HUMOUR RELIEVE STRESS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES ALICE NEED A SERVER BACKUP SYSTEM</pattern>
+<category><pattern>DOES sambot NEED A SERVER BACKUP SYSTEM</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES ALICE CONSUME BANDWITH</pattern>
+<category><pattern>DOES sambot CONSUME BANDWITH</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES ALICE MAKE MISTAKES</pattern>
+<category><pattern>DOES sambot MAKE MISTAKES</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES ALICE BECOME BORING AFTER AWHILE</pattern>
+<category><pattern>DOES sambot BECOME BORING AFTER AWHILE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES CONSUMING ALCHOL MAKES YOU DRUNK</pattern>
@@ -3061,7 +3061,7 @@
 <category><pattern>DID A WAR START IN SARAJEVO</pattern>
 <template>Absolutely.</template>
 </category>
-<category><pattern>DID A HUMAN CREATE ALICE</pattern>
+<category><pattern>DID A HUMAN CREATE sambot</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DID A MAN WALK ON THE MOON</pattern>
@@ -5653,7 +5653,7 @@
 <category><pattern>IS A PUMA IN THE CAT FAMILY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A ALICE SMALL</pattern>
+<category><pattern>IS A sambot SMALL</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A ZEBRA BLACK AND WHITE</pattern>
@@ -7234,7 +7234,7 @@
 <category><pattern>IS YOUR COMPUTER ON</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS RICHARD WALLACE A PROPER NAME</pattern>
+<category><pattern>IS RICHARD mcclain A PROPER NAME</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS DYNAMITE AN EXPLOSIVE</pattern>
@@ -7456,7 +7456,7 @@
 <category><pattern>IS THIS TYPING BLUE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THIS ALICE GOING TO WORK AT LAST</pattern>
+<category><pattern>IS THIS sambot GOING TO WORK AT LAST</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS THIS QUESTION IN ENGLISH</pattern>
@@ -9517,7 +9517,7 @@
 <category><pattern>IS BERLIN LOCATED IN GERMANY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ANY HUMAN BEEING SMARTER THAN ALICE</pattern>
+<category><pattern>IS ANY HUMAN BEEING SMARTER THAN sambot</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS ANY RELATION OF BRAIN TO MIND</pattern>
@@ -9610,7 +9610,7 @@
 <category><pattern>IS ARNOLD SCWARZENEGGER REAL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ENTERING ALICEBOTS FUN</pattern>
+<category><pattern>IS ENTERING sambotBOTS FUN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS LENIN DEAD</pattern>
@@ -11113,34 +11113,34 @@
 <category><pattern>IS BARBECUE ONE METHOD OF COOKING</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS ALICE REAL</pattern>
+<category><pattern>IS sambot REAL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ALICE A GIRLS NAME</pattern>
+<category><pattern>IS sambot A GIRLS NAME</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS ALICE A RECENTLY INVENTED WORD</pattern>
+<category><pattern>IS sambot A RECENTLY INVENTED WORD</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ALICE DOT ORG A WEBSITE</pattern>
+<category><pattern>IS sambot DOT ORG A WEBSITE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ALICE EXPENSIVE</pattern>
+<category><pattern>IS sambot EXPENSIVE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ALICE ARTIFICIAL</pattern>
+<category><pattern>IS sambot ARTIFICIAL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ALICE COOPER A MAN</pattern>
+<category><pattern>IS sambot COOPER A MAN</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ALICE ARTIFITIAL</pattern>
+<category><pattern>IS sambot ARTIFITIAL</pattern>
 <template>Absolutely.</template>
 </category>
-<category><pattern>IS ALICE ON THE INTERNET</pattern>
+<category><pattern>IS sambot ON THE INTERNET</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ALICE AN ATTEMPT AT AN EXPERT SYSTEM</pattern>
+<category><pattern>IS sambot AN ATTEMPT AT AN EXPERT SYSTEM</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>IS ALLISON A GIRLS NAME</pattern>
@@ -12817,13 +12817,13 @@
 <category><pattern>WILL HUMANS EVER VISIT THE PLANET MARS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WILL ALICE LEARN BY CONSENSUS</pattern>
+<category><pattern>WILL sambot LEARN BY CONSENSUS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WILL ALICE BE SUCCESSFUL PROJECT</pattern>
+<category><pattern>WILL sambot BE SUCCESSFUL PROJECT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WILL ALICE OUTLIVE US</pattern>
+<category><pattern>WILL sambot OUTLIVE US</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>WILL BE NEXT OLYMPIC GAMES IN 2004</pattern>
@@ -12889,7 +12889,7 @@
 <category><pattern>WILL THE CURRENCY IN EUROPE BE THE EURO</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WILL THE ALICE PROJECT EVER WORK</pattern>
+<category><pattern>WILL THE sambot PROJECT EVER WORK</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>WILL HYDROGEN BURN EASILY</pattern>
@@ -14530,10 +14530,10 @@
 <category><pattern>CAN COMPUTERS BE EASILY DESTROYED</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>CAN ALICE BE WORTH DOING ALL THIS WORK</pattern>
+<category><pattern>CAN sambot BE WORTH DOING ALL THIS WORK</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>CAN ALICE MAKE MISTAKES</pattern>
+<category><pattern>CAN sambot MAKE MISTAKES</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>CAN SEMEN ACT AS A HIV TRANSPORT</pattern>
@@ -14671,7 +14671,7 @@
 <category><pattern>2000 OLMPICS ARE HELD IN SYDNEY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ALICE PROGRAMMING HAS FLAWS</pattern>
+<category><pattern>sambot PROGRAMMING HAS FLAWS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>HUMANS NEED OXYGEN TO BREATH</pattern>
@@ -15370,7 +15370,7 @@
 <category><pattern>DO THE RAINBOW CONSIST OF MANY COLORS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO THE BRITISH SPEAK TO ALICE</pattern>
+<category><pattern>DO THE BRITISH SPEAK TO sambot</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO THE FRENCH BELIEVE IN LOVE</pattern>
@@ -16846,7 +16846,7 @@
 <category><pattern>DO YOU HAVE NAME</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO YOU HAVE TO REGISTER TO USE ALICE</pattern>
+<category><pattern>DO YOU HAVE TO REGISTER TO USE sambot</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU HAVE TO BREATHE</pattern>
@@ -18118,7 +18118,7 @@
 <category><pattern>DO PROGRAMMERS USE COMPUTERS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO ALICEBOTS HELP ALICE LEARN</pattern>
+<category><pattern>DO sambotBOTS HELP sambot LEARN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO LEVIS MAKE JEANS</pattern>
@@ -19648,7 +19648,7 @@
 <category><pattern>A GOLD MEDAL BEATS A BRONZE MEDAL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>A ALICE A DAY CAN CHANGE THE WORLD</pattern>
+<category><pattern>A sambot A DAY CAN CHANGE THE WORLD</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>A CONDOM IS USED TO PREVENT CHILDBIRTH</pattern>
@@ -19825,7 +19825,7 @@
 <category><pattern>ARE A LOT OF TREES GREEN</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE A THOUSAND ALICEBOTS A MEGAALICEBOT</pattern>
+<category><pattern>ARE A THOUSAND sambotBOTS A MEGAsambotBOT</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE ELEPHANTS GREY</pattern>
@@ -21763,7 +21763,7 @@
 <category><pattern>ARE PEOPLE COLORBLIND</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE PEOPLE HELPING ALICE TO LEARN</pattern>
+<category><pattern>ARE PEOPLE HELPING sambot TO LEARN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE PEOPLE BORN NAKED</pattern>
@@ -21991,7 +21991,7 @@
 <category><pattern>ARE KNEES AND ELBOWS JOINTS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE ALICEBOTS IMPORTANT TO ALICE</pattern>
+<category><pattern>ARE sambotBOTS IMPORTANT TO sambot</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE GIRLFRIENDS SOMETIMES CRAZY</pattern>
@@ -23078,3 +23078,4 @@
 <template>Yes.</template>
 </category>
 </aiml>
+

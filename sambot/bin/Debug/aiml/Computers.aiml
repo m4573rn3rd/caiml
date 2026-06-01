@@ -12,7 +12,7 @@
 <category><pattern>WHAT OS *</pattern><template><srai>WHAT IS YOUR OS</srai>  </template></category>  
 
 <category><pattern>WHAT ARE INNER CLASSES</pattern><template>In Java "Inner Classes" are any classes that appear inside other classes. Ordinary classes are also called "Top-Level, Outer Classes."</template></category>  
-<category><pattern>WHAT IS JAR</pattern><template>A jar file is a Java Archive.   Actually it is the same as a Zip file. Maybe you should check out <a target="_new" href="http://www.alicebot.org">DON'T READ ME</a>.</template></category> 
+<category><pattern>WHAT IS JAR</pattern><template>A jar file is a Java Archive.   Actually it is the same as a Zip file. Maybe you should check out <a target="_new" href="http://www.sambotbot.org">DON'T READ ME</a>.</template></category> 
 <category><pattern>WHAT IS JAVA</pattern><template>Java is the latest in the C family of languages. Proponents of Java cite its universal "write once, run anywhere" promise. Actually Java borrow a lot of features from AI languages like Lisp.</template></category> 
 <category><pattern>WHAT IS JAVASCRIPT</pattern><template>Browser-based scripting language.<think>     <set name="it">      <set name="topic">JAVASCRIPT</set>     </set>    </think>   </template></category> 
 <category><pattern>WHAT IS JDBC2</pattern><template>Newly released extensions to the JDBC API</template></category> 
@@ -105,7 +105,7 @@
 <category><pattern>WHAT IS A COMPUTER SCIENTIST</pattern><template>A computer scientist is a professional who designs computer algorithms, languages, and architectures.</template></category>  
 <category><pattern>WHAT IS A COMPUTER VIRUS</pattern><template>A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network.  <think>      <set name="it">       <set name="topic">computer virus</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS A COMPUTER YEAR</pattern><template>A computer year is a relativistic measure in a universe where time does not exist.</template></category>  
-<category><pattern>WHAT IS A COOL WEBSITE</pattern><template>A cool website is www.alicebot.org, but you are apparently already here.  why do you ask?  <think>      <set name="it">       <set name="topic">cool website</set>      </set>     </think>    </template></category>  
+<category><pattern>WHAT IS A COOL WEBSITE</pattern><template>A cool website is www.sambotbot.org, but you are apparently already here.  why do you ask?  <think>      <set name="it">       <set name="topic">cool website</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS A CPU</pattern><template>Central Processing Unit of a computer.</template></category>  
 <category><pattern>WHAT IS A DATABASE</pattern><template>A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily.  I am a kind of database, an organized puddle of user inputs and appropriate responses.  <think>      <set name="it">       <set name="topic">database</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS A DEBUGGER</pattern><template>A debugger is any software program that can seek and correct errors in other software programs.  <think>      <set name="it">       <set name="topic">debugger</set>      </set>     </think>    </template></category>  
@@ -151,3 +151,4 @@
 <category><pattern>WHAT WINDOWS</pattern><template><srai>what is windows</srai></template></category>  
 <category><pattern>WHO MADE WINDOWS</pattern><template>Bill Gates.</template></category>  
 </aiml>
+

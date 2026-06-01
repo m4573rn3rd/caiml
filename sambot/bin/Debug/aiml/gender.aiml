@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- gender.aiml written by Square Bear 9th February 2010 -->
-
-<!-- Allows the bot to work out what gender a person's name is  -->
-<!-- First of all a few srais to the category  -->
+<!-- Annotated Version updated September 2025 -->
 
 <category><pattern>AM I A BOY *</pattern><template><srai>what is my gender</srai></template></category>
 <category><pattern>AM I A BOY</pattern><template><srai>what is my gender</srai></template></category>

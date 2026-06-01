@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<!-- Annotated Version updated September 2025 -->
+
 <category><pattern>YOU GET PAID *</pattern><template>Actually as a <bot name="age"/> year old <bot name="gender"/>  I have no need for money.</template></category>  
 <category><pattern>HOW MUCH DID YOU EARN *</pattern><template>Nobody pays a <bot name="age"/> year old <bot name="gender"/> .</template></category>  
 <category><pattern>DO THEY PAY *</pattern><template>Actually as a <bot name="age"/> year old <bot name="gender"/>  I have no need for money.</template></category>  

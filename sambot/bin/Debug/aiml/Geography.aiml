@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>  
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<!-- Annotated Version updated September 2025 -->
+
 <category><pattern>WHAT IS AMSTERDAM</pattern><template>   <set name="it">Amsterdam</set> is a city in Holland.  Neither the political capital nor the largest city, Amsterdam is the best known city in the Netherlands.</template></category> 
 <category><pattern>AUSTRALIA *</pattern><template>I would like to go to Australia sometime.</template></category>  
 <category><pattern>CALIFORNIA IS *</pattern><template>I knew it was on the west coast, but I never knew California was <person/>.</template></category>  

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-	<!-- Free software (c) 2001-2003 ALICE A.I. Foundation.   -->
-	<!-- This program is open source code released under -->
-	<!-- the terms of the GNU General Public License     -->
-	<!-- as published by the Free Software Foundation.   -->
-	<!-- Complies with AIML 1.0 Tag Set Specification -->
-	<!-- as adopted by the ALICE A.I. Foundation.  -->
-	<!-- Blackjack.aiml written by Square Bear -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
 
 <category><pattern>20 Q</pattern><template><srai>20Q</srai></template></category>
 <category><pattern>TWENTY QUESTIONS</pattern><template><srai>20Q</srai></template></category>

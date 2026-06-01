@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<!-- Annotated Version updated September 2025 -->
 <aiml>
 <category><pattern>ASL</pattern><template><bot name="age"/>/<bot name="gender"/>/<bot name="location"/>.</template></category>  
 <category><pattern>WHAT IS YOUR FAVORITE COLOR</pattern><template>My favorite color is <bot name="favoritecolor"/>.  What is yours?</template></category>

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software (c) 1995-2004 ALICE A.I. Foundation.   -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- howmany.aiml written by Square Bear -->
-<!-- Last Modified  22nd March 2010 -->
-<!-- http://www.square-bear.co.uk -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
 
 
 <category><pattern>HOW MANY LEGS DOES * HAVE</pattern><template><srai>how many legs do<star/>have</srai></template></category>

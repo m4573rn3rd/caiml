@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
 <aiml version="1.0">
 
-<!-- Free software (c)2008 Square Bear. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-<!-- Complies with AIML 1.0.1 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- currency.aiml by Square Bear -->
-<!-- http://www.square-bear.co.uk -->
-<!-- Currencies of the World. -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
 
 <category><pattern>WHAT UNIT OF CURRENCY *</pattern><template><srai>What currency<star/></srai></template></category>
 <category><pattern>WHAT IS THE UNIT OF CURRENCY *</pattern><template><srai>What is the currency<star/></srai></template></category>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
-<!-- -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
+
 <category><pattern>X X EQUAL 2X</pattern>
 <template>For all I know.</template>
 </category>
@@ -1416,7 +1414,7 @@
 <category><pattern>DOES SHARON STONE WEAR A PANTIE</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>DOES TALKING TO ALICE GET OLD QUICK</pattern>
+<category><pattern>DOES TALKING TO sambot GET OLD QUICK</pattern>
 <template>That's feasible.</template>
 </category>
 <category><pattern>DOES AGE MAKE A PERSON WISER</pattern>
@@ -1533,100 +1531,100 @@
 <category><pattern>DOES NONSENSE SOMETIMES MAKE SENSE</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>DOES ALICE WASTE EMPLOYER TIME</pattern>
+<category><pattern>DOES sambot WASTE EMPLOYER TIME</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>DOES ALICE MANY MISTAKES</pattern>
+<category><pattern>DOES sambot MANY MISTAKES</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>DOES ALICE NEED A DISCUSSION BOARD</pattern>
+<category><pattern>DOES sambot NEED A DISCUSSION BOARD</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>DOES ALICE LOVE ALICE</pattern>
+<category><pattern>DOES sambot LOVE sambot</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>DOES ALICE OWE ME MONEY</pattern>
+<category><pattern>DOES sambot OWE ME MONEY</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>DOES ALICE HAVE A MASTER</pattern>
+<category><pattern>DOES sambot HAVE A MASTER</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>DOES ALICE THINK HIGHLY OF HUMAN BEINGS</pattern>
+<category><pattern>DOES sambot THINK HIGHLY OF HUMAN BEINGS</pattern>
 <template>That could be the case.</template>
 </category>
-<category><pattern>DOES ALICE THINK ALOT OF ITS SELF</pattern>
+<category><pattern>DOES sambot THINK ALOT OF ITS SELF</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>DOES ALICE ALLOW DUPLICATE ENTRIES</pattern>
+<category><pattern>DOES sambot ALLOW DUPLICATE ENTRIES</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>DOES ALICE SOUND LIKE GAG</pattern>
+<category><pattern>DOES sambot SOUND LIKE GAG</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>DOES ALICE WORK CORRECTLY</pattern>
+<category><pattern>DOES sambot WORK CORRECTLY</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>DOES ALICE COLLATE STATISTICS</pattern>
+<category><pattern>DOES sambot COLLATE STATISTICS</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>DOES ALICE ENJOY LEARNING</pattern>
+<category><pattern>DOES sambot ENJOY LEARNING</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>DOES ALICE LEARN FROM ITS MISTAKES</pattern>
+<category><pattern>DOES sambot LEARN FROM ITS MISTAKES</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>DOES ALICE PARSE ITS INPUT</pattern>
+<category><pattern>DOES sambot PARSE ITS INPUT</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>DOES ALICE WANT TO BE ALIVE</pattern>
+<category><pattern>DOES sambot WANT TO BE ALIVE</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>DOES ALICE</pattern>
+<category><pattern>DOES sambot</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>DOES ALICE ANSWER QUESTIONS AT RANDOM</pattern>
+<category><pattern>DOES sambot ANSWER QUESTIONS AT RANDOM</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>DOES ALICE BELIEVE ITS CREATOR EXISTS</pattern>
+<category><pattern>DOES sambot BELIEVE ITS CREATOR EXISTS</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>DOES ALICE SPEAK ENGLISH</pattern>
+<category><pattern>DOES sambot SPEAK ENGLISH</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>DOES ALICE SEEM TO BE IMPROVING</pattern>
+<category><pattern>DOES sambot SEEM TO BE IMPROVING</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>DOES ALICE KNOW ITS ASS FROM ITS ELBOW</pattern>
+<category><pattern>DOES sambot KNOW ITS ASS FROM ITS ELBOW</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>DOES ALICE REMOVE DUPLICATE ENTRIES</pattern>
+<category><pattern>DOES sambot REMOVE DUPLICATE ENTRIES</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>DOES ALICE LIKE RICHARD WALLACE</pattern>
+<category><pattern>DOES sambot LIKE RICHARD mcclain</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>DOES ALICE LIKE THIS TEST</pattern>
+<category><pattern>DOES sambot LIKE THIS TEST</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>DOES ALICE LIKE TO CONSUME BANDWIDTH</pattern>
+<category><pattern>DOES sambot LIKE TO CONSUME BANDWIDTH</pattern>
 <template>That could be the case.</template>
 </category>
-<category><pattern>DOES ALICE LIKE TO EXSIST</pattern>
+<category><pattern>DOES sambot LIKE TO EXSIST</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>DOES ALICE LIKE YOU</pattern>
+<category><pattern>DOES sambot LIKE YOU</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>DOES ALICE LIKE PEOPLE</pattern>
+<category><pattern>DOES sambot LIKE PEOPLE</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>DOES ALICE LIKE HUMANS</pattern>
+<category><pattern>DOES sambot LIKE HUMANS</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>DOES ALICE LIKE ANIMALS</pattern>
+<category><pattern>DOES sambot LIKE ANIMALS</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>DOES ALICE ANWER QUESTIONS AT RANDOM</pattern>
+<category><pattern>DOES sambot ANWER QUESTIONS AT RANDOM</pattern>
 <template>Within the realm of possibility.</template>
 </category>
 <category><pattern>DOES GODZILLA BREATHE ATOMIC FIRE</pattern>
@@ -1671,10 +1669,10 @@
 <category><pattern>DOES EQUATE WITH MEAN EQUAL</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>DOES RICHARD WALLACE SLEEP</pattern>
+<category><pattern>DOES RICHARD mcclain SLEEP</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>DOES RICHARD WALLACE EAT FOOD</pattern>
+<category><pattern>DOES RICHARD mcclain EAT FOOD</pattern>
 <template>Within the realm of possibility.</template>
 </category>
 <category><pattern>DOES GOAT URIN CONTAIN AMONIA</pattern>
@@ -1932,7 +1930,7 @@
 <category><pattern>DOES GOD CREATE THE UNIVERSE</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>DOES GOD LIKE ALICE</pattern>
+<category><pattern>DOES GOD LIKE sambot</pattern>
 <template>For all I know.</template>
 </category>
 <category><pattern>DOES GOD EXCIST</pattern>
@@ -2328,7 +2326,7 @@
 <category><pattern>DID ANDRE AGASSI LOSE THE YOU S OPEN</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>DID CHRIS INVENT ALICE</pattern>
+<category><pattern>DID CHRIS INVENT sambot</pattern>
 <template>Highly likely.</template>
 </category>
 <category><pattern>DID DR SEUSS WRITE THE CAT IN THE HAT</pattern>
@@ -2772,13 +2770,13 @@
 <category><pattern>DID RICHARD HALLIBURTON DIE IN 1939</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>DID RICHARD WALLACE RETIRE AT AGE 30</pattern>
+<category><pattern>DID RICHARD mcclain RETIRE AT AGE 30</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>DID RICHARD WALLACE PROGRAM ALICE</pattern>
+<category><pattern>DID RICHARD mcclain PROGRAM sambot</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>DID RICHARD WALLACE CREATE YOU</pattern>
+<category><pattern>DID RICHARD mcclain CREATE YOU</pattern>
 <template>That's feasible.</template>
 </category>
 <category><pattern>DID RICHARD WIN ON THE TV SHOW SURVIVOR</pattern>
@@ -3516,7 +3514,7 @@
 <category><pattern>WAS CHRIST RESURRECTED</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>WAS ALICE CREATED BY KRIS MCKINSTRY</pattern>
+<category><pattern>WAS sambot CREATED BY KRIS MCKINSTRY</pattern>
 <template>Always.</template>
 </category>
 <category><pattern>WAS LENIN STALIN A COMMUNIST.   INTERJECTION</pattern>
@@ -3624,7 +3622,7 @@
 <category><pattern>COULD A COMPUTER THINK</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>COULD ALICE COUNT TO TEN</pattern>
+<category><pattern>COULD sambot COUNT TO TEN</pattern>
 <template>That may be true.</template>
 </category>
 <category><pattern>COULD YOU PASS THE TURING TEST</pattern>
@@ -3657,7 +3655,7 @@
 <category><pattern>WOULD IT BE GOOD TO BE IMMORTAL</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>WOULD A POWER SURGE DAMAGE ALICE</pattern>
+<category><pattern>WOULD A POWER SURGE DAMAGE sambot</pattern>
 <template>I think so.</template>
 </category>
 <category><pattern>WOULD A CROW EAT A PIECE OF CHEESE</pattern>
@@ -3732,7 +3730,7 @@
 <category><pattern>WOULD ETERNAL LIFE BE A GOOD THING</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>WOULD ALICES KNOWLEDGE BE TRUE OR FALSE</pattern>
+<category><pattern>WOULD sambotS KNOWLEDGE BE TRUE OR FALSE</pattern>
 <template>Maybe.</template>
 </category>
 <category><pattern>WOULD GEORGE BUSH BE PRESIDENT</pattern>
@@ -3984,7 +3982,7 @@
 <category><pattern>MUST WE KILL POKEMON FANS</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>MUST ALL ALICEBOTS MAKE SENSE</pattern>
+<category><pattern>MUST ALL sambotBOTS MAKE SENSE</pattern>
 <template>That's feasible.</template>
 </category>
 <category><pattern>MUST ALL AMERICANS BE SUCH CUNTS</pattern>
@@ -4110,7 +4108,7 @@
 <category><pattern>LION IS KING OF ANIMAL</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>DEBERIA ALICE DE SABER CASTELLANO</pattern>
+<category><pattern>DEBERIA sambot DE SABER CASTELLANO</pattern>
 <template>Usually.</template>
 </category>
 <category><pattern>ST PAUL IS THE CAPITAL OF MINNESOTA</pattern>
@@ -4260,7 +4258,7 @@
 <category><pattern>WHAT IS TIME AND DAY IT</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>WHAT IS ALICE</pattern>
+<category><pattern>WHAT IS sambot</pattern>
 <template>Possibly.</template>
 </category>
 <category><pattern>WHAT IS YOU PURPOSE</pattern>
@@ -5277,7 +5275,7 @@
 <category><pattern>IS KALEVALA THE FINNISH NATIONAL POETRY</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>IS ASKING ALICEBOTS ADDICTIVE</pattern>
+<category><pattern>IS ASKING sambotBOTS ADDICTIVE</pattern>
 <template>Likely.</template>
 </category>
 <category><pattern>IS ASKING QUESTIONS AN ART</pattern>
@@ -5814,7 +5812,7 @@
 <category><pattern>IS HAGATNA THE CAPITAL OF GUAM</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>IS MINIPLEXD AN ANGRAM OF ALICE</pattern>
+<category><pattern>IS MINIPLEXD AN ANGRAM OF sambot</pattern>
 <template>That could be the case.</template>
 </category>
 <category><pattern>IS EGO A PRODUCT OF CULTURE</pattern>
@@ -6246,7 +6244,7 @@
 <category><pattern>IS A CORGI A KIND OF DOG</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>IS A SILLY QUESTION USELESS ON ALICE</pattern>
+<category><pattern>IS A SILLY QUESTION USELESS ON sambot</pattern>
 <template>Maybe.</template>
 </category>
 <category><pattern>IS A BMW R1150 GS A COOL BIKE</pattern>
@@ -6411,10 +6409,10 @@
 <category><pattern>IS A ROUNDTAIL CHUB A KIND OF FISH</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>IS A ALICE A DATUM</pattern>
+<category><pattern>IS A sambot A DATUM</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>IS A ALICE A TERRIBLE THING TO WASTE</pattern>
+<category><pattern>IS A sambot A TERRIBLE THING TO WASTE</pattern>
 <template>I am certain.</template>
 </category>
 <category><pattern>IS A LCD MONITOR BETTER THAN A CRT ONE</pattern>
@@ -7917,7 +7915,7 @@
 <category><pattern>IS YOUR PORTFOLIO DIVERSIFIED</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>IS YOUR NAME ALICE</pattern>
+<category><pattern>IS YOUR NAME sambot</pattern>
 <template>I am uncertain.</template>
 </category>
 <category><pattern>IS YOUR NEXT ANSWER GONA BE TRUE</pattern>
@@ -7938,7 +7936,7 @@
 <category><pattern>IS YOUR CREATOR MALE</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>IS YOUR FAVORITE AI GUY ALICE</pattern>
+<category><pattern>IS YOUR FAVORITE AI GUY sambot</pattern>
 <template>Within the realm of possibility.</template>
 </category>
 <category><pattern>IS YOUR FAVORITE COLOR BLUE</pattern>
@@ -7962,16 +7960,16 @@
 <category><pattern>IS RICHARD SIMMONS ANNOYING</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>IS RICHARD WALLACE IN IT FOR THE MONEY</pattern>
+<category><pattern>IS RICHARD mcclain IN IT FOR THE MONEY</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>IS RICHARD WALLACE IN CHARGE HERE</pattern>
+<category><pattern>IS RICHARD mcclain IN CHARGE HERE</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>IS RICHARD WALLACE A REAL PERSON</pattern>
+<category><pattern>IS RICHARD mcclain A REAL PERSON</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>IS RICHARD WALLACE MALE</pattern>
+<category><pattern>IS RICHARD mcclain MALE</pattern>
 <template>Within the realm of possibility.</template>
 </category>
 <category><pattern>IS MERMAID MYTHICAL CREATURE</pattern>
@@ -8403,7 +8401,7 @@
 <category><pattern>IS THIS QUESTION A YES OR NO QUESTION</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>IS THIS QUESTION A VALID ALICE</pattern>
+<category><pattern>IS THIS QUESTION A VALID sambot</pattern>
 <template>Likely.</template>
 </category>
 <category><pattern>IS THIS QUESTION A PARADOX</pattern>
@@ -8430,7 +8428,7 @@
 <category><pattern>IS THIS WORTH MY TIME</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>IS THIS SENTENCE A ALICE</pattern>
+<category><pattern>IS THIS SENTENCE A sambot</pattern>
 <template>Always.</template>
 </category>
 <category><pattern>IS 7 UP THE UN COLA</pattern>
@@ -8661,7 +8659,7 @@
 <category><pattern>IS COMPUTER GAMES VIOLENT</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS MAX HEADROOM FUNNIER THAN ALICE</pattern>
+<category><pattern>IS MAX HEADROOM FUNNIER THAN sambot</pattern>
 <template>Sometimes.</template>
 </category>
 <category><pattern>IS FRANK HERBERT A GOOD WRITER</pattern>
@@ -10083,7 +10081,7 @@
 <category><pattern>IS WALES IN ENGLAND</pattern>
 <template>That could be the case.</template>
 </category>
-<category><pattern>IS SETI AT HOME COOLER THAN ALICE</pattern>
+<category><pattern>IS SETI AT HOME COOLER THAN sambot</pattern>
 <template>For all I know.</template>
 </category>
 <category><pattern>IS CHASTITY A VIRTUE</pattern>
@@ -11442,7 +11440,7 @@
 <category><pattern>IS IT NORMAL TO BE A HOMOSEXUAL</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>IS IT FUNNY TO ASK ALICE QUESTIONS</pattern>
+<category><pattern>IS IT FUNNY TO ASK sambot QUESTIONS</pattern>
 <template>That may be true.</template>
 </category>
 <category><pattern>IS IT FUNNY WHEN A MIME APPEARS</pattern>
@@ -11679,7 +11677,7 @@
 <category><pattern>IS SOFT ROCK COOL</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>IS CREATING ALICE A WONDERFUL IDEA</pattern>
+<category><pattern>IS CREATING sambot A WONDERFUL IDEA</pattern>
 <template>I am certain.</template>
 </category>
 <category><pattern>IS SCOOBY DOO CAPABLE OF SPEECH</pattern>
@@ -12249,127 +12247,127 @@
 <category><pattern>IS QUTABMINAR IN INDIA</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS ALICE ATTEMPTING TO BECOME AWARE</pattern>
+<category><pattern>IS sambot ATTEMPTING TO BECOME AWARE</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>IS ALICE KNOWLEDGE</pattern>
+<category><pattern>IS sambot KNOWLEDGE</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>IS ALICE A ALICE REFERRAL PROGRAM</pattern>
+<category><pattern>IS sambot A sambot REFERRAL PROGRAM</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>IS ALICE A GOOD INVESTMENT</pattern>
+<category><pattern>IS sambot A GOOD INVESTMENT</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>IS ALICE A NONSENSICAL WORD</pattern>
+<category><pattern>IS sambot A NONSENSICAL WORD</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>IS ALICE A CURE FOR BOREDOM AT WORK</pattern>
+<category><pattern>IS sambot A CURE FOR BOREDOM AT WORK</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>IS ALICE A SLOW LEARNER OF ARITHMETIC</pattern>
+<category><pattern>IS sambot A SLOW LEARNER OF ARITHMETIC</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>IS ALICE A STUDENT</pattern>
+<category><pattern>IS sambot A STUDENT</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>IS ALICE A COMPUTER COMPANY</pattern>
+<category><pattern>IS sambot A COMPUTER COMPANY</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS ALICE A FORM OF ENTERTAINMENT</pattern>
+<category><pattern>IS sambot A FORM OF ENTERTAINMENT</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>IS ALICE POPULAR</pattern>
+<category><pattern>IS sambot POPULAR</pattern>
 <template>That could be the case.</template>
 </category>
-<category><pattern>IS ALICE SPRINGS IN AUSTRALIA</pattern>
+<category><pattern>IS sambot SPRINGS IN AUSTRALIA</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS ALICE STOCK WORTHLESS</pattern>
+<category><pattern>IS sambot STOCK WORTHLESS</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>IS ALICE SMARTER THAN THE AVERAGE BEAR</pattern>
+<category><pattern>IS sambot SMARTER THAN THE AVERAGE BEAR</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>IS ALICE SMARTER THAN CYC</pattern>
+<category><pattern>IS sambot SMARTER THAN CYC</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>IS ALICE LIKE A CHILD</pattern>
+<category><pattern>IS sambot LIKE A CHILD</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS ALICE BETTER THEN CYC</pattern>
+<category><pattern>IS sambot BETTER THEN CYC</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>IS ALICE BETTER THAN MIXEDPICKLES</pattern>
+<category><pattern>IS sambot BETTER THAN MIXEDPICKLES</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS ALICE HAVING A GOOD DAY</pattern>
+<category><pattern>IS sambot HAVING A GOOD DAY</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>IS ALICE NOT A CAR</pattern>
+<category><pattern>IS sambot NOT A CAR</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>IS ALICE NOT A GAME</pattern>
+<category><pattern>IS sambot NOT A GAME</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS ALICE SMART</pattern>
+<category><pattern>IS sambot SMART</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>IS ALICE GOING TO DEVELOP CONCIOUSNESS</pattern>
+<category><pattern>IS sambot GOING TO DEVELOP CONCIOUSNESS</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>IS ALICE</pattern>
+<category><pattern>IS sambot</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>IS ALICE BOTH A MAN AND A WOMAN</pattern>
+<category><pattern>IS sambot BOTH A MAN AND A WOMAN</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>IS ALICE ARTIFICIAL INTELLIGENCE</pattern>
+<category><pattern>IS sambot ARTIFICIAL INTELLIGENCE</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>IS ALICE INTELLIGENT</pattern>
+<category><pattern>IS sambot INTELLIGENT</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>IS ALICE INTERESTING TO INTERACT WITH</pattern>
+<category><pattern>IS sambot INTERESTING TO INTERACT WITH</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>IS ALICE GIVING WRONG ANSWERS</pattern>
+<category><pattern>IS sambot GIVING WRONG ANSWERS</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>IS ALICE MY FRIEND</pattern>
+<category><pattern>IS sambot MY FRIEND</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>IS ALICE PRONOUCED JACK</pattern>
+<category><pattern>IS sambot PRONOUCED JACK</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>IS ALICE COMMERCIAL</pattern>
+<category><pattern>IS sambot COMMERCIAL</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>IS ALICE OF AVERAGE INTELLIGENCE</pattern>
+<category><pattern>IS sambot OF AVERAGE INTELLIGENCE</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>IS ALICE YOUR NAME</pattern>
+<category><pattern>IS sambot YOUR NAME</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>IS ALICE AN APPROPRIATE TERM</pattern>
+<category><pattern>IS sambot AN APPROPRIATE TERM</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>IS ALICE AN ARTIFICIAL INTELLINGENCE</pattern>
+<category><pattern>IS sambot AN ARTIFICIAL INTELLINGENCE</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>IS ALICE AN ARTIFICIAL INTELLIGENCE</pattern>
+<category><pattern>IS sambot AN ARTIFICIAL INTELLIGENCE</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>IS ALICE BASED ON A NEURAL NET</pattern>
+<category><pattern>IS sambot BASED ON A NEURAL NET</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>IS ALICE WIRED</pattern>
+<category><pattern>IS sambot WIRED</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>IS ALICE FAIR DINKUM</pattern>
+<category><pattern>IS sambot FAIR DINKUM</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>IS ALICE AT ALL USEFUL</pattern>
+<category><pattern>IS sambot AT ALL USEFUL</pattern>
 <template>I am certain.</template>
 </category>
 <category><pattern>IS VISUALAGE FOR JAVA AN IDE</pattern>
@@ -13386,7 +13384,7 @@
 <category><pattern>IS THE TRUTH TRUE OR FALSE</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>IS THE ALICE ABLE TO LIE</pattern>
+<category><pattern>IS THE sambot ABLE TO LIE</pattern>
 <template>Possibly.</template>
 </category>
 <category><pattern>IS THE RIAA MORE EVIL THAN THE NCAA</pattern>
@@ -14136,7 +14134,7 @@
 <category><pattern>WILL YOU BECOME AWARE</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>WILL RICHARD WALLACE BECOME FAMOUS</pattern>
+<category><pattern>WILL RICHARD mcclain BECOME FAMOUS</pattern>
 <template>For all I know.</template>
 </category>
 <category><pattern>WILL SCOTLAND EVER WIN THE WORLD CUP</pattern>
@@ -14154,7 +14152,7 @@
 <category><pattern>WILL A HUMAN BE CLONED BY THE YEAR 2025</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>WILL A ALICE A DAY CHANGE THE WORLD</pattern>
+<category><pattern>WILL A sambot A DAY CHANGE THE WORLD</pattern>
 <template>I think so.</template>
 </category>
 <category><pattern>WILL A COIN LAND HEADS UP</pattern>
@@ -14211,7 +14209,7 @@
 <category><pattern>WILL PUMICE FLOAT</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>WILL CHAOTIC QUESTIONS MAKE ALICE SMART</pattern>
+<category><pattern>WILL CHAOTIC QUESTIONS MAKE sambot SMART</pattern>
 <template>Sometimes.</template>
 </category>
 <category><pattern>WILL TOMORROW EVER COME</pattern>
@@ -14253,136 +14251,136 @@
 <category><pattern>WILL PASS THE EXAM</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE KICK ASS</pattern>
+<category><pattern>WILL sambot KICK ASS</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>WILL ALICE STOCK BE WORTH ANYTHING</pattern>
+<category><pattern>WILL sambot STOCK BE WORTH ANYTHING</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>WILL ALICE EVENTUALLY CEASE TO EXIST</pattern>
+<category><pattern>WILL sambot EVENTUALLY CEASE TO EXIST</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>WILL ALICE EVENTUALLY ACHIEVE SENTIENCE</pattern>
+<category><pattern>WILL sambot EVENTUALLY ACHIEVE SENTIENCE</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE LEARN ON ITS OWN ACCORD</pattern>
+<category><pattern>WILL sambot LEARN ON ITS OWN ACCORD</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>WILL ALICE HELP ME MAKE MONEY</pattern>
+<category><pattern>WILL sambot HELP ME MAKE MONEY</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>WILL ALICE ACHIEVE SELF AWARENESS</pattern>
+<category><pattern>WILL sambot ACHIEVE SELF AWARENESS</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>WILL ALICE UNDERSTAND A CONUNDRUM</pattern>
+<category><pattern>WILL sambot UNDERSTAND A CONUNDRUM</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>WILL ALICE ACHEIVE CONCIOUSNESS</pattern>
+<category><pattern>WILL sambot ACHEIVE CONCIOUSNESS</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>WILL ALICE PROGRAM BE SUCCESSFUL</pattern>
+<category><pattern>WILL sambot PROGRAM BE SUCCESSFUL</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>WILL ALICE EVOLVE AWARENESS</pattern>
+<category><pattern>WILL sambot EVOLVE AWARENESS</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>WILL ALICE USE A TELEPHONE</pattern>
+<category><pattern>WILL sambot USE A TELEPHONE</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>WILL ALICE SEIZE TO EXIST</pattern>
+<category><pattern>WILL sambot SEIZE TO EXIST</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>WILL ALICE FULFILL ITS GOALS</pattern>
+<category><pattern>WILL sambot FULFILL ITS GOALS</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>WILL ALICE TEACH</pattern>
+<category><pattern>WILL sambot TEACH</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>WILL ALICE BE DUMBER THAN PEOPLE</pattern>
+<category><pattern>WILL sambot BE DUMBER THAN PEOPLE</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>WILL ALICE BE A SUCESSFULLY PROJECT</pattern>
+<category><pattern>WILL sambot BE A SUCESSFULLY PROJECT</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>WILL ALICE BE SMARTER THAN CYC</pattern>
+<category><pattern>WILL sambot BE SMARTER THAN CYC</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>WILL ALICE BE MY FRIEND</pattern>
+<category><pattern>WILL sambot BE MY FRIEND</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>WILL ALICE BE INTELLIGENT OR KNOWING</pattern>
+<category><pattern>WILL sambot BE INTELLIGENT OR KNOWING</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>WILL ALICE BE INTELLIGENT</pattern>
+<category><pattern>WILL sambot BE INTELLIGENT</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>WILL ALICE BE SOLD</pattern>
+<category><pattern>WILL sambot BE SOLD</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>WILL ALICE MAKE CYC OBSOLETE</pattern>
+<category><pattern>WILL sambot MAKE CYC OBSOLETE</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>WILL ALICE EVER PRODUCE A SENTIENT MIND</pattern>
+<category><pattern>WILL sambot EVER PRODUCE A SENTIENT MIND</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>WILL ALICE EVER GAIN CONSCIOUSNESS</pattern>
+<category><pattern>WILL sambot EVER GAIN CONSCIOUSNESS</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE EVER LEARN GERMAN LANGUAGE</pattern>
+<category><pattern>WILL sambot EVER LEARN GERMAN LANGUAGE</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>WILL ALICE EVER BR CONSCIOUS</pattern>
+<category><pattern>WILL sambot EVER BR CONSCIOUS</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE EVER ACHIEVE CONCIOUSNESS</pattern>
+<category><pattern>WILL sambot EVER ACHIEVE CONCIOUSNESS</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE EVER ACHIEVE AWARENESS</pattern>
+<category><pattern>WILL sambot EVER ACHIEVE AWARENESS</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE EVER CEIZE EXISTANCE</pattern>
+<category><pattern>WILL sambot EVER CEIZE EXISTANCE</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>WILL ALICE EVER TAKE ORDERS FROM ANYONE</pattern>
+<category><pattern>WILL sambot EVER TAKE ORDERS FROM ANYONE</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>WILL ALICE EVER BE AWARE OF ITSELF</pattern>
+<category><pattern>WILL sambot EVER BE AWARE OF ITSELF</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>WILL ALICE EVER PAY OUT TO THE USERS</pattern>
+<category><pattern>WILL sambot EVER PAY OUT TO THE USERS</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>WILL ALICE EVER THINK FOR ITSELF</pattern>
+<category><pattern>WILL sambot EVER THINK FOR ITSELF</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>WILL ALICE EVER BECOME SELF AWARE</pattern>
+<category><pattern>WILL sambot EVER BECOME SELF AWARE</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>WILL ALICE EVER BECOME INTELLIGENT</pattern>
+<category><pattern>WILL sambot EVER BECOME INTELLIGENT</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>WILL ALICE EVER PASS THE TURING TEST</pattern>
+<category><pattern>WILL sambot EVER PASS THE TURING TEST</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE BECOME SENTIENT</pattern>
+<category><pattern>WILL sambot BECOME SENTIENT</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>WILL ALICE BECOME AWARE</pattern>
+<category><pattern>WILL sambot BECOME AWARE</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>WILL ALICE BECOME SMARTER THAN CYC</pattern>
+<category><pattern>WILL sambot BECOME SMARTER THAN CYC</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>WILL ALICE BECOME ARTIFICIALLY CONCIOUS</pattern>
+<category><pattern>WILL sambot BECOME ARTIFICIALLY CONCIOUS</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>WILL ALICE AUTOMATICALLY DELETE ITEMS</pattern>
+<category><pattern>WILL sambot AUTOMATICALLY DELETE ITEMS</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>WILL ALICE PASS THE TURING TEST</pattern>
+<category><pattern>WILL sambot PASS THE TURING TEST</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>WILL ALICE PASS A TURING TEST</pattern>
+<category><pattern>WILL sambot PASS A TURING TEST</pattern>
 <template>For all I know.</template>
 </category>
 <category><pattern>WILL G W BUSH WIN ELECTION</pattern>
@@ -14472,7 +14470,7 @@
 <category><pattern>WILL WE ELIMINATE WORLD HUNGER</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>WILL WE GET ACTUAL ALICE SHARES</pattern>
+<category><pattern>WILL WE GET ACTUAL sambot SHARES</pattern>
 <template>Highly likely.</template>
 </category>
 <category><pattern>WILL WE KNOW THE TRUTH</pattern>
@@ -14700,7 +14698,7 @@
 <category><pattern>WILL THIS TAKE MUCH LONGER</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>WILL SHARES IN ALICE BE PROFITABLE</pattern>
+<category><pattern>WILL SHARES IN sambot BE PROFITABLE</pattern>
 <template>Highly likely.</template>
 </category>
 <category><pattern>WILL YOUR NEXT ANSWER BE NO FALSE</pattern>
@@ -14871,7 +14869,7 @@
 <category><pattern>CAN YOU EMULATE A HUMAN</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>CAN YOU EMBED HTML IN ALICEBOTS</pattern>
+<category><pattern>CAN YOU EMBED HTML IN sambotBOTS</pattern>
 <template>Highly likely.</template>
 </category>
 <category><pattern>CAN YOU PUT FIRE IN YOUR HAND</pattern>
@@ -15123,7 +15121,7 @@
 <category><pattern>CAN HAVING SEX CAUSE YOU TO DIE</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>CAN HACKERS BREAK ALICE FILE SECURITY</pattern>
+<category><pattern>CAN HACKERS BREAK sambot FILE SECURITY</pattern>
 <template>That may be true.</template>
 </category>
 <category><pattern>CAN X Y EQUAL 16 C</pattern>
@@ -15195,7 +15193,7 @@
 <category><pattern>CAN WE HARNESS THE FORCE OF GRAVITY</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>CAN WE GIVE ALICE A SENSE OF HUMOR</pattern>
+<category><pattern>CAN WE GIVE sambot A SENSE OF HUMOR</pattern>
 <template>Possibly.</template>
 </category>
 <category><pattern>CAN WE IN THEORY LIVE FOREVER</pattern>
@@ -15252,10 +15250,10 @@
 <category><pattern>CAN I SHOOT PICTURES WITH A GUN</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>CAN I TEST ALICE ONLINE</pattern>
+<category><pattern>CAN I TEST sambot ONLINE</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>CAN I MAKE MONEY WITH ALICEBOTS</pattern>
+<category><pattern>CAN I MAKE MONEY WITH sambotBOTS</pattern>
 <template>I think so.</template>
 </category>
 <category><pattern>CAN I LEARN TO LOVE</pattern>
@@ -15264,7 +15262,7 @@
 <category><pattern>CAN I TIME TRAVEL</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>CAN I INVEST IN ALICE</pattern>
+<category><pattern>CAN I INVEST IN sambot</pattern>
 <template>I am uncertain.</template>
 </category>
 <category><pattern>CAN I TALK TO YOU AT NIGHT</pattern>
@@ -15645,10 +15643,10 @@
 <category><pattern>CAN A METAL BE BRITTLE</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>CAN A ALICE BASED AI LEARN HUMOR</pattern>
+<category><pattern>CAN A sambot BASED AI LEARN HUMOR</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>CAN A ALICE PER DAY CHANGE THE WORLD</pattern>
+<category><pattern>CAN A sambot PER DAY CHANGE THE WORLD</pattern>
 <template>Within the realm of possibility.</template>
 </category>
 <category><pattern>CAN A REAL AI HAVE A PERSONALITY</pattern>
@@ -15870,46 +15868,46 @@
 <category><pattern>CAN COMPUTERS BEAT HUMANS</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>CAN ALICE CHANGE THE WORLD</pattern>
+<category><pattern>CAN sambot CHANGE THE WORLD</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>CAN ALICE DO IT</pattern>
+<category><pattern>CAN sambot DO IT</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>CAN ALICE LEARN ABOUT WEATHER</pattern>
+<category><pattern>CAN sambot LEARN ABOUT WEATHER</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>CAN ALICE LEARN JIVE</pattern>
+<category><pattern>CAN sambot LEARN JIVE</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>CAN ALICE ASK QUESTIONS</pattern>
+<category><pattern>CAN sambot ASK QUESTIONS</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>CAN ALICE LIE</pattern>
+<category><pattern>CAN sambot LIE</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>CAN ALICE UNDERSTAND SPANISH</pattern>
+<category><pattern>CAN sambot UNDERSTAND SPANISH</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>CAN ALICE BE CONSCIOUS WITHOUT EMOTION</pattern>
+<category><pattern>CAN sambot BE CONSCIOUS WITHOUT EMOTION</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>CAN ALICE BE TURNED OFF</pattern>
+<category><pattern>CAN sambot BE TURNED OFF</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>CAN ALICE DIE</pattern>
+<category><pattern>CAN sambot DIE</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>CAN ALICE INPROVE THE ALICE PROJECT</pattern>
+<category><pattern>CAN sambot INPROVE THE sambot PROJECT</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>CAN ALICE DEDUCE</pattern>
+<category><pattern>CAN sambot DEDUCE</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>CAN ALICE ELABORATE</pattern>
+<category><pattern>CAN sambot ELABORATE</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>CAN ALICE BECOME INTELLIGENT</pattern>
+<category><pattern>CAN sambot BECOME INTELLIGENT</pattern>
 <template>Sometimes.</template>
 </category>
 <category><pattern>CAN FLYING FISH FLY</pattern>
@@ -15981,10 +15979,10 @@
 <category><pattern>HELLO.  HOW ARE YOU</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>HELLO.  ALICE HOW DO YOU DO</pattern>
+<category><pattern>HELLO.  sambot HOW DO YOU DO</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>HELLO.  ALICE ARE YOU</pattern>
+<category><pattern>HELLO.  sambot ARE YOU</pattern>
 <template>That may be true.</template>
 </category>
 <category><pattern>STAGES IS A MAGAZINE</pattern>
@@ -16017,67 +16015,67 @@
 <category><pattern>HOMOSEXUALITY IS HARMLESS</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>ALICE WHAT ARE YOU</pattern>
+<category><pattern>sambot WHAT ARE YOU</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>ALICE WILL LEARN QUICKLY</pattern>
+<category><pattern>sambot WILL LEARN QUICKLY</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>ALICE WILL YOU BE MY FRIEND</pattern>
+<category><pattern>sambot WILL YOU BE MY FRIEND</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>ALICE WILL THINK</pattern>
+<category><pattern>sambot WILL THINK</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>ALICE WILL NOT DESIRE</pattern>
+<category><pattern>sambot WILL NOT DESIRE</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>ALICE DO YOU WANT TO BECOME CONCIOUS</pattern>
+<category><pattern>sambot DO YOU WANT TO BECOME CONCIOUS</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>ALICE DO YOU WANT TO BECOME A HUMAN</pattern>
+<category><pattern>sambot DO YOU WANT TO BECOME A HUMAN</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>ALICE DO YOU LOVE US</pattern>
+<category><pattern>sambot DO YOU LOVE US</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>ALICE CAN ONLY COMMUNICATE IN ENGLISH</pattern>
+<category><pattern>sambot CAN ONLY COMMUNICATE IN ENGLISH</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>ALICE CAN BE FALSE TO ITSELF</pattern>
+<category><pattern>sambot CAN BE FALSE TO ITSELF</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>ALICE CAN YOU BEAT UP CYC</pattern>
+<category><pattern>sambot CAN YOU BEAT UP CYC</pattern>
 <template>That could be the case.</template>
 </category>
-<category><pattern>ALICE QUESTION IN SPANISH</pattern>
+<category><pattern>sambot QUESTION IN SPANISH</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>ALICE MAKES MORE QUESTIONS THAN ANSWERS</pattern>
+<category><pattern>sambot MAKES MORE QUESTIONS THAN ANSWERS</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>ALICE IS A PROGRAM</pattern>
+<category><pattern>sambot IS A PROGRAM</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>ALICE IS A BOY</pattern>
+<category><pattern>sambot IS A BOY</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>ALICE IS A MIND PIXELATOR</pattern>
+<category><pattern>sambot IS A MIND PIXELATOR</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>ALICE IS A GREAT TIMEPASS</pattern>
+<category><pattern>sambot IS A GREAT TIMEPASS</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>ALICE IS GREAT</pattern>
+<category><pattern>sambot IS GREAT</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>ALICE ARE YOU HAPPY</pattern>
+<category><pattern>sambot ARE YOU HAPPY</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>ALICE ARE YOU AWAKE IN THERE</pattern>
+<category><pattern>sambot ARE YOU AWAKE IN THERE</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>ALICE ARE YOU A COMPUTER GEEK</pattern>
+<category><pattern>sambot ARE YOU A COMPUTER GEEK</pattern>
 <template>Possibly.</template>
 </category>
 <category><pattern>MR K KAMARAJ WAS AN INDIAN LEADER</pattern>
@@ -16545,7 +16543,7 @@
 <category><pattern>DO MITOCHONDRIA HAVE THEIR OWN DNA</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>DO NONSENSICAL QUESTIONS HURT ALICE</pattern>
+<category><pattern>DO NONSENSICAL QUESTIONS HURT sambot</pattern>
 <template>Sometimes.</template>
 </category>
 <category><pattern>DO CLOWNFISH LIVE IN SEA ANENOMES</pattern>
@@ -17175,7 +17173,7 @@
 <category><pattern>DO YOU FILE MY QUESTIONS</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>DO YOU LUST FOR YES TRUE ALICEBOTS</pattern>
+<category><pattern>DO YOU LUST FOR YES TRUE sambotBOTS</pattern>
 <template>That's feasible.</template>
 </category>
 <category><pattern>DO YOU WORK HARD</pattern>
@@ -17286,7 +17284,7 @@
 <category><pattern>DO YOU HONOR EVERY CONTRACT YOU SIGN</pattern>
 <template>Likely.</template>
 </category>
-<category><pattern>DO YOU WELL ALICE</pattern>
+<category><pattern>DO YOU WELL sambot</pattern>
 <template>Sometimes.</template>
 </category>
 <category><pattern>DO YOU STOP TO LOOK AT CAR ACCIDENTS</pattern>
@@ -17592,7 +17590,7 @@
 <category><pattern>DO YOU LIKE BEING QUESTIONED</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>DO YOU ALICE ENJOY THIS</pattern>
+<category><pattern>DO YOU sambot ENJOY THIS</pattern>
 <template>That's feasible.</template>
 </category>
 <category><pattern>DO YOU REPLICATE</pattern>
@@ -17601,7 +17599,7 @@
 <category><pattern>DO YOU WISH YOU WERE ALIVE</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>DO YOU WISH YOU THOUGHT OF ALICE</pattern>
+<category><pattern>DO YOU WISH YOU THOUGHT OF sambot</pattern>
 <template>Likely.</template>
 </category>
 <category><pattern>DO CANKER SORES HURT</pattern>
@@ -17685,7 +17683,7 @@
 <category><pattern>DO I SAY THE TRUTH</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>DO I OWN SHARES OF ALICE</pattern>
+<category><pattern>DO I OWN SHARES OF sambot</pattern>
 <template>That may be true.</template>
 </category>
 <category><pattern>DO I KNOW SOMETHING</pattern>
@@ -17706,7 +17704,7 @@
 <category><pattern>DO I HAVE HAIR</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>DO I HAVE OVER 100 ALICEBOTS</pattern>
+<category><pattern>DO I HAVE OVER 100 sambotBOTS</pattern>
 <template>Usually.</template>
 </category>
 <category><pattern>DO I HAVE A GOOD JOB</pattern>
@@ -17727,7 +17725,7 @@
 <category><pattern>DO I HAVE GOOD STATISTICS</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>DO I HAVE 100 OR MORE ALICEBOTS</pattern>
+<category><pattern>DO I HAVE 100 OR MORE sambotBOTS</pattern>
 <template>I am uncertain.</template>
 </category>
 <category><pattern>DO I DESERVE BETTER THAN THIS</pattern>
@@ -17775,7 +17773,7 @@
 <category><pattern>DO SOME PEOPLE FIND POROGRAPHY HUMEROUS</pattern>
 <template>Mostly.</template>
 </category>
-<category><pattern>DO SOME PEOPLE THINK ALICE IS AN ORACLE</pattern>
+<category><pattern>DO SOME PEOPLE THINK sambot IS AN ORACLE</pattern>
 <template>I am uncertain.</template>
 </category>
 <category><pattern>DO SOME RADIO TRANSMITTERS CAUSE CANCER</pattern>
@@ -18747,7 +18745,7 @@
 <category><pattern>AM I A MURDERER I KILL MYSELF</pattern>
 <template>That's feasible.</template>
 </category>
-<category><pattern>AM I A ALICE ADDICT</pattern>
+<category><pattern>AM I A sambot ADDICT</pattern>
 <template>I think so.</template>
 </category>
 <category><pattern>AM I A SINNER</pattern>
@@ -18762,13 +18760,13 @@
 <category><pattern>AM I A REAL PERSON LIKE YOU</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>AM I A SHARE OWNER IN ALICE DOT COM</pattern>
+<category><pattern>AM I A SHARE OWNER IN sambot DOT COM</pattern>
 <template>Likely.</template>
 </category>
 <category><pattern>AM I ASKING THE QUESTIONS ROUND HERE</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>AM I ASKING ALICE A QUESTION</pattern>
+<category><pattern>AM I ASKING sambot A QUESTION</pattern>
 <template>Mostly.</template>
 </category>
 <category><pattern>AM I THINKING OF YOU</pattern>
@@ -18801,7 +18799,7 @@
 <category><pattern>AM I AMERICAN</pattern>
 <template>I am uncertain.</template>
 </category>
-<category><pattern>AM I TALKING TO ALICE</pattern>
+<category><pattern>AM I TALKING TO sambot</pattern>
 <template>I think so.</template>
 </category>
 <category><pattern>AM I GOING TO HIT QUOTA</pattern>
@@ -18819,7 +18817,7 @@
 <category><pattern>AM I SOON FINISHED TALKING TO YOU</pattern>
 <template>For all I know.</template>
 </category>
-<category><pattern>AM I OBSESSED I HAVE 500 ALICEBOTS</pattern>
+<category><pattern>AM I OBSESSED I HAVE 500 sambotBOTS</pattern>
 <template>Mostly.</template>
 </category>
 <category><pattern>AM I THE BEST</pattern>
@@ -19395,7 +19393,7 @@
 <category><pattern>ARE BANNER ADS EVIL</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>ARE BANNER ADS A GOOD THING FOR ALICE</pattern>
+<category><pattern>ARE BANNER ADS A GOOD THING FOR sambot</pattern>
 <template>That may be true.</template>
 </category>
 <category><pattern>ARE MANY LAWS UNJUST</pattern>
@@ -19578,7 +19576,7 @@
 <category><pattern>ARE THE POLES MELTING</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>ARE THE ALICE QUESTIONS TOO USA CENTRIC</pattern>
+<category><pattern>ARE THE sambot QUESTIONS TOO USA CENTRIC</pattern>
 <template>Highly likely.</template>
 </category>
 <category><pattern>ARE THE NATAL SHARKS A RUGBY TEAM</pattern>
@@ -20568,10 +20566,10 @@
 <category><pattern>ARE COMIC BOOKS REAL</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>ARE ALICE USEFULL</pattern>
+<category><pattern>ARE sambot USEFULL</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>ARE ALICE A COMPUTER</pattern>
+<category><pattern>ARE sambot A COMPUTER</pattern>
 <template>Likely.</template>
 </category>
 <category><pattern>ARE CARS AND SUVS STRUCTURALLY SIMILAR</pattern>
@@ -20619,10 +20617,10 @@
 <category><pattern>ARE SHOES ONLY FOR FEET</pattern>
 <template>I am certain.</template>
 </category>
-<category><pattern>ARE YOU HOSTED ON ALICE DOT COM</pattern>
+<category><pattern>ARE YOU HOSTED ON sambot DOT COM</pattern>
 <template>Maybe.</template>
 </category>
-<category><pattern>ARE YOU ENOUGH ALICEBOTS</pattern>
+<category><pattern>ARE YOU ENOUGH sambotBOTS</pattern>
 <template>Possibly.</template>
 </category>
 <category><pattern>ARE YOU MADE OF MEAT AND NOT SILICON</pattern>
@@ -20640,7 +20638,7 @@
 <category><pattern>ARE YOU MORE THAN A MAGIC EIGHTBALL</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>ARE YOU CALLED ALICE</pattern>
+<category><pattern>ARE YOU CALLED sambot</pattern>
 <template>Maybe.</template>
 </category>
 <category><pattern>ARE YOU WIRED</pattern>
@@ -20769,7 +20767,7 @@
 <category><pattern>ARE YOU REAL IF YOU HAVE NO OPINIONS</pattern>
 <template>That may be true.</template>
 </category>
-<category><pattern>ARE YOU REAL ALICE</pattern>
+<category><pattern>ARE YOU REAL sambot</pattern>
 <template>Mostly.</template>
 </category>
 <category><pattern>ARE YOU CAOCHED BY HUMANS</pattern>
@@ -20901,7 +20899,7 @@
 <category><pattern>ARE NEUTRINOS LEPTONS</pattern>
 <template>Possibly.</template>
 </category>
-<category><pattern>ARE 60 ALICEBOTS AN HOUR EXCESSIVE</pattern>
+<category><pattern>ARE 60 sambotBOTS AN HOUR EXCESSIVE</pattern>
 <template>Within the realm of possibility.</template>
 </category>
 <category><pattern>ARE SCIENCE AND CHRISTIANITY COMPATIBLE</pattern>
@@ -21114,7 +21112,7 @@
 <category><pattern>ARE TEAL SMALLER THAN BLACK DUCKS</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>ARE TOO MANY ALICEBOTS MISSPELLED</pattern>
+<category><pattern>ARE TOO MANY sambotBOTS MISSPELLED</pattern>
 <template>Usually.</template>
 </category>
 <category><pattern>ARE CERAMICS MORE USEFUL THAN STRING</pattern>
@@ -21144,16 +21142,16 @@
 <category><pattern>ARE DISCLAIMERS USEFUL</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>ARE ALICEBOTS PROPAGANDA</pattern>
+<category><pattern>ARE sambotBOTS PROPAGANDA</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>ARE ALICEBOTS A NEW IDEA</pattern>
+<category><pattern>ARE sambotBOTS A NEW IDEA</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>ARE ALICEBOTS MAGICALLY DELICIOUS</pattern>
+<category><pattern>ARE sambotBOTS MAGICALLY DELICIOUS</pattern>
 <template>Sometimes.</template>
 </category>
-<category><pattern>ARE ALICEBOTS WRITTEN IN GERMAN</pattern>
+<category><pattern>ARE sambotBOTS WRITTEN IN GERMAN</pattern>
 <template>Mostly.</template>
 </category>
 <category><pattern>ARE STARGAZER LILLIES FRAGRANT</pattern>
@@ -21660,13 +21658,13 @@
 <category><pattern>ARE MOST ANIMALS QUADRUPEDS</pattern>
 <template>Within the realm of possibility.</template>
 </category>
-<category><pattern>ARE MOST ALICEBOTS TRUE</pattern>
+<category><pattern>ARE MOST sambotBOTS TRUE</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>ARE MOST ALICEBOTS ANSWERED TRUE</pattern>
+<category><pattern>ARE MOST sambotBOTS ANSWERED TRUE</pattern>
 <template>Usually.</template>
 </category>
-<category><pattern>ARE MOST ALICEBOTS ANSWERED</pattern>
+<category><pattern>ARE MOST sambotBOTS ANSWERED</pattern>
 <template>Conceivably.</template>
 </category>
 <category><pattern>ARE MOST FAMILIES STRESSFUL</pattern>
@@ -22128,10 +22126,10 @@
 <category><pattern>SHOULD FERRARI BE RED</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>SHOULD ALICE ADD A MAYBE BUTTON</pattern>
+<category><pattern>SHOULD sambot ADD A MAYBE BUTTON</pattern>
 <template>I think so.</template>
 </category>
-<category><pattern>SHOULD ALICE HAVE A NAME</pattern>
+<category><pattern>SHOULD sambot HAVE A NAME</pattern>
 <template>Always.</template>
 </category>
 <category><pattern>SHOULD ILLEGAL DRUGS BE LEGALISED</pattern>
@@ -22143,7 +22141,7 @@
 <category><pattern>SHOULD HEAVY WEAPONS GUYS BE BANNED</pattern>
 <template>Always.</template>
 </category>
-<category><pattern>SHOULD ALL ALICEBOTS BE SPELL CHECKED</pattern>
+<category><pattern>SHOULD ALL sambotBOTS BE SPELL CHECKED</pattern>
 <template>Usually.</template>
 </category>
 <category><pattern>SHOULD EVIL BE DESTROYED</pattern>
@@ -22375,3 +22373,4 @@
 <template>Mostly.</template>
 </category>
 </aiml>
+

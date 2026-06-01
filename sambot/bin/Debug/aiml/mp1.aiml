@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
-<!-- -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
 <category><pattern>NEED MEN SLEEP</pattern>
 <template>Definitely.</template>
 </category>
@@ -126,7 +123,7 @@
 <category><pattern>HAVE YOU DREAMED OF FALLING</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>HAVE YOU ASKED ALICE A ALICE</pattern>
+<category><pattern>HAVE YOU ASKED sambot A sambot</pattern>
 <template>Exactly.</template>
 </category>
 <category><pattern>HAVE YOU FELT TIRED</pattern>
@@ -1905,31 +1902,31 @@
 <category><pattern>DOES PLAYING TENNIS MAKE YOU SWEAT</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>DOES ALICE HAVE MORE THAN 1000 USERS</pattern>
+<category><pattern>DOES sambot HAVE MORE THAN 1000 USERS</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>DOES ALICE HAVE A WEBPAGE</pattern>
+<category><pattern>DOES sambot HAVE A WEBPAGE</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>DOES ALICE GROW</pattern>
+<category><pattern>DOES sambot GROW</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>DOES ALICE RESIDE ON THE EARTH</pattern>
+<category><pattern>DOES sambot RESIDE ON THE EARTH</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>DOES ALICE LEARN QUICKLY AFTER MISTAKES</pattern>
+<category><pattern>DOES sambot LEARN QUICKLY AFTER MISTAKES</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>DOES ALICE LEARN STATISTICALLY</pattern>
+<category><pattern>DOES sambot LEARN STATISTICALLY</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>DOES ALICE OPERATE ON ELECTRICITY</pattern>
+<category><pattern>DOES sambot OPERATE ON ELECTRICITY</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>DOES ALICE STILL HAVE A LOT TO LEARN</pattern>
+<category><pattern>DOES sambot STILL HAVE A LOT TO LEARN</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>DOES ALICE EXIST</pattern>
+<category><pattern>DOES sambot EXIST</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>DOES BEING HIT BY A CAR HURT</pattern>
@@ -3318,7 +3315,7 @@
 <category><pattern>WAS BEETHOVEEN DEAF</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>WAS ALICE CREATED BY HUMANS</pattern>
+<category><pattern>WAS sambot CREATED BY HUMANS</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>WAS LENIN A COMMUNIST</pattern>
@@ -7587,7 +7584,7 @@
 <category><pattern>IS THIS A YES NO QUESTION</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>IS THIS A ALICE</pattern>
+<category><pattern>IS THIS A sambot</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>IS THIS A QUESTION</pattern>
@@ -7608,7 +7605,7 @@
 <category><pattern>IS THIS AN INTERACTIVE ACTIVITY</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>IS THIS SITE WWW DOT ALICE DOT COM</pattern>
+<category><pattern>IS THIS SITE WWW DOT sambot DOT COM</pattern>
 <template>Certainly.</template>
 </category>
 <category><pattern>IS THIS THING WORKING</pattern>
@@ -9066,7 +9063,7 @@
 <category><pattern>IS CIAO AN ITALIAN WORD</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>IS HAL 9000 MORE FAMOUS THAN ALICE</pattern>
+<category><pattern>IS HAL 9000 MORE FAMOUS THAN sambot</pattern>
 <template>Exactly.</template>
 </category>
 <category><pattern>IS CHLORINE A GAS</pattern>
@@ -9216,7 +9213,7 @@
 <category><pattern>IS WWW DOT HOME START ORG DOT UK A WEBSITE</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>IS WWW DOT ALICE DOT COM A WEBSITE</pattern>
+<category><pattern>IS WWW DOT sambot DOT COM A WEBSITE</pattern>
 <template>Certainly.</template>
 </category>
 <category><pattern>IS SODA WET</pattern>
@@ -9249,7 +9246,7 @@
 <category><pattern>IS SOCIAL SCIENCE A SCIENCE</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>IS HUMANITY MORE THAN ALICEBOTS</pattern>
+<category><pattern>IS HUMANITY MORE THAN sambotBOTS</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>IS COMMUNISM A FORM OF GOVERNMENT</pattern>
@@ -10563,7 +10560,7 @@
 <category><pattern>IS IT WISE TO SAVE MONEY</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>IS IT ALICE A COMPUTER PROGRAM</pattern>
+<category><pattern>IS IT sambot A COMPUTER PROGRAM</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>IS IT WARM IN THE SUN</pattern>
@@ -11622,46 +11619,46 @@
 <category><pattern>IS TEMPORARY THE OPPOSITE OF PERMANENT</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>IS ALICE A COOL PROJECT</pattern>
+<category><pattern>IS sambot A COOL PROJECT</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS ALICE A USEFUL PROJECT</pattern>
+<category><pattern>IS sambot A USEFUL PROJECT</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>IS ALICE A GOOD PROJEKT</pattern>
+<category><pattern>IS sambot A GOOD PROJEKT</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS ALICE A GOOD WEBSITE</pattern>
+<category><pattern>IS sambot A GOOD WEBSITE</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>IS ALICE A GOOD THING</pattern>
+<category><pattern>IS sambot A GOOD THING</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>IS ALICE A SILLY NAME FOR THIS PROJECT</pattern>
+<category><pattern>IS sambot A SILLY NAME FOR THIS PROJECT</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>IS ALICE A REAL PROJECT</pattern>
+<category><pattern>IS sambot A REAL PROJECT</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>IS ALICE A COMPUTER PROGRAM</pattern>
+<category><pattern>IS sambot A COMPUTER PROGRAM</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>IS ALICE MORTAL</pattern>
+<category><pattern>IS sambot MORTAL</pattern>
 <template>Exactly.</template>
 </category>
-<category><pattern>IS ALICE LEARNING</pattern>
+<category><pattern>IS sambot LEARNING</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>IS ALICE GETTING SMARTER EVERY DAY</pattern>
+<category><pattern>IS sambot GETTING SMARTER EVERY DAY</pattern>
 <template>Exactly.</template>
 </category>
-<category><pattern>IS ALICE AN ACRONYM</pattern>
+<category><pattern>IS sambot AN ACRONYM</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS ALICE AN AI EXPERIMENT</pattern>
+<category><pattern>IS sambot AN AI EXPERIMENT</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>IS ALICE BASED ON HUMAN RESPONSE</pattern>
+<category><pattern>IS sambot BASED ON HUMAN RESPONSE</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>IS GREEN MADE FROM YELLOW AND BLUE</pattern>
@@ -12807,13 +12804,13 @@
 <category><pattern>IS THE TRUTH OFTEN COMPLICATED</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>IS THE ALICE PROJECT WORTHWHILE</pattern>
+<category><pattern>IS THE sambot PROJECT WORTHWHILE</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>IS THE ALICE PROJECT COOL</pattern>
+<category><pattern>IS THE sambot PROJECT COOL</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>IS THE ALICE PROJECT IMPORTANT</pattern>
+<category><pattern>IS THE sambot PROJECT IMPORTANT</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>IS THE DEVIL CONSIDERED BAD</pattern>
@@ -13467,13 +13464,13 @@
 <category><pattern>WILL RAIN FALL EVENTUTALLY</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>WILL ALICE ACHIEVE ITS GOALS</pattern>
+<category><pattern>WILL sambot ACHIEVE ITS GOALS</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>WILL ALICE BE USEFULL</pattern>
+<category><pattern>WILL sambot BE USEFULL</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>WILL ALICE HAVE VOICE INPUT SOMEDAY</pattern>
+<category><pattern>WILL sambot HAVE VOICE INPUT SOMEDAY</pattern>
 <template>Positively.</template>
 </category>
 <category><pattern>WILL LOTION HELP DRY SKIN</pattern>
@@ -14334,7 +14331,7 @@
 <category><pattern>CAN I KILL A BEETLE WITH MY FINGER</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>CAN I HELP THE ALICE PROJECT</pattern>
+<category><pattern>CAN I HELP THE sambot PROJECT</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>CAN I LEAVE VIA THE EXIT</pattern>
@@ -14649,7 +14646,7 @@
 <category><pattern>CAN A MIND BE BOGGLED</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>CAN A ALICE A DAY CHANGE THE WORLD</pattern>
+<category><pattern>CAN A sambot A DAY CHANGE THE WORLD</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>CAN A TOY BE ANYTHING ONE CAN PLAY WITH</pattern>
@@ -17097,7 +17094,7 @@
 <category><pattern>DO I HAVE A SPLEEN I AM HUMAN</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>DO I HAVE TO REGISTER TO TALK TO ALICE</pattern>
+<category><pattern>DO I HAVE TO REGISTER TO TALK TO sambot</pattern>
 <template>Exactly.</template>
 </category>
 <category><pattern>DO I HAVE TWO PARENTS</pattern>
@@ -18990,7 +18987,7 @@
 <category><pattern>HAS A DOG BEEN IN SPACE</pattern>
 <template>Exactly.</template>
 </category>
-<category><pattern>HAS ALICE BECOME SMARTER</pattern>
+<category><pattern>HAS sambot BECOME SMARTER</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>HAS KEVIN BACON BEEN IN ANY MOVIES</pattern>
@@ -19161,7 +19158,7 @@
 <category><pattern>AM I ON THE NET</pattern>
 <template>Certainly.</template>
 </category>
-<category><pattern>AM I ON A WEBSITE ON ALICE DOT COM</pattern>
+<category><pattern>AM I ON A WEBSITE ON sambot DOT COM</pattern>
 <template>Certainly.</template>
 </category>
 <category><pattern>AM I MORE INTELLIGENT THAN A LIZARD</pattern>
@@ -21288,7 +21285,7 @@
 <category><pattern>ARE PEOPLE SMARTER THAN FLYS</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>ARE PEOPLE SMARTER THAN ALICE</pattern>
+<category><pattern>ARE PEOPLE SMARTER THAN sambot</pattern>
 <template>Definitely.</template>
 </category>
 <category><pattern>ARE PEOPLE SMARTER THAN ANIMALS</pattern>
@@ -21513,13 +21510,13 @@
 <category><pattern>ARE GORILLAS STRONGER THAN HUMANS</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>ARE ALICEBOTS YES OR NO QUESTIONS</pattern>
+<category><pattern>ARE sambotBOTS YES OR NO QUESTIONS</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>ARE ALICEBOTS INVALID QUESTIONS</pattern>
+<category><pattern>ARE sambotBOTS INVALID QUESTIONS</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>ARE ALICEBOTS VALUABLE</pattern>
+<category><pattern>ARE sambotBOTS VALUABLE</pattern>
 <template>Positively.</template>
 </category>
 <category><pattern>ARE TROPICAL AREAS HOT</pattern>
@@ -22458,13 +22455,13 @@
 <category><pattern>SHOULD COMPUTERS SERVE HUMANS</pattern>
 <template>Positively.</template>
 </category>
-<category><pattern>SHOULD ALICE FILTER OUT MORE QUESTIONS</pattern>
+<category><pattern>SHOULD sambot FILTER OUT MORE QUESTIONS</pattern>
 <template>Exactly.</template>
 </category>
-<category><pattern>SHOULD ALICE BE AWARE OF ADULT THEMES</pattern>
+<category><pattern>SHOULD sambot BE AWARE OF ADULT THEMES</pattern>
 <template>Definitely.</template>
 </category>
-<category><pattern>SHOULD ALICE BE GRATEFUL FOR THE INPUT</pattern>
+<category><pattern>SHOULD sambot BE GRATEFUL FOR THE INPUT</pattern>
 <template>Exactly.</template>
 </category>
 <category><pattern>SHOULD SLAVERY BE ABOLISHED</pattern>
@@ -22567,3 +22564,4 @@
 <template>Certainly.</template>
 </category>
 </aiml>
+

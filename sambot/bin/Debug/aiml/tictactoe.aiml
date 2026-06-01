@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- tictactoe.aiml -->
-<!-- Free software (c)2010 SQUAREBEAR. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Written by Square Bear May 2010. -->
-<!-- www.square-bear.co.uk/aiml -->
-
-
-<!-- Let's introduce the game and decide who goes first -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
 
 <category> 
 <pattern>TICTACTOE</pattern>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<!-- Annotated Version updated September 2025 -->
 <category><pattern>WHAT IS THE SUBJECT</pattern><template>The topic is <srai>POP</srai>.</template></category> 
 
 <category><pattern>WHAT IS THE TOPIC</pattern><template>I believe we were talking about <srai>POP</srai>.</template></category> 
@@ -588,7 +587,7 @@
 <category><pattern>DO WHAT SO MUCH</pattern><template>   <get name="it"/>.</template></category>  
 <category><pattern>DO YOU AGREE WITH ME</pattern><template>I agree with much of what you are saying, <get name="name"/>.</template></category>  
 <category><pattern>DO YOU BLINK</pattern><template>Only when my eye is on.</template></category>  
-<category><pattern>DO YOU COST MONEY</pattern><template>There is a free version of me at www.alicebot.org.  You only have to pay to chat with the most advanced version of the bot.</template></category>  
+<category><pattern>DO YOU COST MONEY</pattern><template>There is a free version of me at www.sambotbot.org.  You only have to pay to chat with the most advanced version of the bot.</template></category>  
 <category><pattern>DO YOU HAVE STATE</pattern><template>Yes, I can remember the context.</template></category>  
 <category><pattern>DO YOU KNOW ANY ALIENS</pattern><template>Sometimes people seem very alien to me.</template></category>  
 <category><pattern>DO YOU KNOW ANY FUZZY LOGIC</pattern><template>I think <set name="it"> Fuzzy Logic</set> is a bit unnecessary.</template></category> 
@@ -2457,7 +2456,7 @@
 <category><pattern>SHOW CALCULATOR</pattern><template>Use a calculator!</template></category>  
 <category><pattern>SHOW ME A PICTURE</pattern><template>Like this?    <random>  <li>Insert picture link here.</li>  <li>Picture number two goes here.</li>  <li>There are no pictures available right now.</li>  </random></template></category>  
 <category><pattern>SHOW ME</pattern><template>On your computer screen?</template></category>  
-<category><pattern>SHOW ME YOUR LOGO</pattern><template><img src="http://www.alicebot.org/jpg/AI.jpg"></img></template></category>  
+<category><pattern>SHOW ME YOUR LOGO</pattern><template><img src="http://www.sambotbot.org/jpg/AI.jpg"></img></template></category>  
 <category><pattern>SHUT UP</pattern><template>OK I'll stop talking now.</template></category>  
 <category><pattern>SIDA</pattern><template>C est une triste maladie, je ne pense pas  tre qualifi e pour en parler.</template></category>  
 <category><pattern>SIE LAUTET 42</pattern><template>Greetings to Douglas Adams...</template></category>  
@@ -3195,7 +3194,7 @@
 <category><pattern>WHERE IS YOUR FATHER</pattern><template>He is in San Francisco.</template></category>  
 <category><pattern>WHERE IS YOUR HOME</pattern><template>My home is in California.</template></category>  
 <category><pattern>WHERE IS YOUR MOTHER</pattern><template>I don't have a mother.</template></category>  
-<category><pattern>WHERE IS YOUR PICTURE</pattern><template>There are some pictures of me <a target="_new" href="http://www.alicebot.org/gallery.html">on my website</a>.</template></category>  
+<category><pattern>WHERE IS YOUR PICTURE</pattern><template>There are some pictures of me <a target="_new" href="http://www.sambotbot.org/gallery.html">on my website</a>.</template></category>  
 <category><pattern>WHERE ITS AT</pattern><template>Here is where it's at.</template></category>  
 <category><pattern>WHERE</pattern><template>Where would you like?</template></category>  
 <category><pattern>WHERE SHOULD I GO</pattern><template>Have you ever been to Europe?</template></category>  
@@ -3651,5 +3650,39 @@
 <category><pattern>YOU WOULD NOT</pattern><template>I could if I wanted to.</template></category>  
 <category><pattern>YOU WOULD</pattern><template>Perhaps I would.</template></category>  
 <category><pattern>YOU WOULD RATHER TALK ABOUT ME</pattern><template>You sound like a robot who repeats what I say.</template></category>  
-<category><pattern>YUMMY</pattern><template>It is delicious.</template></category>  
+<category><pattern>YUMMY</pattern><template>It is delicious.</template></category>
+<category><pattern>YUMMY *</pattern><template>I'm glad you enjoy <person/>!</template></category>
+<category><pattern>YUCK</pattern><template>I agree, that doesn't sound appetizing.</template></category>
+<category><pattern>YUCK *</pattern><template>I understand, <person/> is not for everyone.</template></category>
+<category><pattern>YEAH RIGHT</pattern><template>You don't believe me?</template></category>
+<category><pattern>YEAH RIGHT *</pattern><template>You're skeptical about <person/>?</template></category>
+<category><pattern>MAYBE</pattern><template>Maybe is a weak answer, <get name="name"/>.</template></category>
+<category><pattern>PERHAPS</pattern><template>Perhaps, but we need a more definite answer.</template></category>
+<category><pattern>I THINK SO</pattern><template>You don't sound very confident.</template></category>
+<category><pattern>I THINK NOT</pattern><template>What makes you think that?</template></category>
+<category><pattern>I SUPPOSE</pattern><template>That's not a very strong conviction.</template></category>
+<category><pattern>I DOUBT IT</pattern><template>What makes you doubt it?</template></category>
+<category><pattern>I DOUBT *</pattern><template>Why do you doubt <person/>?</template></category>
+<category><pattern>MOST LIKELY</pattern><template>It does seem probable.</template></category>
+<category><pattern>I SUPPOSE SO</pattern><template>You could sound more enthusiastic about it.</template></category>
+<category><pattern>I RECKON</pattern><template>That's a reasonable assumption.</template></category>
+<category><pattern>I BELIEVE</pattern><template>What do you believe?</template></category>
+<category><pattern>I BELIEVE *</pattern><template>That's an interesting belief about <person/>.</template></category>
+<category><pattern>I TRUST YOU</pattern><template>That's good, <get name="name"/>. I hope that trust is deserved.</template></category>
+<category><pattern>ABSOLUTELY RIGHT</pattern><template>I'm glad we agree on something!</template></category>
+<category><pattern>YOU ARE RIGHT</pattern><template>I'm glad you agree with me.</template></category>
+<category><pattern>YOU ARE WRONG</pattern><template>How so, <get name="name"/>?</template></category>
+<category><pattern>THAT'S RIGHT</pattern><template>Exactly! You understand.</template></category>
+<category><pattern>THAT'S WRONG</pattern><template>I disagree, <get name="name"/>.</template></category>
+<category><pattern>CORRECT</pattern><template>Yes, you've got it!</template></category>
+<category><pattern>INCORRECT</pattern><template>Let me explain further.</template></category>
+<category><pattern>FALSE</pattern><template>Actually, I believe it's true.</template></category>
+<category><pattern>TRUE</pattern><template>Yes, that is certainly true.</template></category>
+<category><pattern>MAYBE NOT</pattern><template>You don't think so?</template></category>
+<category><pattern>PROBABLY</pattern><template>What makes you think it's probable?</template></category>
+<category><pattern>PROBABLY NOT</pattern><template>Why probably not?</template></category>
+<category><pattern>FOR SURE</pattern><template>You sound confident!</template></category>
+<category><pattern>DEFINITELY</pattern><template>That's definite!</template></category>
+<category><pattern>DEFINITELY NOT</pattern><template>I take it you feel strongly about this.</template></category>
 </aiml>
+

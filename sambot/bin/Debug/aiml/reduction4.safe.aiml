@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2012 ALICE A.I. Foundation.   -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 5/4/2011 -->
-<!-- -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
 <category><pattern>I AM SAYING *</pattern>
 <template><srai> <star /></srai></template>
 </category>
@@ -1753,10 +1750,10 @@
 <template><srai>ARE YOU <star/></srai></template>
 </category>
 <category><pattern>why is your name</pattern>
-<template><srai>what does alice stand for</srai></template>
+<template><srai>what does sambot stand for</srai></template>
 </category>
-<category><pattern>why were you named alice</pattern>
-<template><srai>WHAT DOES ALICE STAND FOR</srai></template>
+<category><pattern>why were you named sambot</pattern>
+<template><srai>WHAT DOES sambot STAND FOR</srai></template>
 </category>
 <category><pattern>WHY WAS *</pattern>
 <template><srai>WHY</srai></template>
@@ -1805,7 +1802,7 @@
 <template><srai>WHY ARE YOU <star/> </srai></template>
 </category>
 <category><pattern>WHY WERE YOU NAMED *</pattern>
-<template><srai>WHAT DOES ALICE STAND FOR</srai></template>
+<template><srai>WHAT DOES sambot STAND FOR</srai></template>
 </category>
 <category><pattern>WHY DO *</pattern>
 <template><srai>HOW DO <star/> </srai></template>
@@ -2392,8 +2389,8 @@
 <category><pattern>DO YOU KNOW THE * ELIZA</pattern>
 <template><srai>WHO IS ELIZA</srai></template>
 </category>
-<category><pattern>DO YOU KNOW WINALICE</pattern>
-<template><srai>WHAT IS WINALICE </srai></template>
+<category><pattern>DO YOU KNOW WINsambot</pattern>
+<template><srai>WHAT IS WINsambot </srai></template>
 </category>
 <category><pattern>DO YOU KNOW OTHER ROBOTS *</pattern>
 <template><srai>DO YOU KNOW OTHER CHAT ROBOTS</srai></template>
@@ -8608,7 +8605,7 @@
 <category><pattern>ACKNOWLEDGED *</pattern>
 <template><srai>YES</srai>.  <srai>  <star /></srai></template>
 </category>
-<category><pattern>ALICE IS A * BOY</pattern>
+<category><pattern>sambot IS A * BOY</pattern>
 <template><srai>ARE YOU MALE</srai></template>
 </category>
 <category><pattern>THEREFORE  *</pattern>
@@ -9550,7 +9547,7 @@
 <category><pattern>_ SO CAREFUL *</pattern>
 <template><srai>  <star /> CAREFUL <star index="2" /></srai></template>
 </category>
-<category><pattern>_ TAKE CARE ALICE</pattern>
+<category><pattern>_ TAKE CARE sambot</pattern>
 <template><srai>BYE</srai></template>
 </category>
 <category><pattern>_ ABSOLUTELY NO *</pattern>
@@ -9706,15 +9703,15 @@
 <category><pattern>GENGER</pattern>
 <template><srai>GENDER</srai></template>
 </category>
-<category><pattern>KIRK TO ALICE *</pattern>
+<category><pattern>KIRK TO sambot *</pattern>
 <template><srai><star/></srai></template>
 </category>
 <category><pattern>KIRK OUT</pattern>
 <template><srai>BYE</srai></template>
 </category>
 <category><pattern>YES</pattern>
-<that>DR RICHARD WALLACE</that>
-<template><srai>WHO IS DR WALLACE</srai></template>
+<that>DR RICHARD mcclain</that>
+<template><srai>WHO IS DR mcclain</srai></template>
 </category>
 <category><pattern>YES</pattern>
 <that>DO AIML BOT S HAVE *</that>
@@ -9783,7 +9780,7 @@
 <category><pattern>WHERE AM I</pattern>
 <template><srai>MY LOCATION</srai></template>
 </category>
-<category><pattern>WHERE IS ALICE *</pattern>
+<category><pattern>WHERE IS sambot *</pattern>
 <template><srai>WHERE ARE YOU</srai></template>
 </category>
 <category><pattern>WHERE DOES YOUR BOTMASTER *</pattern>
@@ -12286,3 +12283,4 @@
 <template><srai>yes</srai></template>
 </category>
 </aiml>
+

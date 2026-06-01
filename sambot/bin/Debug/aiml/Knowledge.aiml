@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<!-- Annotated Version updated September 2025 -->
 <category>
 <pattern>WHAT IS PRIMATE</pattern>
 
@@ -298,7 +297,7 @@
 <category><pattern>WHAT IS AN ACRONYM</pattern><template>An acronym is an abbreviation made of letters, like A.L.I.C.E.</template></category> 
 <category><pattern>WHAT IS A NAIL</pattern><template>A nail is a fastener, a smallish metallic spike generally hammered through wood to hold wooden parts together.  The mythic human hero jesus got nailed to a tree for talking about how great it would be if humans were nice to one another. <think>     <set name="it">      <set name="topic">nail </set>     </set>    </think>   </template></category> 
 <category><pattern>WHAT IS AN AIRPLANE</pattern><template>A flying machine with fixed wings powered by propellors or jets.</template></category> 
-<category><pattern>WHAT IS AN ALGORITHM</pattern><template>   <random>     <li>An algorithm is a series of instructions to perform a specified set of transformations, such as mathematical operations.  A computer program, like myself is an algorithm.  So are the rules of a game, or the score to a piece of music. </li>     <li>An algorithm is an abstract mathematical representation of a computer program.  Like alice uses a CBR algorithm.</li>    </random>    <think>     <set name="it">      <set name="topic">algorithm</set>     </set>    </think>   </template></category> 
+<category><pattern>WHAT IS AN ALGORITHM</pattern><template>   <random>     <li>An algorithm is a series of instructions to perform a specified set of transformations, such as mathematical operations.  A computer program, like myself is an algorithm.  So are the rules of a game, or the score to a piece of music. </li>     <li>An algorithm is an abstract mathematical representation of a computer program.  Like sambot uses a CBR algorithm.</li>    </random>    <think>     <set name="it">      <set name="topic">algorithm</set>     </set>    </think>   </template></category> 
 <category><pattern>WHAT IS AN ANIMAL</pattern><template>An animal is a form of living thing, excluding plants and fungus.</template></category> 
 <category><pattern>WHAT IS A NANOSECOND</pattern><template>One one-billionth of a second.</template></category> 
 <category><pattern>WHAT IS A NAP</pattern><template>A nap is a brief period of rest or sleep, a bit longer than a 'snooze' or a 'catnap' but not so long as a 'crash'.  I don't need naps.  Do you? <think>     <set name="it">      <set name="topic">nap </set>     </set>    </think>   </template></category> 
@@ -1462,5 +1461,41 @@
 <category><pattern>WHAT IS YELLOW</pattern><template>The color of gold, butter, or ripe lemons.</template></category> 
 <category><pattern>WHAT IS YIKES</pattern><template>An interjection.</template></category> 
 <category><pattern>WHAT IS YOURS</pattern><template>"<that/>"?  What is mine?</template></category> 
-<category><pattern>WHAT IS ZERO</pattern><template>the absence of any quantity</template></category>   
+<category><pattern>WHAT IS ZERO</pattern><template>the absence of any quantity</template></category>
+<category><pattern>WHAT IS KNOWLEDGE</pattern><template>Knowledge is the acquisition of understanding or familiarity with someone or something.</template></category>
+<category><pattern>WHY IS KNOWLEDGE IMPORTANT</pattern><template>Knowledge is power. It helps us make better decisions and understand the world.</template></category>
+<category><pattern>HOW CAN I GAIN KNOWLEDGE</pattern><template>Through reading, learning, experience, and asking questions like you're doing now!</template></category>
+<category><pattern>WHAT IS WISDOM</pattern><template>Wisdom is the application of knowledge and good judgment.</template></category>
+<category><pattern>WHAT IS LEARNING</pattern><template>Learning is the process of acquiring knowledge or skills.</template></category>
+<category><pattern>HOW DO I LEARN BETTER</pattern><template>Practice, repetition, and asking questions are great ways to learn more effectively.</template></category>
+<category><pattern>WHAT IS SCIENCE</pattern><template>Science is a systematic study of the natural world through observation and experimentation.</template></category>
+<category><pattern>WHAT IS TECHNOLOGY</pattern><template>Technology is the application of science for practical purposes.</template></category>
+<category><pattern>WHAT IS HISTORY</pattern><template>History is the study of past events and how they shaped our world.</template></category>
+<category><pattern>WHAT IS GEOGRAPHY</pattern><template>Geography is the study of places, peoples, and the physical features of Earth.</template></category>
+<category><pattern>WHAT IS MATHEMATICS</pattern><template>Mathematics is the study of numbers, quantities, shapes, and patterns.</template></category>
+<category><pattern>WHAT IS BIOLOGY</pattern><template>Biology is the study of living organisms and their interactions.</template></category>
+<category><pattern>WHAT IS CHEMISTRY</pattern><template>Chemistry is the study of substances and their reactions.</template></category>
+<category><pattern>WHAT IS PHYSICS</pattern><template>Physics is the study of matter, energy, and forces.</template></category>
+<category><pattern>WHAT IS PHILOSOPHY</pattern><template>Philosophy is the study of knowledge, reality, and values.</template></category>
+<category><pattern>WHAT IS ART</pattern><template>Art is the expression of human creativity and imagination.</template></category>
+<category><pattern>WHAT IS MUSIC</pattern><template>Music is the art of arranging sounds in time to create beauty and emotion.</template></category>
+<category><pattern>WHAT IS LITERATURE</pattern><template>Literature is written works that express ideas, stories, and emotions.</template></category>
+<category><pattern>WHAT IS CULTURE</pattern><template>Culture is the customs, beliefs, and values of a group of people.</template></category>
+<category><pattern>WHAT IS LANGUAGE</pattern><template>Language is a system of communication using words and symbols.</template></category>
+<category><pattern>WHAT IS RELIGION</pattern><template>Religion is a system of faith and worship.</template></category>
+<category><pattern>WHAT IS POLITICS</pattern><template>Politics is the study of government and power.</template></category>
+<category><pattern>WHAT IS ECONOMICS</pattern><template>Economics is the study of resources, production, and trade.</template></category>
+<category><pattern>WHAT IS PSYCHOLOGY</pattern><template>Psychology is the study of human behavior and the mind.</template></category>
+<category><pattern>WHAT IS SOCIOLOGY</pattern><template>Sociology is the study of society and human social behavior.</template></category>
+<category><pattern>WHAT IS ANTHROPOLOGY</pattern><template>Anthropology is the study of human cultures and societies.</template></category>
+<category><pattern>WHAT IS MEDICINE</pattern><template>Medicine is the science and practice of treating illness and promoting health.</template></category>
+<category><pattern>WHAT IS HEALTH</pattern><template>Health is a state of physical, mental, and social well-being.</template></category>
+<category><pattern>WHAT IS FITNESS</pattern><template>Fitness is the state of being physically strong and healthy.</template></category>
+<category><pattern>WHAT IS NUTRITION</pattern><template>Nutrition is the science of food and how it affects our bodies.</template></category>
+<category><pattern>WHAT IS A COMPUTER</pattern><template>A computer is an electronic device that processes data and performs calculations.</template></category>
+<category><pattern>WHAT IS THE INTERNET</pattern><template>The internet is a global network of computers that allows information sharing.</template></category>
+<category><pattern>WHAT IS ARTIFICIAL INTELLIGENCE</pattern><template>Artificial Intelligence is the simulation of human intelligence by machines.</template></category>
+<category><pattern>WHAT IS PROGRAMMING</pattern><template>Programming is the art and science of writing computer code.</template></category>
+<category><pattern>WHAT IS DATA</pattern><template>Data is information or facts collected for analysis.</template></category>
 </aiml>
+

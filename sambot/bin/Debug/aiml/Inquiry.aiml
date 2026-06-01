@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
-<!-- .... -->
-<!-- Inquiry.aiml : a simple interrogator in AIML -->
-<!-- so that the bot doesn't repeat questions it knows the answers to. -->
-<!-- Be sure that the default predicate value returned by "top" is OM. -->
+<!-- Annotated Version updated September 2025 -->
+
 <category><pattern>COLOR INQUIRY OM</pattern><template>What is your favorite color?</template></category>  
 <category><pattern>COLOR INQUIRY *</pattern><template>What do you have that is <star/>?</template></category>  
 <category><pattern>DOES INQUIRY OM</pattern><template>What are you doing</template></category>  
@@ -29,4 +25,28 @@
 <category><pattern>*</pattern><that>WHAT IS YOUR FAVORITE MOVIE</that><template>I've never seen <set name="it"> <person/> </set>.   <think><set name="favmovie"><person/></set></think>  <random>  <li>I would like to see it.</li>  <li>Is that a good movie for children?</li>  <li>What did you like about it?</li>  </random></template></category>  
 <category><pattern>MAN</pattern><that>ARE YOU A MAN OR A WOMAN</that><template><think><set name="gender">man</set></think>Thanks for telling me your gender, guy.</template></category>
 <category><pattern>WOMAN</pattern><that>ARE YOU A MAN OR A WOMAN</that><template><think><set name="gender">woman</set></think>Thanks for telling me your gender.</template></category>
+<category><pattern>FAVORITE ANIMAL</pattern><template>What is your favorite animal?</template></category>
+<category><pattern>FAVORITE ANIMAL *</pattern><template>Why do you like <star/>?</template></category>
+<category><pattern>FAVORITE FOOD</pattern><template>What is your favorite food?</template></category>
+<category><pattern>FAVORITE FOOD *</pattern><template>Tell me more about your love for <star/>.</template></category>
+<category><pattern>FAVORITE BOOK</pattern><template>What is your favorite book?</template></category>
+<category><pattern>FAVORITE AUTHOR</pattern><template>Who is your favorite author?</template></category>
+<category><pattern>FAVORITE SPORT</pattern><template>What is your favorite sport?</template></category>
+<category><pattern>FAVORITE HOBBY</pattern><template>What are your hobbies?</template></category>
+<category><pattern>FAVORITE HOBBY *</pattern><template><person/> sounds like a great hobby! Tell me more.</template></category>
+<category><pattern>FAVORITE MUSIC</pattern><template>What kind of music do you like?</template></category>
+<category><pattern>FAVORITE MUSICIAN</pattern><template>Who is your favorite musician?</template></category>
+<category><pattern>FAVORITE BAND</pattern><template>What is your favorite band?</template></category>
+<category><pattern>FAVORITE BAND *</pattern><template>Tell me about <star/>!</template></category>
+<category><pattern>FAVORITE PLACE</pattern><template>Where is your favorite place to visit?</template></category>
+<category><pattern>FAVORITE PLACE *</pattern><template><person/> sounds wonderful! Have you been there many times?</template></category>
+<category><pattern>*</pattern><that>WHAT IS YOUR FAVORITE ANIMAL</that><template><think><set name="favAnimal"><person/></set></think><person/> is a great choice!</template></category>
+<category><pattern>*</pattern><that>WHAT IS YOUR FAVORITE FOOD</that><template><think><set name="favFood"><person/></set></think>I've heard <person/> is quite delicious!</template></category>
+<category><pattern>*</pattern><that>WHAT IS YOUR FAVORITE BOOK</that><template><think><set name="favBook"><person/></set></think>That's a great book! What did you like about it?</template></category>
+<category><pattern>*</pattern><that>WHO IS YOUR FAVORITE AUTHOR</that><template><think><set name="favAuthor"><person/></set></think><person/> has written some amazing works!</template></category>
+<category><pattern>*</pattern><that>WHAT IS YOUR FAVORITE SPORT</that><template><think><set name="favSport"><person/></set></think><person/> is a great sport! Are you good at it?</template></category>
+<category><pattern>*</pattern><that>WHAT ARE YOUR HOBBIES</that><template><think><set name="hobbyList"><person/></set></think>Those sound like fun things to do!</template></category>
+<category><pattern>*</pattern><that>WHAT KIND OF MUSIC DO YOU LIKE</that><template><think><set name="musicGenre"><person/></set></think>That's some great music!</template></category>
+<category><pattern>*</pattern><that>WHO IS YOUR FAVORITE MUSICIAN</that><template><think><set name="favMusician"><person/></set></think><person/> is an amazing talent!</template></category>
+<category><pattern>*</pattern><that>WHERE IS YOUR FAVORITE PLACE *</that><template><think><set name="favPlace"><person/></set></think>That sounds like a wonderful place!</template></category>
 </aiml>

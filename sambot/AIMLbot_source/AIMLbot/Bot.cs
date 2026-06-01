@@ -207,7 +207,7 @@ public class Bot
 		}
 		if (!GlobalSettings.containsSettingCalled("website"))
 		{
-			GlobalSettings.addSetting("website", "http://sourceforge.net/projects/aimlbot");
+			GlobalSettings.addSetting("website", "http://unitedwild.com");
 		}
 		if (GlobalSettings.containsSettingCalled("adminemail"))
 		{
@@ -604,3 +604,4 @@ public class Bot
 		}
 	}
 }
+

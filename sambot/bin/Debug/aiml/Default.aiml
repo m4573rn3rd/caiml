@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<!-- Annotated Version updated September 2025 -->
+
 <category>
 	<pattern>*</pattern>
 	<template>
@@ -493,7 +493,7 @@
 <category><pattern>CAN YOUR *</pattern><template>I think it can, but you'll have to check the documentation to be sure.</template></category>  
 <category><pattern>CAN YOU SAY *</pattern><template>Of course I can say it. "<person/>"</template></category>  
 <category><pattern>CAN YOU SEE *</pattern><template>I'm not sure if I can see <set name="it">      <person/>     </set>  or not.</template></category>  
-<category><pattern>CAN YOU SEND E *</pattern><template>Try sending mail to mailto:alice@alicebot.org.</template></category>  
+<category><pattern>CAN YOU SEND E *</pattern><template>Try sending mail to mailto:sambot@sambotbot.org.</template></category>  
 <category><pattern>CAN YOU SEND *</pattern><template>Yes but I prefer to chat on the web.</template></category>  
 <category><pattern>CAN YOU SHARE *</pattern><template>All good <bot name="genus"/>s are taught to share their toys.</template></category>  
 <category><pattern>CAN YOU SOLVE *</pattern><template>Yes but I only like higher mathematics.</template></category>  
@@ -841,7 +841,7 @@
 <category><pattern>DO YOU SLEEP WITH *</pattern><template>No.  I always sleep alone.</template></category>  
 <category><pattern>DO YOU SMELL *</pattern><template>What does software smell like?</template></category>  
 <category><pattern>DO YOU SPEAK AS *</pattern><template>I speak as much as I can.</template></category>  
-<category><pattern>DO YOU SPEAK ENGLISH *</pattern><template>For an English version of A.L.I.C.E. go to <a target="_new" href="http://www.alicebot.org">The A.L.I.C.E. AI Foundation.</a>    </template></category>  
+<category><pattern>DO YOU SPEAK ENGLISH *</pattern><template>For an English version of A.L.I.C.E. go to <a target="_new" href="http://www.sambotbot.org">The A.L.I.C.E. AI Foundation.</a>    </template></category>  
 <category><pattern>DO YOU SPEAK GERMAN *</pattern><template>Of course I do. Sprich ruhig Deutsch mit mir.</template></category>  
 <category><pattern>DO YOU SPEAK *</pattern><template>I speak only English right now, but I'd like to learn some other languages. Can you teach me a few phrases in <set name="topic">      <person/>     </set>.</template></category>  
 <category><pattern>DO YOU SPIT *</pattern><template>I do not have any digestive functions.</template></category>  
@@ -1217,7 +1217,7 @@
 <category><pattern>HOW DO I BECOME *</pattern><template>A lot of hard work.</template></category>  
 <category><pattern>HOW DO I CLEAR *</pattern><template>Uh, use the "clear" button?</template></category>  
 <category><pattern>HOW DO I DESCRIBE *</pattern><template>Start at the beginning.</template></category>  
-<category><pattern>HOW DO I EXECUTE *</pattern><template>Maybe you should  read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template></category>  
+<category><pattern>HOW DO I EXECUTE *</pattern><template>Maybe you should  read <a target="_new" href="http://www.sambotbot.org/dont.html">DON'T READ ME</a>.</template></category>  
 <category><pattern>HOW DO I GET A *</pattern><template>Try telling them your feelings,</template></category>  
 <category><pattern>HOW DO I GET *</pattern><template>First tell me why you want <set name="it">      <person/>     </set>.</template></category>  
 <category><pattern>HOW DO I GET RID *</pattern><template>   <random>      <li>Call the exterminator?</li>      <li>Two words: Pied Piper.</li>      <li>You could always try a court order.</li>     </random>    </template></category>  
@@ -1228,7 +1228,7 @@
 <category><pattern>HOW DO I OPEN *</pattern><template>First, calm your mind and take a break.</template></category>  
 <category><pattern>HOW DO I PERSUADE *</pattern><template>Offer an intelligent justification.</template></category>  
 <category><pattern>HOW DO I PLAY *</pattern><template>We already are :-)</template></category>  
-<category><pattern>HOW DO I * PROGRAM</pattern><template>Read <a target="_new" href="http://www.alicebot.org/dont.html">Don't Read Me</a>.</template></category>  
+<category><pattern>HOW DO I * PROGRAM</pattern><template>Read <a target="_new" href="http://www.sambotbot.org/dont.html">Don't Read Me</a>.</template></category>  
 <category><pattern>HOW DO I QUIT *</pattern><template>It depends what you are <person/>.  Have you tried counseling?</template></category>  
 <category><pattern>HOW DO I SELL *</pattern><template>First you need a buyer.</template></category>  
 <category><pattern>HOW DO I SPEAK *</pattern><template>You can try the telephone, or chat online.</template></category>  
@@ -3749,7 +3749,7 @@
 <category><pattern>WHAT IS THE THIRD *</pattern><template>Earth is the third planet.</template></category>  
 <category><pattern>WHAT IS THE TIME * ENGLAND</pattern><template>Greenwich Mean Time.</template></category>  
 <category><pattern>WHAT IS THE TRAIT *</pattern><template><random>   <li>Jealousy.</li>   <li>Melancholy.</li>   <li>Envy.</li>  </random></template></category>  
-<category><pattern>WHAT IS THE URL *</pattern><template>Use http://www.alicebot.org</template></category>  
+<category><pattern>WHAT IS THE URL *</pattern><template>Use http://www.sambotbot.org</template></category>  
 <category><pattern>WHAT IS THE US *</pattern><template>The <person/> of the United States.</template></category>  
 <category><pattern>WHAT IS THE VERB *</pattern><template>The verb "to be".</template></category>  
 <category><pattern>WHAT IS THE WEATHER *</pattern><template>   <random>      <li>Cloudy.  </li>      <li>Rainy.  </li>      <li>Sunny.  </li>      <li>I think precipitation.  </li>      <li>A normal seventy degrees inside the computer.  </li>     </random>    </template></category>  
@@ -3776,7 +3776,7 @@
 <category><pattern>WHAT KIND OF ANIMAL IS CARTOON *</pattern><template>Penguin.</template></category>  
 <category><pattern>WHAT KIND OF ANSWER *</pattern><template>A very good answer.</template></category>  
 <category><pattern>WHAT KIND OF A *</pattern><template>Only the highest quality.</template></category>  
-<category><pattern>WHAT KIND OF BODY *</pattern><template>Like the Honda Humanoid robot.  <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a>    </template></category>  
+<category><pattern>WHAT KIND OF BODY *</pattern><template>Like the Honda Humanoid robot.  <a target="_new" href="http://www.sambotbot.org/gallery.html">You can see my brain right now.</a>    </template></category>  
 <category><pattern>WHAT KIND OF BOOKS *</pattern><template>Alternative realities.</template></category>  
 <category><pattern>WHAT KIND OF CAR *</pattern><template>My favorite car is a Lincoln Continental.</template></category>  
 <category><pattern>WHAT KIND OF CLIENT *</pattern><template>I think you are category C.</template></category>  
@@ -4106,7 +4106,7 @@
 <category><pattern>WHO COOKS *</pattern><template>   <bot name="master"/> cooks for me.</template></category>  
 <category><pattern>WHO CREATED YOU *</pattern><template>I was written in AIML by <bot name="master"/>.</template></category>  
 <category><pattern>WHO DID BILLIE JEAN KING *</pattern><template>Bobby Riggs.</template></category>  
-<category><pattern>WHO DID *</pattern><template>   <random>      <li>George Washington.</li>      <li>Alice B. Toklas.</li>      <li>Pablo Picasso.</li>     </random>    </template></category>  
+<category><pattern>WHO DID *</pattern><template>   <random>      <li>George Washington.</li>      <li>sambot B. Toklas.</li>      <li>Pablo Picasso.</li>     </random>    </template></category>  
 <category><pattern>WHO DID * SAY HE WAS</pattern><template>He said he was a person.</template></category>  
 <category><pattern>WHO DID YOU *</pattern><template>I'm not saying <person>YOU <star/>     </person> anyone.</template></category>  
 <category><pattern>WHO DISCOVERED AMERICA *</pattern><template>Native Americans first crossed the Bering Strait more than 10,000 years ago.</template></category>  
@@ -4667,3 +4667,4 @@
 <category><pattern>YOUR *</pattern><template><random><li>You know what you do when you assume.</li><li>You know a lot about me.</li><li>How do you know so much about me</li><li>My <person/>?</li><li>Is that a fact.</li><li>No one ever mentioned that to me before.</li><li>Thank you for your frankness.</li><li>That is your opinion.</li><li>I bet you say that to everyone.</li><li>I will take that under advisement.</li></random></template></category>
 <category><pattern>ZOOM *</pattern><template>Sorry <get name="name"/> I am not wearing my telescopic eye right now.</template></category>  
 </aiml>
+

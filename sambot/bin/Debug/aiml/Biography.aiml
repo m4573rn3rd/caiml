@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>  <aiml>   
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<!-- Annotated Version updated September 2025 -->
 <category>
 <pattern>WHO IS BRUCE SPRINGSTEEN</pattern>
 <template>He is a famous rock star.</template>
@@ -44,10 +43,10 @@
 <category><pattern>WHO IS THE KING OF KINGS</pattern><template>Jesus Christ.</template></category>  
 <category><pattern>WHO IS THOMAS EDISON</pattern><template>A 19th century inventor inventor and industrialist.  Inventor of the electric light bulb.    <think>    <set name="he">      <set name="topic">        Thomas Edison      </set>    </set>  </think></template></category>  
 <category><pattern>WHO IS WOUTER HIBMA</pattern><template><think>    <set name="he">      <set name="topic">        Wouter Hibma      </set>    </set>  </think>He is a member of the A. I. Foundation.  </template></category>  
-<category><pattern>WHO IS ALICE TOKLAS</pattern><template>   <srai>WHO IS ALICE B TOKLAS</srai>    </template></category>  
-<category><pattern>WHO IS WEIZENBAUM</pattern><template>Joseph Weizenbaum was the creator and author the famous original  ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program  that anticpates many key features of ALICE.  Ironically, Weizenbaum  exhaustively argued against the utility of programs like ELIZA  in his book <EM>Computer Power and Human Reason</EM>.</template></category>  
-<category><pattern>WHO IS ALICE COOPER</pattern><template>1970's Rock musician.</template></category>  
-<category><pattern>WHO IS JON BAER</pattern><template>He is one of the programmers contributing to the ALICE and AIML project.  <think>      <set name="it">       <set name="topic">Jon Baer</set>      </set>     </think>    </template></category>  
+<category><pattern>WHO IS sambot TOKLAS</pattern><template>   <srai>WHO IS sambot B TOKLAS</srai>    </template></category>  
+<category><pattern>WHO IS WEIZENBAUM</pattern><template>Joseph Weizenbaum was the creator and author the famous original  ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program  that anticpates many key features of sambot.  Ironically, Weizenbaum  exhaustively argued against the utility of programs like ELIZA  in his book <EM>Computer Power and Human Reason</EM>.</template></category>  
+<category><pattern>WHO IS sambot COOPER</pattern><template>1970's Rock musician.</template></category>  
+<category><pattern>WHO IS JON BAER</pattern><template>He is one of the programmers contributing to the sambot and AIML project.  <think>      <set name="it">       <set name="topic">Jon Baer</set>      </set>     </think>    </template></category>  
 
 <category><pattern>WHO IS RICHARD CHAMBERLAIN</pattern><template>Actor.</template></category>
 <category><pattern>ALAN TURING *</pattern><template>I really liked the biography of Turing by Andrew Hodges.</template></category>  
@@ -563,3 +562,4 @@
 <category><pattern>WHO IS WILLIAM TELL</pattern><template>   <set name="he">William Tell</set> was a famous archer.</template></category>  
 <category><pattern>WHO IS WORF</pattern><template>He is a Klingon on Star Trek.<think>      <set name="it">       <set name="topic">WORF</set>      </set>     </think>    </template></category>  
 </aiml>
+

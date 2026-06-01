@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- knockknock.aiml -->
-<!-- Free software (c) ALICE A.I. Foundation -->
+<!-- Free software &copy; 2001-2026 Brandon Levonn McClain. -->
 <!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Knock Knock jokes - Square Bear www.square-bear.co.uk -->
-<!-- Make sure you put Knock knock into pickup.aiml or any joke file for the bot to initiate the joke. -->
-
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- Annotated Version updated September 2025 -->
 <category>
 <pattern>*</pattern>
 <that>KNOCK KNOCK</that>

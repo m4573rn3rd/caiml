@@ -4,6 +4,8 @@ $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $sourceProject = Join-Path $root 'AIMLbot_source\AIMLbot.csproj'
 $builtDll = Join-Path $root 'AIMLbot_source\bin\Release\AIMLbot.dll'
 $csc = 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe'
+$repoRoot = Split-Path -Parent $root
+$toAddSource = Join-Path $repoRoot 'to_add'
 
 if (!(Test-Path $sourceProject)) {
     throw "Could not find AIMLbot source project: $sourceProject"
@@ -39,6 +41,12 @@ foreach ($configuration in @('Debug', 'Release')) {
     & $csc @compilerArgs
     if ($LASTEXITCODE -ne 0) {
         throw "sambot.exe build failed for $configuration with exit code $LASTEXITCODE"
+    }
+
+    if (Test-Path $toAddSource) {
+        $toAddTarget = Join-Path $outDir 'to_add'
+        New-Item -ItemType Directory -Force -Path $toAddTarget | Out-Null
+        Copy-Item -Path (Join-Path $toAddSource '*') -Destination $toAddTarget -Recurse -Force
     }
 }
 

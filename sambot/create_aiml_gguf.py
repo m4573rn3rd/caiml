@@ -21,6 +21,20 @@ def local_tag_name(tag: str) -> str:
     return tag
 
 
+def clone_without_namespaces(node: ET.Element) -> ET.Element:
+    cleaned = ET.Element(local_tag_name(node.tag))
+    for key, value in node.attrib.items():
+        cleaned.set(local_tag_name(key), value)
+
+    cleaned.text = node.text
+    cleaned.tail = node.tail
+
+    for child in list(node):
+        cleaned.append(clone_without_namespaces(child))
+
+    return cleaned
+
+
 def resolve_bitnet_root(script_path: Path, provided_root: str) -> Path:
     if provided_root:
         candidate = Path(provided_root).expanduser().resolve()
@@ -96,7 +110,8 @@ def parse_category(
     if not aiml_path:
         return None
 
-    template_xml = ET.tostring(template_node, encoding="unicode", method="xml").strip()
+    cleaned_template_node = clone_without_namespaces(template_node)
+    template_xml = ET.tostring(cleaned_template_node, encoding="unicode", method="xml").strip()
     relative_source = source_file.relative_to(aiml_dir).as_posix()
 
     return {

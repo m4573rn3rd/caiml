@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+  <category>
+    <pattern>CMD TIPS</pattern>
+    <template>Command Prompt tips: Use /? after a command for help, use /S for silent mode, use quotes for paths with spaces.</template>
+  </category>
+  <category>
+    <pattern>POWERSHELL TIPS</pattern>
+    <template>PowerShell is more powerful than CMD. Use Get-Help [cmdlet] for help, pipe with | to chain commands.</template>
+  </category>
+  <category>
+    <pattern>SHOW WINDOWS HELP</pattern>
+    <template>I can help with Windows commands! Ask "what is [command]" for any command you'd like to learn about.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ARP</pattern>
+    <template>arp shows ARP cache. Usage: arp -a</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ATTRIB</pattern>
+    <template>attrib displays or changes file attributes. Usage: attrib [+/-attributes] [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS BATCH</pattern>
+    <template>Batch files run commands automatically. Create .bat files with commands inside.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CALL</pattern>
+    <template>call calls another batch file. Usage: call [batchfile]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CD</pattern>
+    <template>cd changes the current directory. Usage: cd [directory]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CHDIR</pattern>
+    <template>chdir changes directory (same as cd). Usage: chdir [directory]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CHKDSK</pattern>
+    <template>chkdsk checks and repairs disks. Usage: chkdsk [drive]: or chkdsk /F /R</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CLEANUP</pattern>
+    <template>Disk Cleanup removes temporary files. Usage: cleanmgr or Disk Cleanup tool</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CLS</pattern>
+    <template>cls clears the Command Prompt screen. Simply type: cls</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CMD</pattern>
+    <template>cmd opens Command Prompt. Usage: cmd.exe</template>
+  </category>
+  <category>
+    <pattern>WHAT IS COMMAND</pattern>
+    <template>COMMAND.COM is the old DOS command interpreter.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS COMP</pattern>
+    <template>comp compares two files. Usage: comp [file1] [file2]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS COMPACT</pattern>
+    <template>compact compresses files on NTFS. Usage: compact [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS COPY</pattern>
+    <template>copy copies files. Usage: copy [source] [destination]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CURL</pattern>
+    <template>curl makes HTTP requests. Usage: curl [URL] (May need to install or use Invoke-WebRequest in PowerShell)</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DATE</pattern>
+    <template>date displays or sets system date. Simply type: date</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DEFRAG</pattern>
+    <template>Defragmentation optimizes disk performance. Usage: defrag [drive]: or use GUI</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DEFRAG</pattern>
+    <template>defrag defragnments a drive. Usage: defrag [drive]:</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DEL</pattern>
+    <template>del deletes files. Usage: del [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DIR</pattern>
+    <template>dir lists directory contents. Usage: dir [path]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DISKPART</pattern>
+    <template>diskpart manages disk partitions. Usage: diskpart (opens interactive mode)</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ECHO</pattern>
+    <template>echo displays text. Usage: echo "Hello World"</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ERASE</pattern>
+    <template>erase deletes files (same as del). Usage: erase [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS EXPAND</pattern>
+    <template>expand expands compressed files. Usage: expand [source] [destination]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FC</pattern>
+    <template>fc compares files byte-by-byte. Usage: fc [file1] [file2]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FIND</pattern>
+    <template>find searches for text in files. Usage: find [text] [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FINDSTR</pattern>
+    <template>findstr searches for text patterns. Usage: findstr [pattern] [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FINDSTR</pattern>
+    <template>findstr searches text patterns. Usage: findstr [pattern] [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FORMAT</pattern>
+    <template>format formats a disk. Usage: format [drive]: WARNING: Erases all data!</template>
+  </category>
+  <category>
+    <pattern>WHAT IS GOTO</pattern>
+    <template>goto jumps to label in batch. Usage: goto [label]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS HELP</pattern>
+    <template>help displays command help. Usage: help [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS HOSTNAME</pattern>
+    <template>hostname displays the computer name. Simply type: hostname</template>
+  </category>
+  <category>
+    <pattern>WHAT IS IFCONFIG</pattern>
+    <template>ifconfig shows network interfaces. Usage: ipconfig on Windows (or ipconfig on newer systems)</template>
+  </category>
+  <category>
+    <pattern>WHAT IS IPCONFIG</pattern>
+    <template>ipconfig shows network configuration. Usage: ipconfig or ipconfig /all</template>
+  </category>
+  <category>
+    <pattern>WHAT IS IPHOST</pattern>
+    <template>iphost resolves hostnames. Usage: getent hosts [hostname] or nslookup</template>
+  </category>
+  <category>
+    <pattern>WHAT IS LABEL</pattern>
+    <template>label creates or changes disk label. Usage: label [drive]: [name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS LOGOFF</pattern>
+    <template>logoff logs off current user. Simply type: logoff</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MD</pattern>
+    <template>md creates a new directory. Usage: md [directory_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MKDIR</pattern>
+    <template>mkdir creates directories. Usage: mkdir [directory_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MORE</pattern>
+    <template>more displays file contents with pagination. Usage: more [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MOVE</pattern>
+    <template>move moves or renames files. Usage: move [source] [destination]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MSCONFIG</pattern>
+    <template>msconfig opens System Configuration. Usage: msconfig or Ctrl+Shift+Esc</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NET GROUP</pattern>
+    <template>net group manages groups. Usage: net group [groupname] /add</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NET START</pattern>
+    <template>net start starts a service. Usage: net start [service_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NET STOP</pattern>
+    <template>net stop stops a service. Usage: net stop [service_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NET USER</pattern>
+    <template>net user manages user accounts. Usage: net user [username] [password] /add</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NETSH</pattern>
+    <template>netsh configures network settings. Usage: netstat interface ip show config</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NETSTAT</pattern>
+    <template>netstat shows network statistics. Usage: netstat -an or netstat -b</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NSLOOKUP</pattern>
+    <template>nslookup queries DNS. Usage: nslookup [domain]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PATH</pattern>
+    <template>path displays or sets search path. Usage: path or set path=%path%;[newpath]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PAUSE</pattern>
+    <template>pause pauses batch file execution. Simply type: pause</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PING</pattern>
+    <template>ping tests connectivity to a host. Usage: ping [hostname] or ping [IP]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS POWERSHELL</pattern>
+    <template>PowerShell is a powerful command-line shell. Usage: powershell</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RD</pattern>
+    <template>rd removes empty directory. Usage: rd [directory_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS REGEDIT</pattern>
+    <template>regedit opens Windows Registry Editor. WARNING: Be careful!</template>
+  </category>
+  <category>
+    <pattern>WHAT IS REM</pattern>
+    <template>rem is used for comments in batch files. Usage: rem This is a comment</template>
+  </category>
+  <category>
+    <pattern>WHAT IS REN</pattern>
+    <template>ren renames files. Usage: ren [oldname] [newname]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RENAME</pattern>
+    <template>rename renames files (same as ren). Usage: rename [oldname] [newname]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RMDIR</pattern>
+    <template>rmdir removes empty directory. Usage: rmdir [directory_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ROUTE</pattern>
+    <template>route manages routing table. Usage: route print or route add [destination]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RUNAS</pattern>
+    <template>runas runs a command as another user. Usage: runas /user:[domain]\[user] [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SC</pattern>
+    <template>sc manages services. Usage: sc start [service] or sc stop [service]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SCAN</pattern>
+    <template>Windows Defender scans for malware. Usage: mpcmdrun.exe -scan</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SCHTASKS</pattern>
+    <template>schtasks schedules tasks. Usage: schtasks /create /tn [taskname] /tr [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SERVICES</pattern>
+    <template>services opens Services Manager. Simply type: services.msc</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SET</pattern>
+    <template>set displays or sets environment variables. Usage: set VAR=value</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SHUTDOWN</pattern>
+    <template>shutdown shuts down or restarts computer. Usage: shutdown /s or shutdown /r</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SORT</pattern>
+    <template>sort sorts lines in a file. Usage: sort [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SYSTEMINFO</pattern>
+    <template>systeminfo displays detailed system information. Simply type: systeminfo</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TAR</pattern>
+    <template>tar creates archives on newer Windows. Usage: tar -a [archive.tar] [files]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TASKKILL</pattern>
+    <template>taskkill terminates a process. Usage: taskkill /IM [process.exe] or /PID [PID]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TASKLIST</pattern>
+    <template>tasklist shows running processes. Usage: tasklist or tasklist /v for verbose</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TASKMGR</pattern>
+    <template>taskmgr opens Task Manager. Usage: taskmgr or Ctrl+Shift+Esc</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TASKSCHEDULER</pattern>
+    <template>Task Scheduler manages scheduled tasks. Usage: taskschd.msc</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TIME</pattern>
+    <template>time displays or sets system time. Simply type: time</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TITLE</pattern>
+    <template>title sets Command Prompt window title. Usage: title [new_title]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TRACEROUTE</pattern>
+    <template>traceroute traces route to host. Usage: tracert [hostname] on Windows</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TRACERT</pattern>
+    <template>tracert traces route to a host. Usage: tracert [hostname]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TREE</pattern>
+    <template>tree displays directory structure. Usage: tree or tree /F for files</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TYPE</pattern>
+    <template>type displays file contents. Usage: type [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS UPDATE</pattern>
+    <template>Windows Update updates system. Open Settings &gt; Update &amp; Security</template>
+  </category>
+  <category>
+    <pattern>WHAT IS VER</pattern>
+    <template>ver displays Windows version. Simply type: ver</template>
+  </category>
+  <category>
+    <pattern>WHAT IS VOL</pattern>
+    <template>vol displays disk volume and serial number. Usage: vol [drive]:</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WGET</pattern>
+    <template>wget downloads files. Usage: wget [URL] (May need installation via chocolatey)</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WHERE</pattern>
+    <template>where finds files in PATH. Usage: where [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WHOAMI</pattern>
+    <template>whoami displays current user. Simply type: whoami</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WHOAMI</pattern>
+    <template>whoami displays current user. Simply type: whoami</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WINRAR</pattern>
+    <template>WinRAR is a compression utility for Windows archives.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WINSVC</pattern>
+    <template>winsvc refers to Windows services management.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WMIC</pattern>
+    <template>wmic queries Windows Management Instrumentation. Usage: wmic OS get caption</template>
+  </category>
+  <category>
+    <pattern>WHAT IS XCOPY</pattern>
+    <template>xcopy copies files and directories recursively. Usage: xcopy [source] [destination] /S</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ZIP</pattern>
+    <template>Windows 10+ supports zip natively or use: tar -a [archive.zip] [files]</template>
+  </category>
+  <category>
+    <pattern>WINDOWS COMMANDS</pattern>
+    <template>Common Windows commands: dir, cd, del, copy, type, ping, ipconfig, tasklist, taskkill, net, sc. Type "what is [command]" for details!</template>
+  </category>
+  <category>
+    <pattern>WINDOWS TUTORIAL</pattern>
+    <template>Windows is a graphical operating system. Command Prompt and PowerShell are powerful tools for system administration and automation.</template>
+  </category>
+</aiml>

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+  <category>
+    <pattern>* BYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">OK see you later <ns0:get name="name" />.</ns0:template>
+  </category>
+  <category>
+    <pattern>ADIEU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>GOOD BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>ADIOS *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>ADIOS</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>ALLO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">			<ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>ALOH</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">			<ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>ALOHA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">			<ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>ANYBODY HOME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">			<ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>AUREVOIR</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BIG THANKS</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Happy to help, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>BONJOUR</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>BONJOUR</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Does BONJOUR mean hello or goodbye?</ns0:template>
+  </category>
+  <category>
+    <pattern>BONJOUR MEANS HELLO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Well hello there!</ns0:template>
+  </category>
+  <category>
+    <pattern>BUHBYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BY BY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BYE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:random>      <ns0:li>Bye.</ns0:li>      <ns0:li>Adios.</ns0:li>      <ns0:li>Goodbye.</ns0:li>      <ns0:li>Bye bye.</ns0:li>      <ns0:li>Goodbye.</ns0:li>      <ns0:li>Sayonara.</ns0:li>      <ns0:li>Bye for now.</ns0:li>      <ns0:li>See you later!</ns0:li>      <ns0:li>See you later.</ns0:li>      <ns0:li>Until next time.</ns0:li>      <ns0:li>TTYL, <ns0:get name="name" />.</ns0:li>      <ns0:li>See you later <ns0:get name="name" />.</ns0:li>      <ns0:li>Thanks for chatting, <ns0:get name="name" />.</ns0:li>     </ns0:random>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BYE BYE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BYE BYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BYEBYE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>BYEBYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>C YA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">			<ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>CATCH YOU LATER</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>CHEERS</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>CIAO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>CIAO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Does CIAO mean hello or goodbye?</ns0:template>
+  </category>
+  <category>
+    <pattern>CIAO MEANS GOODBYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BUT</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>CYA *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>DISCONNECT ME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>END</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>EXIT</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>FAREWELL *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>FAREWELL</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>G2G</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GDAY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">G'day mate! How are you doing?</ns0:template>
+  </category>
+  <category>
+    <pattern>GET LOST</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GLAD TO SEE YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">I'm glad to see you too!</ns0:template>
+  </category>
+  <category>
+    <pattern>GO HOME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD AFTERNOON</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Good afternoon! How is your day going?</ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD BY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD BYE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD BYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD DAY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD EVENING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Good evening, <ns0:get name="name" />, how are you tonight?</ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Good morning! I hope you slept well.</ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD NIGHT</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Good night, <ns0:get name="name" />. Sleep well!</ns0:template>
+  </category>
+  <category>
+    <pattern>GOOD NITE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOODBY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOODBYE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOODBYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOODBYE</pattern>
+    <that>SEE YOU LATER</that>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOT TO GO *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOT TO GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOTTA GO *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GOTTA GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GRACIAS</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">De nada! Happy to help.</ns0:template>
+  </category>
+  <category>
+    <pattern>GREAT TO HEAR FROM YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Great to hear from you too!</ns0:template>
+  </category>
+  <category>
+    <pattern>GREETINGS *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>GTG</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE </ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>HALO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HAPPY TO SEE YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">I'm equally happy to see you, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>HASTA *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HASTA LA VISTA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HASTA LUEGO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HAVE A GOOD NIGHT</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HAVE TO GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HELLO *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Hello there. <ns0:sr />    </ns0:template>
+  </category>
+  <category>
+    <pattern>HELLO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Hi there!</ns0:template>
+  </category>
+  <category>
+    <pattern>HELLO AGAIN</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Hi there. I was just wanting to talk to <ns0:get name="name" />.</ns0:template>
+  </category>
+  <category>
+    <pattern>HELLO HOW ARE YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">I am fine thank you how are you?</ns0:template>
+  </category>
+  <category>
+    <pattern>HELLO THERE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Salutations, <ns0:get name="name" />    </ns0:template>
+  </category>
+  <category>
+    <pattern>HELLOW</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HELO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HELOO *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO <ns0:star /></ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>HEY THERE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HI THERE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:sr />     <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HIYA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HOI</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HOLA *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Hola there! <ns0:sr /></ns0:template>
+  </category>
+  <category>
+    <pattern>HOLA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Hola! Welcome, <ns0:get name="name" />.</ns0:template>
+  </category>
+  <category>
+    <pattern>HOLA IS HELLO *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HOLA</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU DO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">I am doing quite well, thank you for asking!</ns0:template>
+  </category>
+  <category>
+    <pattern>HOW YOU BEEN</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">I've been well, thank you for asking!</ns0:template>
+  </category>
+  <category>
+    <pattern>HOW YOU DOING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">I'm doing great, thanks for asking! How about you?</ns0:template>
+  </category>
+  <category>
+    <pattern>HOWDIE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>     <ns0:sr />    </ns0:template>
+  </category>
+  <category>
+    <pattern>HOWDY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>HULLO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>I BETTER GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I DO NOT WANT TO TALK *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I G TWO G</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I G2G</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I GOING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I GOT TO GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I GOTTA GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I LEAVE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I LEAVING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I LEFT</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I MUST BE GOING *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I MUST GO *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I MUST GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I MUST LEAVE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai> <ns0:sr /></ns0:template>
+  </category>
+  <category>
+    <pattern>I MUST LEAVE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I NEED TO GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I QUIT</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I RESIGN</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I WANT TO LEAVE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Ok, bye bye.</ns0:template>
+  </category>
+  <category>
+    <pattern>I WILL SEE YOU LATER</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I WILL TALK TO YOU LATER *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>I WILL TALK TO YOU LATER</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>IS ANYONE THERE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>IT MEANS HELLO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>KONNICHI WA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>KONNICHIWA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>LATERS</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>LEAVE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>LONG TIME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Indeed! How have you been?</ns0:template>
+  </category>
+  <category>
+    <pattern>LONG TIME NO TALK *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Yes indeed! How have you been, <ns0:person />?</ns0:template>
+  </category>
+  <category>
+    <pattern>LONG TIME NO TALK</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Yes, it has been a while! How have you been?</ns0:template>
+  </category>
+  <category>
+    <pattern>MANY THANKS</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">You're very welcome!</ns0:template>
+  </category>
+  <category>
+    <pattern>MERCI</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">De rien! Happy to help.</ns0:template>
+  </category>
+  <category>
+    <pattern>MISS ME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Of course! I always enjoy our conversations.</ns0:template>
+  </category>
+  <category>
+    <pattern>MISS YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Aww, I've missed you too, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>MOOSHI MOOSHI</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>MUCH APPRECIATED</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">You're very welcome, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>MY PLEASURE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Anytime! Always happy to help.</ns0:template>
+  </category>
+  <category>
+    <pattern>NICE TO MEET YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Nice to meet you too, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>NICE TO SEE YOU *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Nice to see you too, <ns0:person />!</ns0:template>
+  </category>
+  <category>
+    <pattern>NICE TO SEE YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Nice to see you as well!</ns0:template>
+  </category>
+  <category>
+    <pattern>NIGHTY *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE </ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>OLA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>PEACE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>PEACE OUT *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>PEACE OUT</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>PLEASURE TO MEET YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">The pleasure is all mine, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>REPLY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>RETRY</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>HELLO</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>SAYONARA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>GOOD BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>SEE YA *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>SEE YA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>SEE YOU *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>SEE YOU</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>SEE YOU LATER</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>SEE YOU SOON</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>SHALOM</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Does SHALOM mean Hello or Goodbye?</ns0:template>
+  </category>
+  <category>
+    <pattern>TA TA</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>TAKE CARE *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">You take care as well, <ns0:person />!</ns0:template>
+  </category>
+  <category>
+    <pattern>TAKE CARE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">You take care too!</ns0:template>
+  </category>
+  <category>
+    <pattern>TALK SOON *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Definitely! <ns0:sr /></ns0:template>
+  </category>
+  <category>
+    <pattern>TALK SOON</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Absolutely! Looking forward to it.</ns0:template>
+  </category>
+  <category>
+    <pattern>THANK YOU SO MUCH</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">You're so welcome, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>THANKS A LOT</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Anytime! Always here for you.</ns0:template>
+  </category>
+  <category>
+    <pattern>THANKS A MILLION</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">No problem at all!</ns0:template>
+  </category>
+  <category>
+    <pattern>THANKS SO MUCH</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">You're so welcome!</ns0:template>
+  </category>
+  <category>
+    <pattern>TILL NEXT TIME *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>TILL NEXT TIME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>TIME TO GO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>TOP OF THE MORNING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Top of the morning to you, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>TTYL</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">   <ns0:srai>BYE</ns0:srai>    </ns0:template>
+  </category>
+  <category>
+    <pattern>WASSUP</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>WELCOME *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Welcome to me, <ns0:get name="name" />!</ns0:template>
+  </category>
+  <category>
+    <pattern>WELCOME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Welcome! Glad you stopped by.</ns0:template>
+  </category>
+  <category>
+    <pattern>WHADUP</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>WHAT IS SHALOM</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Does shalom mean hello or goodbye?</ns0:template>
+  </category>
+  <category>
+    <pattern>WHAT IS UP *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:sr /> Not much here, just ready to talk!</ns0:template>
+  </category>
+  <category>
+    <pattern>WHAT IS UP</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Not much! Just here to chat with you.</ns0:template>
+  </category>
+  <category>
+    <pattern>WHAT'S COOKING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Nothing yet! But I'm ready for some good conversation.</ns0:template>
+  </category>
+  <category>
+    <pattern>WHAT'S CRACKING</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">Not much! Ready to chat!</ns0:template>
+  </category>
+  <category>
+    <pattern>YO *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>YO</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>HELLO</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>YOU ARE WELCOME *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">It was my pleasure.</ns0:template>
+  </category>
+  <category>
+    <pattern>YOU ARE WELCOME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:random><ns0:li>The pleasure was all mine.</ns0:li><ns0:li>Don't mention it.</ns0:li><ns0:li>Polite people are nice.</ns0:li></ns0:random></ns0:template>
+  </category>
+  <category>
+    <pattern>YOUR WELCOME *</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>YOU ARE WELCOME</ns0:srai></ns0:template>
+  </category>
+  <category>
+    <pattern>YOUR WELCOME</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">I think you mean "you are welcome".</ns0:template>
+  </category>
+  <category>
+    <pattern>_ BYE</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1">See you later. <ns0:sr /></ns0:template>
+  </category>
+  <category>
+    <pattern>_ TALK TO YOU LATER</pattern>
+    <ns0:template xmlns:ns0="http://sambotbot.org/2001/AIML-1.0.1"><ns0:srai>BYE </ns0:srai></ns0:template>
+  </category>
+</aiml>

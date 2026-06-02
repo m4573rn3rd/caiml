@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+  <category>
+    <pattern>LINUX COMMANDS</pattern>
+    <template>Common Linux commands: ls, cd, pwd, mkdir, rm, cp, mv, cat, grep, find, chmod, sudo, ssh, tar, zip, apt. Type "what is [command]" for details!</template>
+  </category>
+  <category>
+    <pattern>LINUX TUTORIAL</pattern>
+    <template>Linux is a free, open-source operating system. Key concepts: files, directories, permissions, users, processes, services, and packages.</template>
+  </category>
+  <category>
+    <pattern>SHOW LINUX HELP</pattern>
+    <template>I can help with Linux commands! Ask "what is [command]" for any command you'd like to learn about.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS APT</pattern>
+    <template>apt is the package manager for Debian/Ubuntu. Usage: apt install [package]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS AWK</pattern>
+    <template>awk is a text processing tool. Usage: awk '{print $1}' [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS BG</pattern>
+    <template>bg runs a job in the background. Simply type: bg after suspending a process</template>
+  </category>
+  <category>
+    <pattern>WHAT IS BZIP2</pattern>
+    <template>bzip2 compresses files with better ratio. Usage: bzip2 [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CAL</pattern>
+    <template>cal displays a calendar. Usage: cal or cal [month] [year]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CAT</pattern>
+    <template>cat displays file contents. Usage: cat [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CD</pattern>
+    <template>cd changes the current directory. Usage: cd [directory]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CHGRP</pattern>
+    <template>chgrp changes file group. Usage: chgrp [group] [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CHMOD</pattern>
+    <template>chmod changes file permissions. Usage: chmod 755 [filename] or chmod u+x [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CHOWN</pattern>
+    <template>chown changes file owner. Usage: chown [user]:[group] [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CLEAR</pattern>
+    <template>clear clears the terminal screen. Simply type: clear</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CP</pattern>
+    <template>cp copies files or directories. Usage: cp [source] [destination]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CRON</pattern>
+    <template>cron schedules recurring tasks. Edit with: crontab -e</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CRONTAB</pattern>
+    <template>crontab manages cron jobs. Usage: crontab -e to edit, crontab -l to list</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CURL</pattern>
+    <template>curl makes HTTP requests. Usage: curl [URL]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS CUT</pattern>
+    <template>cut extracts columns from text. Usage: cut -d: -f1 [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DATE</pattern>
+    <template>date displays current date and time. Simply type: date</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DF</pattern>
+    <template>df shows disk space usage. Usage: df -h for human readable format</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DIFF</pattern>
+    <template>diff compares two files. Usage: diff [file1] [file2]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DIG</pattern>
+    <template>dig performs DNS queries. Usage: dig [domain]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DNS</pattern>
+    <template>DNS (Domain Name System) translates domain names to IP addresses.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DPKG</pattern>
+    <template>dpkg is Debian package manager. Usage: dpkg -i [package.deb]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS DU</pattern>
+    <template>du shows directory size. Usage: du -sh [directory]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ECHO</pattern>
+    <template>echo prints text. Usage: echo "Hello World"</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FDISK</pattern>
+    <template>fdisk manages disk partitions. Usage: sudo fdisk [device]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FG</pattern>
+    <template>fg brings a background job to foreground. Usage: fg [job_id]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FILE</pattern>
+    <template>file determines file type. Usage: file [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FIND</pattern>
+    <template>find searches for files. Usage: find [directory] -name [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FREE</pattern>
+    <template>free displays memory usage. Usage: free -h for human readable format</template>
+  </category>
+  <category>
+    <pattern>WHAT IS FTP</pattern>
+    <template>ftp connects to an FTP server. Usage: ftp [hostname]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS GREP</pattern>
+    <template>grep searches for text patterns. Usage: grep [pattern] [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS GROUPADD</pattern>
+    <template>groupadd creates a new group. Usage: sudo groupadd [groupname]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS GROUPDEL</pattern>
+    <template>groupdel deletes a group. Usage: sudo groupdel [groupname]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS GZIP</pattern>
+    <template>gzip compresses files. Usage: gzip [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS HEAD</pattern>
+    <template>head displays the first lines of a file. Usage: head [filename] or head -n 5 [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS HISTORY</pattern>
+    <template>history shows command history. Usage: history or press Up arrow</template>
+  </category>
+  <category>
+    <pattern>WHAT IS HOSTNAME</pattern>
+    <template>hostname displays the system hostname. Simply type: hostname</template>
+  </category>
+  <category>
+    <pattern>WHAT IS HTOP</pattern>
+    <template>htop is an interactive process viewer. Press q to quit. (May need installation)</template>
+  </category>
+  <category>
+    <pattern>WHAT IS IFCONFIG</pattern>
+    <template>ifconfig shows network interfaces. Usage: ifconfig or ip addr for newer systems</template>
+  </category>
+  <category>
+    <pattern>WHAT IS IP</pattern>
+    <template>ip shows network information. Usage: ip addr, ip route, ip link</template>
+  </category>
+  <category>
+    <pattern>WHAT IS JOBS</pattern>
+    <template>jobs lists background jobs. Simply type: jobs</template>
+  </category>
+  <category>
+    <pattern>WHAT IS KILL</pattern>
+    <template>kill terminates a process. Usage: kill [PID] or kill -9 [PID] for force kill</template>
+  </category>
+  <category>
+    <pattern>WHAT IS KILLALL</pattern>
+    <template>killall terminates processes by name. Usage: killall [process_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS LESS</pattern>
+    <template>less displays file contents page by page. Usage: less [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS LOCATE</pattern>
+    <template>locate finds files by name in a database. Usage: locate [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS LS</pattern>
+    <template>ls lists directory contents. Usage: ls [options] [directory]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MAN</pattern>
+    <template>man displays manual pages. Usage: man [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MKDIR</pattern>
+    <template>mkdir creates new directories. Usage: mkdir [directory_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MORE</pattern>
+    <template>more displays file contents with pagination. Usage: more [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MOUNT</pattern>
+    <template>mount mounts filesystems. Usage: mount [device] [mount_point]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MV</pattern>
+    <template>mv moves or renames files/directories. Usage: mv [source] [destination]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NETSTAT</pattern>
+    <template>netstat shows network statistics. Usage: netstat -an or ss for newer systems</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NOHUP</pattern>
+    <template>nohup runs a command immune to hangups. Usage: nohup [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS NSLOOKUP</pattern>
+    <template>nslookup queries DNS. Usage: nslookup [domain]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PACMAN</pattern>
+    <template>pacman is the package manager for Arch Linux. Usage: pacman -S [package]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PASSWD</pattern>
+    <template>passwd changes user password. Simply type: passwd</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PATCH</pattern>
+    <template>patch applies a patch file. Usage: patch [file] [patchfile]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PING</pattern>
+    <template>ping tests connectivity to a host. Usage: ping [hostname] or ping [IP]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PS</pattern>
+    <template>ps shows running processes. Usage: ps aux for all processes</template>
+  </category>
+  <category>
+    <pattern>WHAT IS PWD</pattern>
+    <template>pwd prints the current working directory path.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RM</pattern>
+    <template>rm removes files or directories. Usage: rm [file] or rm -r [directory]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RMDIR</pattern>
+    <template>rmdir removes empty directories. Usage: rmdir [directory_name]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RPM</pattern>
+    <template>rpm is RedHat package manager. Usage: rpm -i [package.rpm]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SCP</pattern>
+    <template>scp copies files over SSH. Usage: scp [file] [user]@[host]:[path]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SED</pattern>
+    <template>sed is a stream editor for text manipulation. Usage: sed 's/old/new/' [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SERVICE</pattern>
+    <template>service manages services. Usage: service [service] start/stop/restart</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SORT</pattern>
+    <template>sort sorts lines of text. Usage: sort [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SS</pattern>
+    <template>ss shows socket statistics. Usage: ss -tuln</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SSH</pattern>
+    <template>ssh connects to a remote server. Usage: ssh [user]@[host]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SU</pattern>
+    <template>su switches user. Usage: su [username] or su - for root</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SUDO</pattern>
+    <template>sudo executes command with root privileges. Usage: sudo [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS SYSTEMCTL</pattern>
+    <template>systemctl manages system services. Usage: systemctl start/stop/restart [service]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TAIL</pattern>
+    <template>tail displays the last lines of a file. Usage: tail [filename] or tail -f [filename] for live updates</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TAR</pattern>
+    <template>tar creates or extracts archives. Usage: tar -czf [archive.tar.gz] [files] to create</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TELNET</pattern>
+    <template>telnet connects to a remote host. Usage: telnet [hostname] [port]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TOP</pattern>
+    <template>top displays running processes and resource usage. Press q to quit.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TOUCH</pattern>
+    <template>touch creates an empty file or updates timestamp. Usage: touch [filename]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS TR</pattern>
+    <template>tr translates or deletes characters. Usage: tr 'a-z' 'A-Z' [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS UMASK</pattern>
+    <template>umask sets default file permissions. Usage: umask [value]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS UMOUNT</pattern>
+    <template>umount unmounts filesystems. Usage: umount [mount_point]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS UNAME</pattern>
+    <template>uname displays system information. Usage: uname -a for all information</template>
+  </category>
+  <category>
+    <pattern>WHAT IS UNIQ</pattern>
+    <template>uniq removes duplicate lines. Usage: uniq [file]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS UNZIP</pattern>
+    <template>unzip extracts zip archives. Usage: unzip [archive.zip]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS UPTIME</pattern>
+    <template>uptime shows how long system has been running. Simply type: uptime</template>
+  </category>
+  <category>
+    <pattern>WHAT IS USERADD</pattern>
+    <template>useradd creates a new user. Usage: sudo useradd [username]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS USERDEL</pattern>
+    <template>userdel deletes a user. Usage: sudo userdel [username]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WC</pattern>
+    <template>wc counts words, lines, and bytes. Usage: wc [file] or wc -l for lines only</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WGET</pattern>
+    <template>wget downloads files from the web. Usage: wget [URL]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WHEREIS</pattern>
+    <template>whereis locates a command. Usage: whereis [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WHICH</pattern>
+    <template>which shows the full path of a command. Usage: which [command]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS WHOAMI</pattern>
+    <template>whoami displays current user. Simply type: whoami</template>
+  </category>
+  <category>
+    <pattern>WHAT IS YUM</pattern>
+    <template>yum is the package manager for RHEL/CentOS. Usage: yum install [package]</template>
+  </category>
+  <category>
+    <pattern>WHAT IS ZIP</pattern>
+    <template>zip creates zip archives. Usage: zip [archive.zip] [files]</template>
+  </category>
+</aiml>

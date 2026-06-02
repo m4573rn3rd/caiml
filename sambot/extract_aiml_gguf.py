@@ -9,6 +9,7 @@ import shutil
 import sys
 from pathlib import Path
 from typing import Any, Dict, List
+import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape as xml_escape
 
 
@@ -38,6 +39,36 @@ def normalize_text(value: Any, fallback: str = "") -> str:
         return fallback
     text = str(value).strip()
     return text if text else fallback
+
+
+def local_tag_name(tag: str) -> str:
+    if "}" in tag:
+        return tag.split("}", 1)[1]
+    return tag
+
+
+def clone_without_namespaces(node: ET.Element) -> ET.Element:
+    cleaned = ET.Element(local_tag_name(node.tag))
+    for key, value in node.attrib.items():
+        cleaned.set(local_tag_name(key), value)
+
+    cleaned.text = node.text
+    cleaned.tail = node.tail
+
+    for child in list(node):
+        cleaned.append(clone_without_namespaces(child))
+
+    return cleaned
+
+
+def normalize_template_xml(value: Any) -> str:
+    template_xml = normalize_text(value, "<template></template>")
+    try:
+        node = ET.fromstring(template_xml)
+        cleaned = clone_without_namespaces(node)
+        return ET.tostring(cleaned, encoding="unicode", method="xml").strip()
+    except Exception:
+        return template_xml
 
 
 def read_payload_from_gguf(model_path: Path) -> Dict[str, Any]:
@@ -80,7 +111,7 @@ def read_payload_from_gguf(model_path: Path) -> Dict[str, Any]:
 def write_category(file_handle, category: Dict[str, Any], indent: str) -> None:
     pattern = normalize_text(category.get("pattern"), "*")
     that = normalize_text(category.get("that"), "*")
-    template_xml = normalize_text(category.get("template_xml"), "<template></template>")
+    template_xml = normalize_template_xml(category.get("template_xml"))
 
     file_handle.write(indent + "<category>\n")
     file_handle.write(indent + "  <pattern>" + xml_escape(pattern) + "</pattern>\n")

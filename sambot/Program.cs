@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Security.Cryptography;
+using System.Text.RegularExpressions;
 using System.Speech.Synthesis;
 using System.Text;
 using System.Web.Script.Serialization;
@@ -16,19 +18,46 @@ namespace sambot
         Aim,
         BitNet,
         AimlModel,
-        NewsModel
+        NewsModel,
+        Rag
+    }
+
+    internal class RagChunk
+    {
+        public string Id { get; set; }
+        public string Content { get; set; }
+        public string SourceKind { get; set; }
+        public string SourceLabel { get; set; }
+        public string SourcePath { get; set; }
+        public double[] Vector { get; set; }
+        public string IndexedAt { get; set; }
     }
 
     internal class Program
     {
+        private const int ChunkTargetChars = 500;
+        private const int ChunkOverlapChars = 80;
         private const string DefaultBitNetUrl = "http://127.0.0.1:5052";
         private const string DefaultBitNetModel = "local-gguf";
         private const string DefaultNewsApiUrl = "https://unitedwild.com/api/news/articles";
+        private const string DefaultAgyPath = @"C:\Users\brand\AppData\Local\agy\bin\agy.exe";
+        private static readonly HashSet<string> RagTextExtensions = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        {
+            ".md",
+            ".markdown",
+            ".txt",
+            ".rst",
+            ".py",
+            ".json"
+        };
         private static readonly JavaScriptSerializer JsonSerializer = new JavaScriptSerializer();
         private static Process bitNetServerProcess;
         private static string bitNetStartupError = "";
         private static string startupAimlModelPath = "";
         private static string startupNewsModelPath = "";
+        private static readonly List<Dictionary<string, object>> bitNetHistory = new List<Dictionary<string, object>>();
+        private const int MaxHistoryMessages = 10;
+        private static List<RagChunk> ragIndex = new List<RagChunk>();
         private static string cachedAimlModelPath = "";
         private static DateTime cachedAimlModelTimestampUtc = DateTime.MinValue;
         private static string cachedAimlModelAimlDirectory = "";
@@ -41,6 +70,7 @@ namespace sambot
         {
             Console.Title = "Sam Bot";
             Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
+            LoadRagIndex();
 
             if (TryHandleStartupCommand(args))
             {
@@ -70,6 +100,12 @@ namespace sambot
             else if (currentMode == ChatMode.AimlModel)
             {
                 TryWarmAimlModelBot(ref aimlModelBot, ref aimlModelUser);
+            }
+            else if (currentMode == ChatMode.Rag)
+            {
+                string startupMessage;
+                EnsureBitNetServerStarted(true, out startupMessage);
+                SyncKnowledgeBase();
             }
             else
             {
@@ -103,6 +139,10 @@ namespace sambot
                     {
                         if (shouldExit)
                         {
+                            if (currentMode == ChatMode.Rag)
+                            {
+                                SaveRagIndex();
+                            }
                             break;
                         }
                         continue;
@@ -116,7 +156,9 @@ namespace sambot
                             ? SendAimRequest(input, ref aimBot, ref aimUser)
                             : (currentMode == ChatMode.AimlModel
                                 ? SendAimlModelRequest(input, ref aimlModelBot, ref aimlModelUser)
-                                : SendNewsModelRequest(input)));
+                                : (currentMode == ChatMode.NewsModel 
+                                    ? SendNewsModelRequest(input)
+                                    : SendRagRequest(input))));
 
                     Console.BackgroundColor = currentMode == ChatMode.BitNet
                         ? ConsoleColor.DarkCyan
@@ -247,6 +289,12 @@ namespace sambot
                 mode = ChatMode.Aim;
                 return true;
             }
+            
+            if (normalized == "5" || normalized == "rag")
+            {
+                mode = ChatMode.Rag;
+                return true;
+            }
 
             if (normalized == "2" || normalized == "bitnet" || normalized == "bit")
             {
@@ -285,7 +333,7 @@ namespace sambot
         private static void PrintStartupHelp(ChatMode currentMode)
         {
             Console.WriteLine("Sam Bot is running in " + GetModeLabel(currentMode) + " mode.");
-            Console.WriteLine("Commands: mode aim, mode bitnet, mode aimlmodel, mode newsmodel, mode, cls, clear, quit, exit, end.");
+            Console.WriteLine("Commands: mode aim, mode bitnet, mode rag, mode aimlmodel, mode newsmodel, mode, cls, clear, quit, exit, end.");
             Console.WriteLine("PowerShell: .\\sambot.exe aim  or  .\\sambot.exe bitnet  or  .\\sambot.exe aimlmodel  or  .\\sambot.exe newsmodel");
             Console.WriteLine("Build AIML GGUF: .\\sambot.exe -create -aimlmodel");
             Console.WriteLine("Build News GGUF: .\\sambot.exe -create -newsmodel");
@@ -818,7 +866,24 @@ namespace sambot
                 string cacheRoot = Path.Combine(Path.GetTempPath(), "sambot-aimlmodel-cache");
                 Directory.CreateDirectory(cacheRoot);
 
-                string cacheKey = modelPath.ToLowerInvariant() + "|" + modelTimestampUtc.Ticks;
+                string sambotRoot = ResolveSambotRoot();
+                if (String.IsNullOrWhiteSpace(sambotRoot))
+                {
+                    message = "Could not locate sambot root directory.";
+                    return false;
+                }
+
+                string extractorScript = Path.Combine(sambotRoot, "extract_aiml_gguf.py");
+                if (!File.Exists(extractorScript))
+                {
+                    message = "Missing AIML GGUF extractor script: " + extractorScript;
+                    return false;
+                }
+
+                DateTime extractorTimestampUtc = File.GetLastWriteTimeUtc(extractorScript);
+                string cacheKey = modelPath.ToLowerInvariant()
+                    + "|" + modelTimestampUtc.Ticks
+                    + "|" + extractorTimestampUtc.Ticks;
                 string cacheDirectoryName = "aiml-" + ComputeStableHash(cacheKey);
                 string cacheDirectory = Path.Combine(cacheRoot, cacheDirectoryName);
 
@@ -839,20 +904,6 @@ namespace sambot
                     }
                 }
                 Directory.CreateDirectory(cacheDirectory);
-
-                string sambotRoot = ResolveSambotRoot();
-                if (String.IsNullOrWhiteSpace(sambotRoot))
-                {
-                    message = "Could not locate sambot root directory.";
-                    return false;
-                }
-
-                string extractorScript = Path.Combine(sambotRoot, "extract_aiml_gguf.py");
-                if (!File.Exists(extractorScript))
-                {
-                    message = "Missing AIML GGUF extractor script: " + extractorScript;
-                    return false;
-                }
 
                 string pythonExe = GetSetting("SAMBOT_PYTHON_EXE", "PYTHON_EXE", "python");
                 string bitNetRoot = ResolveBitNetRoot();
@@ -1533,10 +1584,16 @@ namespace sambot
                         string startupMessage;
                         EnsureBitNetServerStarted(true, out startupMessage);
                     }
+                    else if (currentMode == ChatMode.Rag)
+                    {
+                        string startupMessage;
+                        EnsureBitNetServerStarted(true, out startupMessage);
+                        SyncKnowledgeBase();
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("Use: mode aim  or  mode bitnet  or  mode aimlmodel  or  mode newsmodel");
+                    Console.WriteLine("Use: mode aim  or  mode bitnet  or  mode rag  or  mode aimlmodel  or  mode newsmodel");
                 }
                 return true;
             }
@@ -1580,6 +1637,21 @@ namespace sambot
                 return true;
             }
 
+            if (normalized == "agy")
+            {
+                string agyPath = GetSetting("SAMBOT_AGY_EXE", "AGY_EXE", DefaultAgyPath);
+                if (File.Exists(agyPath))
+                {
+                    Process.Start(agyPath);
+                    Console.WriteLine("Agy tool started.");
+                }
+                else
+                {
+                    Console.WriteLine("Agy executable not found at: " + agyPath);
+                }
+                return true;
+            }
+
             if (normalized == "ip1")
             {
                 Console.BackgroundColor = ConsoleColor.Yellow;
@@ -1589,6 +1661,222 @@ namespace sambot
             }
 
             return false;
+        }
+
+        private static string ResolveToAddDirectory()
+        {
+            string configuredPath = Environment.GetEnvironmentVariable("SAMBOT_TO_ADD_DIR");
+            if (!String.IsNullOrWhiteSpace(configuredPath))
+            {
+                string absoluteConfiguredPath = Path.GetFullPath(configuredPath.Trim());
+                if (Directory.Exists(absoluteConfiguredPath))
+                {
+                    return absoluteConfiguredPath;
+                }
+            }
+
+            string repoRoot = ResolveRepositoryRoot();
+            if (!String.IsNullOrEmpty(repoRoot))
+            {
+                string repoToAdd = Path.Combine(repoRoot, "to_add");
+                if (Directory.Exists(repoToAdd))
+                {
+                    return repoToAdd;
+                }
+            }
+
+            string localToAdd = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "to_add");
+            if (Directory.Exists(localToAdd))
+            {
+                return localToAdd;
+            }
+
+            return "";
+        }
+
+        private static List<string> DiscoverKnowledgeFiles(string toAddPath)
+        {
+            List<string> files = new List<string>();
+            if (String.IsNullOrWhiteSpace(toAddPath) || !Directory.Exists(toAddPath))
+            {
+                return files;
+            }
+
+            foreach (string path in Directory.GetFiles(toAddPath, "*", SearchOption.AllDirectories))
+            {
+                string extension = Path.GetExtension(path);
+                if (!RagTextExtensions.Contains(extension))
+                {
+                    continue;
+                }
+
+                files.Add(path);
+            }
+
+            files.Sort(StringComparer.OrdinalIgnoreCase);
+            return files;
+        }
+
+        private static void SyncKnowledgeBase()
+        {
+            string toAddPath = ResolveToAddDirectory();
+            if (String.IsNullOrWhiteSpace(toAddPath))
+            {
+                Console.WriteLine("Could not find a to_add directory. Set SAMBOT_TO_ADD_DIR or create ./to_add near sambot.exe.");
+                return;
+            }
+
+            List<string> knowledgeFiles = DiscoverKnowledgeFiles(toAddPath);
+            if (knowledgeFiles.Count == 0)
+            {
+                Console.WriteLine("No supported knowledge files were found in: " + toAddPath);
+                return;
+            }
+
+            Console.WriteLine("Syncing knowledge from: " + toAddPath);
+            HashSet<string> sourceSet = new HashSet<string>(knowledgeFiles, StringComparer.OrdinalIgnoreCase);
+            ragIndex.RemoveAll(chunk => chunk.SourcePath.StartsWith(toAddPath, StringComparison.OrdinalIgnoreCase) && !sourceSet.Contains(chunk.SourcePath));
+
+            foreach (string file in knowledgeFiles)
+            {
+                IndexFileToRag(file, false);
+            }
+            SaveRagIndex();
+        }
+
+        private static void IndexFileToRag(string path, bool persistIndex)
+        {
+            Console.WriteLine("Indexing: " + Path.GetFileName(path));
+            string text = File.ReadAllText(path);
+            var paragraphs = Regex.Split(text, @"\n\s*\n");
+            int count = 0;
+            
+            ragIndex.RemoveAll(c => c.SourcePath == path);
+
+            foreach (var para in paragraphs)
+            {
+                if (string.IsNullOrWhiteSpace(para)) continue;
+                
+                double[] vector = GetEmbedding(para);
+                if (vector == null) continue;
+
+                ragIndex.Add(new RagChunk
+                {
+                    Id = "paper:" + Path.GetFileName(path) + ":" + count,
+                    Content = para.Trim(),
+                    SourceKind = "paper",
+                    SourceLabel = "paper: " + Path.GetFileName(path),
+                    SourcePath = path,
+                    Vector = vector,
+                    IndexedAt = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ")
+                });
+                count++;
+            }
+            if (persistIndex)
+            {
+                SaveRagIndex();
+            }
+            Console.WriteLine("Indexed " + count + " chunks.");
+        }
+
+        private static double[] GetEmbedding(string text)
+        {
+            string url = GetBitNetBaseUrl() + "/embedding";
+            var payload = new Dictionary<string, object> { { "content", text } };
+            ApiResponse response = PostJson(url, payload, 30);
+            if (response.Success)
+            {
+                var dict = JsonSerializer.DeserializeObject(response.Body) as Dictionary<string, object>;
+                object embObj;
+                if (dict != null && dict.TryGetValue("embedding", out embObj))
+                {
+                    object[] arr = embObj as object[];
+                    double[] vec = new double[arr.Length];
+                    for (int i = 0; i < arr.Length; i++) vec[i] = Convert.ToDouble(arr[i]);
+                    return vec;
+                }
+            }
+            return null;
+        }
+
+        private static string SendRagRequest(string input)
+        {
+            double[] queryVector = GetEmbedding(input);
+            if (queryVector == null) return SendBitNetRequest(input);
+
+            var results = ragIndex
+                .Select(chunk => new { Chunk = chunk, Similarity = CalculateCosineSimilarity(queryVector, chunk.Vector) })
+                .OrderByDescending(r => r.Similarity)
+                .Take(3)
+                .ToList();
+
+            if (results.Count == 0) return SendBitNetRequest(input);
+
+            StringBuilder context = new StringBuilder();
+            context.AppendLine("RELEVANT CONTEXT FROM YOUR CORPUS:");
+            foreach (var res in results)
+            {
+                context.AppendLine("--- [" + res.Chunk.SourceLabel + "] ---");
+                context.AppendLine(res.Chunk.Content);
+                context.AppendLine();
+            }
+            context.AppendLine("END RELEVANT CONTEXT");
+            
+            string augmentedInput = context.ToString() + "\nUser Query: " + input;
+            return SendBitNetRequest(augmentedInput);
+        }
+
+        private static double CalculateCosineSimilarity(double[] vecA, double[] vecB)
+        {
+            double dotProduct = 0, magnitudeA = 0, magnitudeB = 0;
+            for (int i = 0; i < vecA.Length; i++)
+            {
+                dotProduct += vecA[i] * vecB[i];
+                magnitudeA += Math.Pow(vecA[i], 2);
+                magnitudeB += Math.Pow(vecB[i], 2);
+            }
+            return dotProduct / (Math.Sqrt(magnitudeA) * Math.Sqrt(magnitudeB));
+        }
+
+        private static void LoadRagIndex()
+        {
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "rag_index.json");
+            if (File.Exists(path))
+            {
+                try
+                {
+                    string json = File.ReadAllText(path);
+                    object[] data = JsonSerializer.DeserializeObject(json) as object[];
+                    if (data != null)
+                    {
+                        foreach (var item in data)
+                        {
+                            var d = item as Dictionary<string, object>;
+                            var chunk = new RagChunk
+                            {
+                                Id = d["Id"].ToString(),
+                                Content = d["Content"].ToString(),
+                                SourceKind = d["SourceKind"].ToString(),
+                                SourceLabel = d["SourceLabel"].ToString(),
+                                SourcePath = d["SourcePath"].ToString(),
+                                IndexedAt = d["IndexedAt"].ToString()
+                            };
+                            object[] vecArr = d["Vector"] as object[];
+                            chunk.Vector = new double[vecArr.Length];
+                            for (int i = 0; i < vecArr.Length; i++) chunk.Vector[i] = Convert.ToDouble(vecArr[i]);
+                            ragIndex.Add(chunk);
+                        }
+                    }
+                }
+                catch { }
+            }
+        }
+
+        private static void SaveRagIndex()
+        {
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "rag_index.json");
+            string json = JsonSerializer.Serialize(ragIndex);
+            File.WriteAllText(path, json);
         }
 
         private static string SendAimRequest(string input, ref Bot bot, ref User user)
@@ -1722,24 +2010,34 @@ namespace sambot
             int timeoutSeconds = GetIntSetting("SAMBOT_BITNET_TIMEOUT_SECONDS", "BITNET_TIMEOUT_SECONDS", 90, 5, 600);
             double temperature = GetDoubleSetting("SAMBOT_BITNET_TEMPERATURE", "BITNET_TEMPERATURE", 0.7, 0.0, 2.0);
 
-            Dictionary<string, object> chatPayload = new Dictionary<string, object>();
-            chatPayload["model"] = model;
-            chatPayload["messages"] = new object[]
+            if (bitNetHistory.Count == 0)
             {
-                new Dictionary<string, object>
+                bitNetHistory.Add(new Dictionary<string, object>
                 {
                     {"role", "system"},
-                    {"content", "You are Sam Bot using the local BitNet/GGUF backend. Answer directly and keep replies focused."}
-                },
-                new Dictionary<string, object>
-                {
-                    {"role", "user"},
-                    {"content", input}
-                }
-            };
+                    {"content", "You are Sam, a witty, helpful, and slightly sarcastic AI companion. You remember past parts of this conversation. Keep responses concise but human-like."}
+                });
+            }
+
+            bitNetHistory.Add(new Dictionary<string, object> { { "role", "user" }, { "content", input } });
+            
+            // Maintain a rolling window of history
+            if (bitNetHistory.Count > MaxHistoryMessages)
+            {
+                // Keep the system prompt at index 0, remove the oldest user/assistant pair
+                bitNetHistory.RemoveRange(1, 2);
+            }
+
+            Dictionary<string, object> chatPayload = new Dictionary<string, object>();
+            chatPayload["model"] = model;
+            chatPayload["messages"] = bitNetHistory.ToArray();
             chatPayload["temperature"] = temperature;
             chatPayload["max_tokens"] = maxTokens;
             chatPayload["stream"] = false;
+
+            // Simulate a more human-like variable thinking delay
+            Random rnd = new Random();
+            System.Threading.Thread.Sleep(rnd.Next(500, 1500));
 
             ApiResponse chatResponse = PostJson(baseUrl + "/v1/chat/completions", chatPayload, timeoutSeconds);
             if (chatResponse.Success)
@@ -1747,6 +2045,7 @@ namespace sambot
                 string reply = ExtractReply(chatResponse.Body);
                 if (reply.Length > 0)
                 {
+                    bitNetHistory.Add(new Dictionary<string, object> { { "role", "assistant" }, { "content", reply } });
                     return reply;
                 }
 
@@ -2464,6 +2763,11 @@ namespace sambot
             if (mode == ChatMode.NewsModel)
             {
                 return "NEWS-GGUF";
+            }
+
+            if (mode == ChatMode.Rag)
+            {
+                return "RAG";
             }
 
             return "AIM";
